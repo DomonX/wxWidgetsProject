@@ -9,7 +9,6 @@ class Label : public ControlComponent<wxStaticText> {
 public:
     Label(VisualComponent * parent, string componentID, string label): ControlComponent(parent, componentID) {
         elementRef = new wxStaticText(ownerWindow, elementID, _(label), wxDefaultPosition, wxDefaultSize, 0, _T("TODO"));
-        elementRef->SetLabelText("ghvsdf");
     }
     void serveEvent(Event * event) {
         ControlComponent::serveEvent(event);

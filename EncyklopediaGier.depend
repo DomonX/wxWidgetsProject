@@ -1690,29 +1690,31 @@
 1573149668 d:\programowanie\c++\wx\encyklopediagier\encyklopediagierapp.h
 	<wx/app.h>
 
-1573235527 d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.h
+1573385770 d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.h
 	<wx/frame.h>
 	"data/Elements/AppComponent/appComponent.hpp"
 
-1573245006 d:\programowanie\c++\wx\encyklopediagier\data\elements\appcomponent\appcomponent.hpp
+1573391860 d:\programowanie\c++\wx\encyklopediagier\data\elements\appcomponent\appcomponent.hpp
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
 	"../../Controls/Button/button.hpp"
 	"../../Controls/Label/label.hpp"
 	"../../Core/Event/event.hpp"
+	"../../Controls/TextInput/textInput.hpp"
+	"../FormExample/form.hpp"
 	<wx/sizer.h>
 	<wx/panel.h>
 	<wx/intl.h>
 	<wx/string.h>
 	<memory>
 
-1573242616 d:\programowanie\c++\wx\encyklopediagier\data\core\component\component.hpp
+1573388279 d:\programowanie\c++\wx\encyklopediagier\data\core\component\component.hpp
 	"../Event/event.hpp"
 	<map>
 
 1573150004 d:\programowanie\c++\wx\encyklopediagier\data\core\event\event.hpp
 
-1573243700 d:\programowanie\c++\wx\encyklopediagier\data\core\component\visualcomponent.hpp
+1573387814 d:\programowanie\c++\wx\encyklopediagier\data\core\component\visualcomponent.hpp
 	"component.hpp"
 	"../View/view.hpp"
 
@@ -1720,7 +1722,7 @@
 	<wx/sizer.h>
 	<wx/window.h>
 
-1573245876 d:\programowanie\c++\wx\encyklopediagier\data\controls\button\button.hpp
+1573387787 d:\programowanie\c++\wx\encyklopediagier\data\controls\button\button.hpp
 	<wx/button.h>
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
@@ -1729,13 +1731,13 @@
 
 1573243673 d:\programowanie\c++\wx\encyklopediagier\data\core\component\controlcomponent.hpp
 
-1573240202 d:\programowanie\c++\wx\encyklopediagier\data\controls\label\label.hpp
+1573387791 d:\programowanie\c++\wx\encyklopediagier\data\controls\label\label.hpp
 	<wx/stattext.h>
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
 	"../../Core/Component/controlComponent.hpp"
 
-1573235527 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
+1573385802 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
 	"EncyklopediaGierMain.h"
 	<wx/msgdlg.h>
 	<wx/intl.h>
@@ -1743,4 +1745,95 @@
 
 1514140570 source:d:\programowanie\c++\wx\encyklopediagier\resource.rc
 	"wx/msw/wx.rc"
+
+1573387795 d:\programowanie\c++\wx\encyklopediagier\data\controls\textinput\textinput.hpp
+	<wx/textctrl.h>
+	"../../Core/Component/component.hpp"
+	"../../Core/Component/visualComponent.hpp"
+	"../../Core/Component/controlComponent.hpp"
+	"../../Core/Event/event.hpp"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\textctrl.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/textentry.h"
+	"wx/dynarray.h"
+	"wx/gdicmn.h"
+	"wx/ioswrap.h"
+	"wx/x11/textctrl.h"
+	"wx/univ/textctrl.h"
+	"wx/msw/textctrl.h"
+	"wx/motif/textctrl.h"
+	"wx/gtk/textctrl.h"
+	"wx/gtk1/textctrl.h"
+	"wx/osx/textctrl.h"
+	"wx/qt/textctrl.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\textentry.h
+	"wx/filefn.h"
+	"wx/gdicmn.h"
+	"wx/gtk/textentry.h"
+	"wx/osx/textentry.h"
+	"wx/msw/textentry.h"
+	"wx/motif/textentry.h"
+	"wx/qt/textentry.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\textentry.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\textentry.h
+	"wx/control.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\textentry.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\textentry.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\textentry.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\ioswrap.h
+	"wx/beforestd.h"
+	<iostream.h>
+	<iostream>
+	"wx/afterstd.h"
+	"wx/msw/winundef.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\x11\textctrl.h
+	"wx/univ/textctrl.h"
+	"wx/scrolwin.h"
+	"wx/arrstr.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\univ\textctrl.h
+	"wx/scrolwin.h"
+	"wx/univ/inphand.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\scrolwin.h
+	"wx/panel.h"
+	"wx/gtk/scrolwin.h"
+	"wx/gtk1/scrolwin.h"
+	"wx/generic/scrolwin.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\scrolwin.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\scrolwin.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\generic\scrolwin.h
+	"wx/recguard.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\recguard.h
+	"wx/defs.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\textctrl.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\textctrl.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\textctrl.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\textctrl.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\textctrl.h
+	"wx/control.h"
+	"wx/textctrl.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\textctrl.h
+
+1573391010 d:\programowanie\c++\wx\encyklopediagier\data\elements\formexample\form.hpp
 
