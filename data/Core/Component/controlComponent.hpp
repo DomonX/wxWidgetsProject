@@ -16,6 +16,11 @@ public:
         view->grid->Add(elementRef, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
         parentComponent->view->grid->Add(view->grid, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
     }
+    void deleteComponent() {
+        VisualComponent::deleteComponent();
+        elementRef->Destroy();
+        delete(this);
+    }
 };
 
 #endif // CONTROLCOMPONENT_HPP_INCLUDED

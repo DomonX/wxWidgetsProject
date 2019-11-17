@@ -4,6 +4,7 @@
 #include "../Event/event.hpp"
 
 #include <map>
+#include <vector>
 
 using namespace std;
 
@@ -34,6 +35,23 @@ public:
     void addChildren(Component * newComponent) {
         newComponent->parent = this;
         children[newComponent->componentID] = newComponent;
+    }
+    Component * getChildren(const char * path) {
+        bool isEnd = false;
+        string pathS = string(path);
+        int index = pathS.find(".");
+        string current;
+        if(index == - 1) {
+            current = pathS.substr(0, pathS.size());
+            isEnd = true;
+        } else {
+            current = pathS.substr(0, index);
+        }
+        if(isEnd) {
+            return children[current];
+        }
+        string rest = pathS.substr(index + 1, pathS.size());
+        return children[current]->getChildren(rest.c_str());
     }
 };
 

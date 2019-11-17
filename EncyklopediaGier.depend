@@ -1690,11 +1690,11 @@
 1573149668 d:\programowanie\c++\wx\encyklopediagier\encyklopediagierapp.h
 	<wx/app.h>
 
-1573385770 d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.h
+1573906200 d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.h
 	<wx/frame.h>
 	"data/Elements/AppComponent/appComponent.hpp"
 
-1573391860 d:\programowanie\c++\wx\encyklopediagier\data\elements\appcomponent\appcomponent.hpp
+1573921132 d:\programowanie\c++\wx\encyklopediagier\data\elements\appcomponent\appcomponent.hpp
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
 	"../../Controls/Button/button.hpp"
@@ -1702,34 +1702,37 @@
 	"../../Core/Event/event.hpp"
 	"../../Controls/TextInput/textInput.hpp"
 	"../FormExample/form.hpp"
+	"../../Controls/Notebook/notebook.hpp"
 	<wx/sizer.h>
 	<wx/panel.h>
 	<wx/intl.h>
 	<wx/string.h>
+	<wx/aui/aui.h>
 	<memory>
 
-1573388279 d:\programowanie\c++\wx\encyklopediagier\data\core\component\component.hpp
+1573921092 d:\programowanie\c++\wx\encyklopediagier\data\core\component\component.hpp
 	"../Event/event.hpp"
 	<map>
+	<vector>
 
 1573150004 d:\programowanie\c++\wx\encyklopediagier\data\core\event\event.hpp
 
-1573387814 d:\programowanie\c++\wx\encyklopediagier\data\core\component\visualcomponent.hpp
+1573909583 d:\programowanie\c++\wx\encyklopediagier\data\core\component\visualcomponent.hpp
 	"component.hpp"
 	"../View/view.hpp"
 
-1573245661 d:\programowanie\c++\wx\encyklopediagier\data\core\view\view.hpp
+1573907975 d:\programowanie\c++\wx\encyklopediagier\data\core\view\view.hpp
 	<wx/sizer.h>
 	<wx/window.h>
 
-1573387787 d:\programowanie\c++\wx\encyklopediagier\data\controls\button\button.hpp
+1573501825 d:\programowanie\c++\wx\encyklopediagier\data\controls\button\button.hpp
 	<wx/button.h>
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
 	"../../Core/Component/controlComponent.hpp"
 	"../../Core/Event/event.hpp"
 
-1573243673 d:\programowanie\c++\wx\encyklopediagier\data\core\component\controlcomponent.hpp
+1573909594 d:\programowanie\c++\wx\encyklopediagier\data\core\component\controlcomponent.hpp
 
 1573387791 d:\programowanie\c++\wx\encyklopediagier\data\controls\label\label.hpp
 	<wx/stattext.h>
@@ -1737,7 +1740,7 @@
 	"../../Core/Component/visualComponent.hpp"
 	"../../Core/Component/controlComponent.hpp"
 
-1573385802 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
+1573906346 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
 	"EncyklopediaGierMain.h"
 	<wx/msgdlg.h>
 	<wx/intl.h>
@@ -1836,4 +1839,459 @@
 1544366408 d:\wxwidgets-3.1.2\include\wx\qt\textctrl.h
 
 1573391010 d:\programowanie\c++\wx\encyklopediagier\data\elements\formexample\form.hpp
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\aui\aui.h
+	"wx/aui/framemanager.h"
+	"wx/aui/dockart.h"
+	"wx/aui/floatpane.h"
+	"wx/aui/auibar.h"
+	"wx/aui/auibook.h"
+	"wx/aui/tabmdi.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\aui\framemanager.h
+	"wx/defs.h"
+	"wx/dynarray.h"
+	"wx/gdicmn.h"
+	"wx/window.h"
+	"wx/timer.h"
+	"wx/sizer.h"
+	"wx/bitmap.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\timer.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/longlong.h"
+	"wx/event.h"
+	"wx/stopwatch.h"
+	"wx/utils.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\stopwatch.h
+	"wx/defs.h"
+	"wx/longlong.h"
+	"wx/time.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\time.h
+	"wx/longlong.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\aui\dockart.h
+	"wx/defs.h"
+	"wx/pen.h"
+	"wx/brush.h"
+	"wx/bitmap.h"
+	"wx/colour.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\aui\floatpane.h
+	"wx/defs.h"
+	"wx/weakref.h"
+	"wx/minifram.h"
+	"wx/frame.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\minifram.h
+	"wx/defs.h"
+	"wx/msw/minifram.h"
+	"wx/motif/minifram.h"
+	"wx/gtk/minifram.h"
+	"wx/gtk1/minifram.h"
+	"wx/x11/minifram.h"
+	"wx/osx/minifram.h"
+	"wx/qt/minifram.h"
+	"wx/frame.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\minifram.h
+	"wx/frame.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\minifram.h
+	"wx/frame.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\minifram.h
+	"wx/bitmap.h"
+	"wx/frame.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\minifram.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/frame.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\x11\minifram.h
+	"wx/frame.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\minifram.h
+	"wx/frame.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\minifram.h
+	"wx/frame.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\aui\auibar.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/sizer.h"
+	"wx/pen.h"
+	"wx/aui/barartmsw.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\aui\barartmsw.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\aui\auibook.h
+	"wx/defs.h"
+	"wx/aui/tabart.h"
+	"wx/aui/framemanager.h"
+	"wx/bookctrl.h"
+	"wx/containr.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\aui\tabart.h
+	"wx/defs.h"
+	"wx/colour.h"
+	"wx/gdicmn.h"
+	"wx/font.h"
+	"wx/pen.h"
+	"wx/brush.h"
+	"wx/bitmap.h"
+	"wx/aui/tabartgtk.h"
+	"wx/aui/tabartmsw.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\aui\tabartgtk.h
+	"wx/defs.h"
+	"wx/aui/tabart.h"
+	"wx/gdicmn.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\aui\tabartmsw.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\bookctrl.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/vector.h"
+	"wx/withimages.h"
+	"wx/notebook.h"
+	"wx/choicebk.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\withimages.h
+	"wx/defs.h"
+	"wx/icon.h"
+	"wx/imaglist.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\notebook.h
+	"wx/defs.h"
+	"wx/bookctrl.h"
+	"wx/univ/notebook.h"
+	"wx/msw/notebook.h"
+	"wx/generic/notebook.h"
+	"wx/gtk/notebook.h"
+	"wx/gtk1/notebook.h"
+	"wx/osx/notebook.h"
+	"wx/qt/notebook.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\univ\notebook.h
+	"wx/arrstr.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\notebook.h
+	"wx/control.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\generic\notebook.h
+	"wx/event.h"
+	"wx/control.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\notebook.h
+	"wx/list.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\notebook.h
+	"wx/list.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\notebook.h
+	"wx/event.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\notebook.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\choicebk.h
+	"wx/defs.h"
+	"wx/bookctrl.h"
+	"wx/choice.h"
+	"wx/containr.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\choice.h
+	"wx/defs.h"
+	"wx/ctrlsub.h"
+	"wx/univ/choice.h"
+	"wx/msw/choice.h"
+	"wx/motif/choice.h"
+	"wx/gtk/choice.h"
+	"wx/gtk1/choice.h"
+	"wx/osx/choice.h"
+	"wx/qt/choice.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\ctrlsub.h
+	"wx/defs.h"
+	"wx/arrstr.h"
+	"wx/control.h"
+	<vector>
+	"wx/msw/ctrlsub.h"
+	"wx/motif/ctrlsub.h"
+	"wx/qt/ctrlsub.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\ctrlsub.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\ctrlsub.h
+	"wx/dynarray.h"
+	"wx/generic/ctrlsub.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\generic\ctrlsub.h
+	"wx/dynarray.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\ctrlsub.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\univ\choice.h
+	"wx/combobox.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\combobox.h
+	"wx/defs.h"
+	"wx/textctrl.h"
+	"wx/ctrlsub.h"
+	"wx/textentry.h"
+	"wx/univ/combobox.h"
+	"wx/msw/combobox.h"
+	"wx/motif/combobox.h"
+	"wx/gtk/combobox.h"
+	"wx/gtk1/combobox.h"
+	"wx/osx/combobox.h"
+	"wx/qt/combobox.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\univ\combobox.h
+	"wx/combo.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\combo.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/renderer.h"
+	"wx/bitmap.h"
+	"wx/textentry.h"
+	"wx/time.h"
+	"wx/msw/combo.h"
+	"wx/generic/combo.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\renderer.h
+	"wx/gdicmn.h"
+	"wx/colour.h"
+	"wx/font.h"
+	"wx/bitmap.h"
+	"wx/string.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\combo.h
+	"wx/timer.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\generic\combo.h
+	"wx/containr.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\combobox.h
+	"wx/choice.h"
+	"wx/textentry.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\combobox.h
+	"wx/choice.h"
+	"wx/textentry.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\combobox.h
+	"wx/choice.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\combobox.h
+	"wx/defs.h"
+	"wx/object.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\combobox.h
+	"wx/containr.h"
+	"wx/choice.h"
+	"wx/textctrl.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\combobox.h
+	"wx/choice.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\choice.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\choice.h
+	"wx/clntdata.h"
+	"wx/dynarray.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\choice.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\choice.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\choice.h
+	"wx/control.h"
+	"wx/dynarray.h"
+	"wx/arrstr.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\choice.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\aui\tabmdi.h
+	"wx/frame.h"
+	"wx/panel.h"
+	"wx/notebook.h"
+	"wx/icon.h"
+	"wx/mdi.h"
+	"wx/aui/auibook.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\mdi.h
+	"wx/defs.h"
+	"wx/frame.h"
+	"wx/menu.h"
+	"wx/generic/mdig.h"
+	"wx/msw/mdi.h"
+	"wx/gtk/mdi.h"
+	"wx/gtk1/mdi.h"
+	"wx/osx/mdi.h"
+	"wx/qt/mdi.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\menu.h
+	"wx/defs.h"
+	"wx/list.h"
+	"wx/window.h"
+	"wx/menuitem.h"
+	"wx/univ/menu.h"
+	"wx/msw/menu.h"
+	"wx/motif/menu.h"
+	"wx/gtk/menu.h"
+	"wx/gtk1/menu.h"
+	"wx/osx/menu.h"
+	"wx/qt/menu.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\menuitem.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/univ/menuitem.h"
+	"wx/msw/menuitem.h"
+	"wx/motif/menuitem.h"
+	"wx/gtk/menuitem.h"
+	"wx/gtk1/menuitem.h"
+	"wx/osx/menuitem.h"
+	"wx/qt/menuitem.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\univ\menuitem.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\menuitem.h
+	"wx/bitmap.h"
+	"wx/ownerdrw.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\ownerdrw.h
+	"wx/defs.h"
+	"wx/font.h"
+	"wx/colour.h"
+	"wx/msw/ownerdrw.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\ownerdrw.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\menuitem.h
+	"wx/bitmap.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\menuitem.h
+	"wx/bitmap.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\menuitem.h
+	"wx/bitmap.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\menuitem.h
+	"wx/defs.h"
+	"wx/bitmap.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\menuitem.h
+	"wx/menuitem.h"
+	"wx/bitmap.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\univ\menu.h
+	"wx/accel.h"
+	"wx/dynarray.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\menu.h
+	"wx/accel.h"
+	"wx/dynarray.h"
+	"wx/arrstr.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\menu.h
+	"wx/colour.h"
+	"wx/font.h"
+	"wx/arrstr.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\menu.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\menu.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\menu.h
+	"wx/arrstr.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\menu.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\generic\mdig.h
+	"wx/panel.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\mdi.h
+	"wx/frame.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\mdi.h
+	"wx/frame.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\mdi.h
+	"wx/frame.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\mdi.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\mdi.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\radiobut.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/univ/radiobut.h"
+	"wx/msw/radiobut.h"
+	"wx/motif/radiobut.h"
+	"wx/gtk/radiobut.h"
+	"wx/gtk1/radiobut.h"
+	"wx/osx/radiobut.h"
+	"wx/qt/radiobut.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\univ\radiobut.h
+	"wx/checkbox.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\checkbox.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/univ/checkbox.h"
+	"wx/msw/checkbox.h"
+	"wx/motif/checkbox.h"
+	"wx/gtk/checkbox.h"
+	"wx/gtk1/checkbox.h"
+	"wx/osx/checkbox.h"
+	"wx/qt/checkbox.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\univ\checkbox.h
+	"wx/button.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\checkbox.h
+	"wx/msw/ownerdrawnbutton.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\ownerdrawnbutton.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\checkbox.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\checkbox.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\checkbox.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\checkbox.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\checkbox.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\radiobut.h
+	"wx/msw/ownerdrawnbutton.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\radiobut.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\radiobut.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\radiobut.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\radiobut.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\radiobut.h
+
+1573906468 d:\programowanie\c++\wx\encyklopediagier\data\controls\notebook\notebook.hpp
+	"../../Core/Component/panelComponent.hpp"
+	"wx/aui/aui.h"
+
+1573906213 d:\programowanie\c++\wx\encyklopediagier\data\core\component\panelcomponent.hpp
+	<wx/panel.h>
 

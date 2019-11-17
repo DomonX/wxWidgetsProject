@@ -16,12 +16,18 @@ public:
         this->ownerWindow = parentComponent->ownerWindow;
         view = new View(parentComponent->ownerWindow, viewWidth);
     }
+    VisualComponent(string componentID) : Component(componentID) {
+    }
     void connectView(VisualComponent * parentComponent) {
         parentComponent->addChildren(this);
         parentComponent->view->grid->Add(view->grid, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
     }
     void serveEvent(Event * event) {
         Component::serveEvent(event);
+    }
+    void deleteComponent() {
+        view->grid->Detach(ownerWindow);
+        delete(view);
     }
 };
 

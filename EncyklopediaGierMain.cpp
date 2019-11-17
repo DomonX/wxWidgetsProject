@@ -52,7 +52,8 @@ END_EVENT_TABLE()
 EncyklopediaGierFrame::EncyklopediaGierFrame(wxWindow* parent,wxWindowID id)
 {
     //(*Initialize(EncyklopediaGierFrame)
-    Create(parent, id, wxEmptyString, wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE, _T("id"));
+    Create(parent, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE, _T("wxID_ANY"));
+    SetClientSize(wxSize(216,210));
     //*)
     this->main = new appComponent(this, "AppComponent", 3);
 }
@@ -77,3 +78,4 @@ void EncyklopediaGierFrame::OnAbout(wxCommandEvent& event)
 void EncyklopediaGierFrame::OnButton1Click(wxCommandEvent& event)
 {
 }
+

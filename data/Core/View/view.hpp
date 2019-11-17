@@ -12,7 +12,6 @@ class View {
         this->parentWindow = parentWindow;
         grid = new wxFlexGridSizer(0, width, 0, 0);
     }
-    void reload(wxWindow * parentWindow) {}
 };
 
 #endif // VIEW_HPP_INCLUDED
