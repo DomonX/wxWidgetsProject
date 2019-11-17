@@ -9,7 +9,7 @@ public:
         this->ownerWindow = ownerWindow;
         view = new View(this->ownerWindow,1);
         elementID = wxNewId();
-        elementRef = new wxPanel(this->ownerWindow, elementID, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL, _T("ID_PANEL1"));
+        elementRef = new wxPanel(this->ownerWindow, elementID, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL, componentID);
         elementRef->SetSizer(view->grid);
         view->grid->Fit(elementRef);
         view->grid->SetSizeHints(elementRef);

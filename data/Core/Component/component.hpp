@@ -47,7 +47,7 @@ public:
         } else {
             current = pathS.substr(0, index);
         }
-        if(isEnd) {
+        if(isEnd || children[current] == NULL) {
             return children[current];
         }
         string rest = pathS.substr(index + 1, pathS.size());

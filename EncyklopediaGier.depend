@@ -1690,11 +1690,11 @@
 1573149668 d:\programowanie\c++\wx\encyklopediagier\encyklopediagierapp.h
 	<wx/app.h>
 
-1573906200 d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.h
+1574006809 d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.h
 	<wx/frame.h>
 	"data/Elements/AppComponent/appComponent.hpp"
 
-1573921132 d:\programowanie\c++\wx\encyklopediagier\data\elements\appcomponent\appcomponent.hpp
+1574009700 d:\programowanie\c++\wx\encyklopediagier\data\elements\appcomponent\appcomponent.hpp
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
 	"../../Controls/Button/button.hpp"
@@ -1710,14 +1710,14 @@
 	<wx/aui/aui.h>
 	<memory>
 
-1573921092 d:\programowanie\c++\wx\encyklopediagier\data\core\component\component.hpp
+1574006362 d:\programowanie\c++\wx\encyklopediagier\data\core\component\component.hpp
 	"../Event/event.hpp"
 	<map>
 	<vector>
 
-1573150004 d:\programowanie\c++\wx\encyklopediagier\data\core\event\event.hpp
+1574008574 d:\programowanie\c++\wx\encyklopediagier\data\core\event\event.hpp
 
-1573909583 d:\programowanie\c++\wx\encyklopediagier\data\core\component\visualcomponent.hpp
+1574005930 d:\programowanie\c++\wx\encyklopediagier\data\core\component\visualcomponent.hpp
 	"component.hpp"
 	"../View/view.hpp"
 
@@ -1725,7 +1725,7 @@
 	<wx/sizer.h>
 	<wx/window.h>
 
-1573501825 d:\programowanie\c++\wx\encyklopediagier\data\controls\button\button.hpp
+1574007723 d:\programowanie\c++\wx\encyklopediagier\data\controls\button\button.hpp
 	<wx/button.h>
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
@@ -1740,7 +1740,7 @@
 	"../../Core/Component/visualComponent.hpp"
 	"../../Core/Component/controlComponent.hpp"
 
-1573906346 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
+1574006829 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
 	"EncyklopediaGierMain.h"
 	<wx/msgdlg.h>
 	<wx/intl.h>
@@ -2288,10 +2288,10 @@
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\qt\radiobut.h
 
-1573906468 d:\programowanie\c++\wx\encyklopediagier\data\controls\notebook\notebook.hpp
+1574009792 d:\programowanie\c++\wx\encyklopediagier\data\controls\notebook\notebook.hpp
 	"../../Core/Component/panelComponent.hpp"
 	"wx/aui/aui.h"
 
-1573906213 d:\programowanie\c++\wx\encyklopediagier\data\core\component\panelcomponent.hpp
+1574007759 d:\programowanie\c++\wx\encyklopediagier\data\core\component\panelcomponent.hpp
 	<wx/panel.h>
 

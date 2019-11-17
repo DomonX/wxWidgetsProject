@@ -75,7 +75,4 @@ void EncyklopediaGierFrame::OnAbout(wxCommandEvent& event)
     wxMessageBox(msg, _("Welcome to..."));
 }
 
-void EncyklopediaGierFrame::OnButton1Click(wxCommandEvent& event)
-{
-}
 

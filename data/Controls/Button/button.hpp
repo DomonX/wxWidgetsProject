@@ -8,15 +8,14 @@
 class Button : public ControlComponent<wxButton> {
 public:
     Button(VisualComponent * parent, string componentID, string label): ControlComponent(parent, componentID) {
-        elementRef = new wxButton(ownerWindow, elementID, _(label), wxPoint(0,0), wxDefaultSize, 0, wxDefaultValidator, _T( "TODO" ));
+        elementRef = new wxButton(ownerWindow, elementID, _(label), wxPoint(0,0), wxDefaultSize, 0, wxDefaultValidator, componentID);
         elementRef->Bind(wxEVT_COMMAND_BUTTON_CLICKED, &sendClick, this);
     }
     void serveEvent(Event * event) {
         ControlComponent::serveEvent(event);
     }
     void sendClick(wxCommandEvent& event) {
-        Event * ev = new Event();
-        ev->eventType = "onClick";
+        Event * ev = new Event("onClick", &event);
         serveEvent(ev);
     }
 };

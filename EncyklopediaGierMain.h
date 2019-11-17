@@ -29,8 +29,6 @@ class EncyklopediaGierFrame: public wxFrame
         //(*Handlers(EncyklopediaGierFrame)
         void OnQuit(wxCommandEvent& event);
         void OnAbout(wxCommandEvent& event);
-        void OnSimpleHtmlListBox1Select(wxCommandEvent& event);
-        void OnButton1Click(wxCommandEvent& event);
         //*)
 
         //(*Identifiers(EncyklopediaGierFrame)

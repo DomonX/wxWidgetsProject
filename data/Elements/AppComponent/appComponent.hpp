@@ -78,9 +78,21 @@ public:
            serveClick(event);
            return;
         }
+        if(event->eventType == "onNotebookPageClose") {
+           serveNotebookPageClose(event);
+           return;
+        }
         VisualComponent::serveEvent(event);
     }
-
+    void serveNotebookPageClose(Event * event) {
+        // Przerzucic czesc funkcjonalnosci do Notebooka
+        Notebook * nt = dynamic_cast<Notebook *>(getChildren(event->stringifyPath().c_str()));
+        wxAuiNotebookEvent * caller = dynamic_cast<wxAuiNotebookEvent *>(event->caller);
+        int num = caller->GetSelection();
+        nt->removePage(num);
+        dynamic_cast<Label *>(children["cmp2"]->children["lb1"])->elementRef->SetLabelText("Usunieto strone");
+        view->grid->Fit(ownerWindow);
+    }
     void serveClick(Event * event) {
         if(event->path.at(0) == "test1") {
             serveClickBtn1(event);
@@ -121,7 +133,7 @@ public:
         if(children["nt"] == NULL) {
             return;
         }
-        if(children["nt"]->children["pn3"] != NULL) {
+        if(getChildren("nt.pn3") != NULL) {
             return;
         }
         Notebook * nt = dynamic_cast<Notebook *>(children["nt"]);
@@ -140,15 +152,11 @@ public:
     }
 
     void serveClickBtn5(Event * event) {
-        vector<string>::iterator it;
         string label = "";
         if(children["cmp2"]->children["lb1"] == NULL) {
             return;
         }
-        for(it = event->path.begin(); it != event->path.end(); it++) {
-            label.append((*it));
-            label.append(".");
-        }
+        label = event->stringifyPath();
         dynamic_cast<Label *>(children["cmp2"]->children["lb1"])->elementRef->SetLabelText(label);
         view->grid->Fit(ownerWindow);
     }
