@@ -8,6 +8,7 @@
 #include "../../Controls/TextInput/textInput.hpp"
 #include "../FormExample/form.hpp"
 #include "../../Controls/Notebook/notebook.hpp"
+#include "../PanelExample/panelExample.hpp"
 #include <wx/sizer.h>
 #include <wx/panel.h>
 #include <wx/intl.h>
@@ -25,55 +26,79 @@ public:
     }
 
     void prepareChildren() {
+        /*
+        VisualComponent * leftMainComponent = new VisualComponent(this->ownerWindow, "leftMainComponent", 1);
+        leftMainComponent->connectView(this);
+        Notebook * leftNotebook = new Notebook(this->ownerWindow, "leftMenuNotebook", 200, 900);
+        leftNotebook->connectControl(leftMainComponent);
+        PanelComponent * testPanel1 = new PanelComponent(leftNotebook->elementRef, "testPanel");
+        leftNotebook->addPage(testPanel1, "panel 1");
+        PanelExample * testPanel2 = new PanelExample(leftNotebook->elementRef, "testPanel2");
+        leftNotebook->addPage(testPanel2, "panel 2");
+        Button * btn1 = new Button(testPanel1->elementRef, "btn1", "Button 1");
+        btn1->connectControl(testPanel1);
+        */
 
-        Notebook * nt = new Notebook(this, "nt", 500, 500);
+        Notebook * nt = new Notebook(this->ownerWindow, "nt", 500, 500);
         nt->connectControl(this);
 
-        PanelComponent * pn = new PanelComponent("pn", nt->elementRef);
-        nt->addPage(pn, "test");
-
-        PanelComponent * pn2 = new PanelComponent("pn2", nt->elementRef);
-        nt->addPage(pn2, "test2");
-
-        VisualComponent * cmp1 = new VisualComponent(this, "cmp1", 1);
+        VisualComponent * cmp1 = new VisualComponent(this->ownerWindow, "cmp1", 1);
         cmp1->connectView(this);
 
-        VisualComponent * cmp2 = new VisualComponent(this, "cmp2", 1);
+        VisualComponent * cmp2 = new VisualComponent(this->ownerWindow, "cmp2", 1);
         cmp2->connectView(this);
 
-        VisualComponent * cmp3 = new VisualComponent(this, "cmp3", 1);
+        VisualComponent * cmp3 = new VisualComponent(this->ownerWindow, "cmp3", 1);
         cmp3->connectView(this);
 
 
-        Button * btn1 = new Button(cmp1, "test1", "Dynamically load form");
+        Button * btn1 = new Button(cmp1->ownerWindow, "test1", "Dynamically load form");
         btn1->connectControl(cmp1);
 
-        Button * btn2 = new Button(cmp1, "test2", "Change Text From Input");
+        Button * btn2 = new Button(cmp1->ownerWindow, "test2", "Change Text From Input");
         btn2->connectControl(cmp1);
 
-        Button * btn3 = new Button(cmp2, "test3", "Dynamically load page");
+        Button * btn3 = new Button(cmp2->ownerWindow, "test3", "Dynamically load page");
         btn3->connectControl(cmp2);
 
-        Button * btn4 = new Button(cmp2, "test4", "Add Button Dynamically");
+        Button * btn4 = new Button(cmp2->ownerWindow, "test4", "Add Button Dynamically");
         btn4->connectControl(cmp2);
 
-        Button * btn6 = new Button(cmp2, "test6", "Destroy Button 5");
+        Button * btn6 = new Button(cmp2->ownerWindow, "test6", "Destroy Button 5");
         btn6->connectControl(cmp3);
 
-        Label * lb1 = new Label(cmp2, "lb1", "jakis tekst");
+        Label * lb1 = new Label(cmp2->ownerWindow, "lb1", "jakis tekst");
         lb1->connectControl(cmp2);
 
-        TextInput * txt1 = new TextInput(cmp3, "txt1", "test");
+        TextInput * txt1 = new TextInput(cmp3->ownerWindow, "txt1", "test");
         txt1->connectControl(cmp3);
 
-        Form * fm = new Form(this, "fm1", 1);
+        Form * fm = new Form(this->ownerWindow, "fm1", 1);
         fm->connectView(this);
 
-        Form * fm2 = new Form(this, "fm2", 1);
+        Form * fm2 = new Form(this->ownerWindow, "fm2", 1);
         fm2->connectView(this);
-    }
 
-    void serveEvent(Event * event) {
+    }
+    /*
+    void handleEvent(Event * event) {
+        if(event->eventType == "onClick") {
+            if(event->path.at(0) == "btn1") {
+                Component * temp = getChildren("leftMainComponent.leftMenuNotebook");
+                Notebook * leftNotebook = dynamic_cast<Notebook *>(temp);
+                if(leftNotebook->children["testPanel3"] != NULL) return;
+                PanelExample * testPanel3 = new PanelExample(leftNotebook->elementRef, "testPanel3");
+                leftNotebook->addPage(testPanel3, "panel 3");
+            }
+        }
+        if(event->eventType == "onNotebookPageClose") {
+            serveNotebookPageClose(event);
+        }
+        VisualComponent::handleEvent(event);
+    }
+    */
+
+    void handleEvent(Event * event) {
         if(event->eventType == "onClick") {
            serveClick(event);
            return;
@@ -82,15 +107,20 @@ public:
            serveNotebookPageClose(event);
            return;
         }
-        VisualComponent::serveEvent(event);
+        VisualComponent::handleEvent(event);
     }
     void serveNotebookPageClose(Event * event) {
-        // Przerzucic czesc funkcjonalnosci do Notebooka
-        Notebook * nt = dynamic_cast<Notebook *>(getChildren(event->stringifyPath().c_str()));
+        Component * cmp = getChildren(event->stringifyPath());
+        if(cmp == NULL) {
+            return;
+        }
+        Notebook * nt = dynamic_cast<Notebook *>(cmp);
+        if(!nt) {
+            return;
+        }
         wxAuiNotebookEvent * caller = dynamic_cast<wxAuiNotebookEvent *>(event->caller);
         int num = caller->GetSelection();
         nt->removePage(num);
-        dynamic_cast<Label *>(children["cmp2"]->children["lb1"])->elementRef->SetLabelText("Usunieto strone");
         view->grid->Fit(ownerWindow);
     }
     void serveClick(Event * event) {
@@ -112,14 +142,14 @@ public:
         if(event->path.at(0) == "test6") {
             serveClickBtn6(event);
         }
-        handleEvent(event);
+        deleteEvent(event);
     }
 
     void serveClickBtn1(Event * event) {
         if(children["fm3"] != NULL) {
             return;
         }
-        Form * f3 = new Form(this, "fm3", 2);
+        Form * f3 = new Form(this->ownerWindow, "fm3", 2);
         f3->connectView(this);
         view->grid->Fit(ownerWindow);
     }
@@ -137,8 +167,9 @@ public:
             return;
         }
         Notebook * nt = dynamic_cast<Notebook *>(children["nt"]);
-        PanelComponent * pn3 = new PanelComponent("pn3", nt->elementRef);
+        PanelExample * pn3 = new PanelExample(nt->elementRef, "pn3");
         nt->addPage(pn3, "Dynamically Loaded page");
+        pn3->refreshPanel();
     }
 
     void serveClickBtn4(Event * event) {
@@ -146,7 +177,7 @@ public:
         if(cmp1->children["test5"] != NULL) {
             return;
         }
-        Button * b = new Button(cmp1, "test5", "Set Label equals to event Path");
+        Button * b = new Button(cmp1->ownerWindow, "test5", "Set Label equals to event Path");
         b->connectControl(cmp1);
         view->grid->Fit(ownerWindow);
     }

@@ -7,16 +7,16 @@
 #include "../../Core/Event/event.hpp"
 class Button : public ControlComponent<wxButton> {
 public:
-    Button(VisualComponent * parent, string componentID, string label): ControlComponent(parent, componentID) {
+    Button(wxWindow * parent, string componentID, string label): ControlComponent(parent, componentID) {
         elementRef = new wxButton(ownerWindow, elementID, _(label), wxPoint(0,0), wxDefaultSize, 0, wxDefaultValidator, componentID);
         elementRef->Bind(wxEVT_COMMAND_BUTTON_CLICKED, &sendClick, this);
     }
-    void serveEvent(Event * event) {
-        ControlComponent::serveEvent(event);
+    void handleEvent(Event * event) {
+        ControlComponent::handleEvent(event);
     }
     void sendClick(wxCommandEvent& event) {
         Event * ev = new Event("onClick", &event);
-        serveEvent(ev);
+        handleEvent(ev);
     }
 };
 

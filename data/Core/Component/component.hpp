@@ -18,40 +18,39 @@ public:
         parent = NULL;
         this->componentID = componentID;
     }
-    virtual void handleEvent(Event * event) {
+    virtual void deleteEvent(Event * event) {
         free(event);
     }
-    virtual void serveEvent(Event * event) {
+    virtual void handleEvent(Event * event) {
         if(parent == NULL) {
-            free(event);
+            deleteEvent(event);
             return;
         }
         processEvent(event);
     }
     void processEvent(Event * event) {
         event->path.push_back(componentID);
-        parent->serveEvent(event);
+        parent->handleEvent(event);
     }
     void addChildren(Component * newComponent) {
         newComponent->parent = this;
         children[newComponent->componentID] = newComponent;
     }
-    Component * getChildren(const char * path) {
+    Component * getChildren(string path) {
         bool isEnd = false;
-        string pathS = string(path);
-        int index = pathS.find(".");
+        int index = path.find(".");
         string current;
         if(index == - 1) {
-            current = pathS.substr(0, pathS.size());
+            current = path.substr(0, path.size());
             isEnd = true;
         } else {
-            current = pathS.substr(0, index);
+            current = path.substr(0, index);
         }
         if(isEnd || children[current] == NULL) {
             return children[current];
         }
-        string rest = pathS.substr(index + 1, pathS.size());
-        return children[current]->getChildren(rest.c_str());
+        string rest = path.substr(index + 1, path.size());
+        return children[current]->getChildren(rest);
     }
 };
 

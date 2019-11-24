@@ -1,15 +1,15 @@
 #ifndef CONTROLCOMPONENT_HPP_INCLUDED
 #define CONTROLCOMPONENT_HPP_INCLUDED
-
+#include "panelComponent.hpp"
 template<class T> class ControlComponent : public VisualComponent{
 public:
     T * elementRef;
     long elementID;
-    ControlComponent(VisualComponent * parent, string componentID): VisualComponent(parent, componentID, 1) {
+    ControlComponent(wxWindow * parent, string componentID): VisualComponent(parent, componentID, 1) {
         elementID = wxNewId();
     }
-    void serveEvent(Event * event) {
-        VisualComponent::serveEvent(event);
+    void handleEvent(Event * event) {
+        VisualComponent::handleEvent(event);
     }
     void connectControl(VisualComponent * parentComponent) {
         parentComponent->addChildren(this);

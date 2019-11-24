@@ -77,6 +77,7 @@
 		<Unit filename="data/Core/View/view.hpp" />
 		<Unit filename="data/Elements/AppComponent/appComponent.hpp" />
 		<Unit filename="data/Elements/FormExample/form.hpp" />
+		<Unit filename="data/Elements/PanelExample/panelExample.hpp" />
 		<Unit filename="resource.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>

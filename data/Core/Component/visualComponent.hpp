@@ -9,25 +9,27 @@ public:
     View * view;
     wxWindow * ownerWindow;
     VisualComponent(wxWindow * parentWindow, string componentID, int viewWidth) : Component(componentID) {
+        setOwnerWindow(parentWindow);
+        createView(viewWidth);
+    }
+    VisualComponent(string componentID) : Component(componentID) {}
+    void setOwnerWindow(wxWindow * parentWindow) {
         this->ownerWindow = parentWindow;
-        view = new View(parentWindow, viewWidth);
     }
-    VisualComponent(VisualComponent * parentComponent, string componentID, int viewWidth) : Component(componentID) {
-        this->ownerWindow = parentComponent->ownerWindow;
-        view = new View(parentComponent->ownerWindow, viewWidth);
-    }
-    VisualComponent(string componentID) : Component(componentID) {
+    void createView(int viewWidth) {
+        view = new View(ownerWindow, viewWidth);
     }
     void connectView(VisualComponent * parentComponent) {
         parentComponent->addChildren(this);
         parentComponent->view->grid->Add(view->grid, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
     }
-    void serveEvent(Event * event) {
-        Component::serveEvent(event);
+    void handleEvent(Event * event) {
+        Component::handleEvent(event);
     }
     void deleteComponent() {
         view->grid->Detach(ownerWindow);
         delete(view);
+        delete(this);
     }
 };
 

@@ -7,11 +7,11 @@
 #include "../../Core/Component/controlComponent.hpp"
 class Label : public ControlComponent<wxStaticText> {
 public:
-    Label(VisualComponent * parent, string componentID, string label): ControlComponent(parent, componentID) {
+    Label(wxWindow * parent, string componentID, string label): ControlComponent(parent, componentID) {
         elementRef = new wxStaticText(ownerWindow, elementID, _(label), wxDefaultPosition, wxDefaultSize, 0, _T("TODO"));
     }
-    void serveEvent(Event * event) {
-        ControlComponent::serveEvent(event);
+    void handleEvent(Event * event) {
+        ControlComponent::handleEvent(event);
     }
 };
 

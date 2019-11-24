@@ -8,17 +8,17 @@
 #include "../../Core/Event/event.hpp"
 class TextInput : public ControlComponent<wxTextCtrl> {
 public:
-    TextInput(VisualComponent * parent, string componentID, string label): ControlComponent(parent, componentID) {
+    TextInput(wxWindow * parent, string componentID, string label): ControlComponent(parent, componentID) {
         elementRef = new wxTextCtrl(ownerWindow, elementID, _(label), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("TODO"));
         //elementRef->Bind(wxEVT_COMMAND_BUTTON_CLICKED, &sendClick, this);
     }
-    void serveEvent(Event * event) {
-        ControlComponent::serveEvent(event);
+    void handleEvent(Event * event) {
+        ControlComponent::handleEvent(event);
     }
     //void sendClick(wxCommandEvent& event) {
     //    Event * ev = new Event();
     //    ev->eventType = "onClick";
-    //    serveEvent(ev);
+    //    handleEvent(ev);
     //}
 };
 
