@@ -2,84 +2,89 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="data\Core\Component\panelComponent.hpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="701" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\Elements\FormExample\form.hpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="7" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="692" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\Elements\AppComponent\appComponent.hpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2677" topLine="57" />
-		</Cursor>
-	</File>
-	<File name="data\Controls\Button\button.hpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="618" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\Controls\TextInput\textInput.hpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="349" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\Core\Component\visualComponent.hpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="280" topLine="4" />
-		</Cursor>
-	</File>
 	<File name="EncyklopediaGierApp.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
+	<File name="data\Controls\Label\label.hpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="12" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="613" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\Core\Component\visualComponent.hpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1129" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="EncyklopediaGierMain.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1436" topLine="40" />
+		</Cursor>
+	</File>
+	<File name="data\Core\Component\panelComponent.hpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="146" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\Core\Event\event.hpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="554" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="EncyklopediaGierApp.cpp" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\Core\View\view.hpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="9" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="151" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\Elements\AppComponent\appComponent.hpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7689" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="EncyklopediaGierMain.h" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="864" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\Controls\Notebook\notebook.hpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="896" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\Controls\TextInput\textInput.hpp" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="776" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\Elements\PanelExample\panelExample.hpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="555" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\Elements\FormExample\form.hpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="757" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\Core\Component\component.hpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="518" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="data\Controls\Button\button.hpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="919" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="data\Core\Component\controlComponent.hpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="369" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="EncyklopediaGierMain.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="959" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\Core\Component\component.hpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="609" topLine="18" />
-		</Cursor>
-	</File>
-	<File name="data\Elements\PanelExample\panelExample.hpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="437" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\Core\Event\event.hpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="14" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="451" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\Core\View\view.hpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="9" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="341" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\Controls\Notebook\notebook.hpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="9" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="760" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\Controls\Label\label.hpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="12" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="300" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="EncyklopediaGierMain.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2534" topLine="51" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

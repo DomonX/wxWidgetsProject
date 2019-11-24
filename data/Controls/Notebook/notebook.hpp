@@ -11,15 +11,15 @@ public:
     void handleEvent(Event * event) {
         ControlComponent::handleEvent(event);
     }
-    void addPage(PanelComponent * newPanel, string label) {
-        addChildren(newPanel);
-        elementRef->AddPage(newPanel->elementRef, label);
-    }
     void sendPageClose(wxAuiNotebookEvent& event) {
         Event * ev = new Event("onNotebookPageClose", &event);
         handleEvent(ev);
     }
-    string getPageComponentID(int id){
+    void addPage(PanelComponent * newPanel, string label) {
+        addChildren(newPanel);
+        elementRef->AddPage(newPanel->elementRef, label);
+    }
+    string getPageComponentID(int id) {
         wxString label = elementRef->GetPage(id)->GetLabel();
         const char * labelS = label.mb_str();
         return string(labelS);

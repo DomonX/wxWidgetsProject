@@ -10,9 +10,10 @@ using namespace std;
 
 
 class Component {
-public:
+private:
     Component * parent;
     string componentID;
+public:
     map<string, Component *> children;
     Component(string componentID) {
         parent = NULL;
@@ -28,6 +29,8 @@ public:
         }
         processEvent(event);
     }
+    virtual ~Component(){}
+    virtual void deleteComponent() {}
     void processEvent(Event * event) {
         event->path.push_back(componentID);
         parent->handleEvent(event);

@@ -68,6 +68,8 @@
 		<Unit filename="data/Controls/Label/label.hpp" />
 		<Unit filename="data/Controls/Notebook/notebook.hpp" />
 		<Unit filename="data/Controls/TextInput/textInput.hpp" />
+		<Unit filename="data/Controls/Tree/Tree.hpp" />
+		<Unit filename="data/Controls/Tree/treeItem.hpp" />
 		<Unit filename="data/Core/Component/component.hpp" />
 		<Unit filename="data/Core/Component/controlComponent.hpp" />
 		<Unit filename="data/Core/Component/panelComponent.hpp" />

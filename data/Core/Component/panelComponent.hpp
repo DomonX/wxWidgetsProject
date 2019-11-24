@@ -20,9 +20,9 @@ public:
     }
     void prepareChildren() {}
     void refreshPanel() {
-        elementRef->SetSizer(view->grid);
-        view->grid->Fit(elementRef);
-        view->grid->SetSizeHints(elementRef);
+        elementRef->SetSizer(view->sizer);
+        view->sizer->Fit(elementRef);
+        view->sizer->SetSizeHints(elementRef);
     }
 };
 

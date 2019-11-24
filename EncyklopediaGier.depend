@@ -1694,7 +1694,7 @@
 	<wx/frame.h>
 	"data/Elements/AppComponent/appComponent.hpp"
 
-1574618445 d:\programowanie\c++\wx\encyklopediagier\data\elements\appcomponent\appcomponent.hpp
+1574627726 d:\programowanie\c++\wx\encyklopediagier\data\elements\appcomponent\appcomponent.hpp
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
 	"../../Controls/Button/button.hpp"
@@ -1711,18 +1711,18 @@
 	<wx/aui/aui.h>
 	<memory>
 
-1574612090 d:\programowanie\c++\wx\encyklopediagier\data\core\component\component.hpp
+1574628517 d:\programowanie\c++\wx\encyklopediagier\data\core\component\component.hpp
 	"../Event/event.hpp"
 	<map>
 	<vector>
 
 1574011568 d:\programowanie\c++\wx\encyklopediagier\data\core\event\event.hpp
 
-1574612812 d:\programowanie\c++\wx\encyklopediagier\data\core\component\visualcomponent.hpp
+1574627726 d:\programowanie\c++\wx\encyklopediagier\data\core\component\visualcomponent.hpp
 	"component.hpp"
 	"../View/view.hpp"
 
-1573907975 d:\programowanie\c++\wx\encyklopediagier\data\core\view\view.hpp
+1574627750 d:\programowanie\c++\wx\encyklopediagier\data\core\view\view.hpp
 	<wx/sizer.h>
 	<wx/window.h>
 
@@ -1733,16 +1733,16 @@
 	"../../Core/Component/controlComponent.hpp"
 	"../../Core/Event/event.hpp"
 
-1574612806 d:\programowanie\c++\wx\encyklopediagier\data\core\component\controlcomponent.hpp
+1574627726 d:\programowanie\c++\wx\encyklopediagier\data\core\component\controlcomponent.hpp
 	"panelComponent.hpp"
 
-1574612067 d:\programowanie\c++\wx\encyklopediagier\data\controls\label\label.hpp
+1574628016 d:\programowanie\c++\wx\encyklopediagier\data\controls\label\label.hpp
 	<wx/stattext.h>
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
 	"../../Core/Component/controlComponent.hpp"
 
-1574618405 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
+1574628245 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
 	"EncyklopediaGierMain.h"
 	<wx/msgdlg.h>
 	<wx/intl.h>
@@ -1751,7 +1751,7 @@
 1514140570 source:d:\programowanie\c++\wx\encyklopediagier\resource.rc
 	"wx/msw/wx.rc"
 
-1574612067 d:\programowanie\c++\wx\encyklopediagier\data\controls\textinput\textinput.hpp
+1574628041 d:\programowanie\c++\wx\encyklopediagier\data\controls\textinput\textinput.hpp
 	<wx/textctrl.h>
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
@@ -1840,7 +1840,7 @@
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\qt\textctrl.h
 
-1574364500 d:\programowanie\c++\wx\encyklopediagier\data\elements\formexample\form.hpp
+1574627292 d:\programowanie\c++\wx\encyklopediagier\data\elements\formexample\form.hpp
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\aui\aui.h
 	"wx/aui/framemanager.h"
@@ -2290,14 +2290,14 @@
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\qt\radiobut.h
 
-1574612066 d:\programowanie\c++\wx\encyklopediagier\data\controls\notebook\notebook.hpp
+1574628156 d:\programowanie\c++\wx\encyklopediagier\data\controls\notebook\notebook.hpp
 	"../../Core/Component/panelComponent.hpp"
 	"wx/aui/aui.h"
 
-1574612066 d:\programowanie\c++\wx\encyklopediagier\data\core\component\panelcomponent.hpp
+1574627726 d:\programowanie\c++\wx\encyklopediagier\data\core\component\panelcomponent.hpp
 	<wx/panel.h>
 
-1574613892 d:\programowanie\c++\wx\encyklopediagier\data\elements\panelexample\panelexample.hpp
+1574627292 d:\programowanie\c++\wx\encyklopediagier\data\elements\panelexample\panelexample.hpp
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\treebook.h
 	"wx/defs.h"

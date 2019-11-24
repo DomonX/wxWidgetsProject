@@ -9,13 +9,13 @@ public:
 
     void prepareChildren() {
         TextInput * txt1 = new TextInput(this->ownerWindow, "txt1", "test");
-        txt1->connectControl(this);
+        txt1->connect(this);
         TextInput * txt2 = new TextInput(this->ownerWindow, "txt2", "test2");
-        txt2->connectControl(this);
+        txt2->connect(this);
         TextInput * txt3 = new TextInput(this->ownerWindow, "txt3", "test3");
-        txt3->connectControl(this);
+        txt3->connect(this);
         TextInput * txt4 = new TextInput(this->ownerWindow, "txt4", "test4");
-        txt4->connectControl(this);
+        txt4->connect(this);
     }
 
 };

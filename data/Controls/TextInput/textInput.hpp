@@ -9,7 +9,7 @@
 class TextInput : public ControlComponent<wxTextCtrl> {
 public:
     TextInput(wxWindow * parent, string componentID, string label): ControlComponent(parent, componentID) {
-        elementRef = new wxTextCtrl(ownerWindow, elementID, _(label), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("TODO"));
+        elementRef = new wxTextCtrl(ownerWindow, elementID, _(label), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, componentID);
         //elementRef->Bind(wxEVT_COMMAND_BUTTON_CLICKED, &sendClick, this);
     }
     void handleEvent(Event * event) {

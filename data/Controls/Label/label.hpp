@@ -8,7 +8,7 @@
 class Label : public ControlComponent<wxStaticText> {
 public:
     Label(wxWindow * parent, string componentID, string label): ControlComponent(parent, componentID) {
-        elementRef = new wxStaticText(ownerWindow, elementID, _(label), wxDefaultPosition, wxDefaultSize, 0, _T("TODO"));
+        elementRef = new wxStaticText(ownerWindow, elementID, _(label), wxDefaultPosition, wxDefaultSize, 0, componentID);
     }
     void handleEvent(Event * event) {
         ControlComponent::handleEvent(event);

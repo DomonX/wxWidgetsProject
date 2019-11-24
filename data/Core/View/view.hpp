@@ -6,11 +6,11 @@
 
 class View {
     public:
-    wxFlexGridSizer * grid;
+    wxFlexGridSizer * sizer;
     wxWindow * parentWindow;
     View(wxWindow * parentWindow, int width) {
         this->parentWindow = parentWindow;
-        grid = new wxFlexGridSizer(0, width, 0, 0);
+        sizer = new wxFlexGridSizer(0, width, 0, 0);
     }
 };
 

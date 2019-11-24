@@ -19,15 +19,20 @@ public:
     void createView(int viewWidth) {
         view = new View(ownerWindow, viewWidth);
     }
-    void connectView(VisualComponent * parentComponent) {
+    void connect(VisualComponent * parentComponent) {
         parentComponent->addChildren(this);
-        parentComponent->view->grid->Add(view->grid, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
+        parentComponent->view->sizer->Add(view->sizer, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
     }
     void handleEvent(Event * event) {
         Component::handleEvent(event);
     }
+    void connectWxWindowToSizer() {
+        ownerWindow->SetSizer(view->sizer);
+        view->sizer->Fit(ownerWindow);
+        view->sizer->SetSizeHints(ownerWindow);
+    }
     void deleteComponent() {
-        view->grid->Detach(ownerWindow);
+        view->sizer->Detach(ownerWindow);
         delete(view);
         delete(this);
     }
