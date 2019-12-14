@@ -12,8 +12,6 @@ public:
     void prepareChildren() {
         Button * btn6 = new Button(this->elementRef, "test6", "Destroy Button 5");
         btn6->connect(this);
-        Form * f1 = new Form(this->elementRef, "f1", 1);
-        f1->connect(this);
     }
 };
 

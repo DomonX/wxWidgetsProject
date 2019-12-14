@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <wxsmith>
 	<object class="wxFrame" name="EncyklopediaGierFrame">
-		<size>216,210</size>
+		<size>270,162</size>
 		<id_arg>0</id_arg>
 	</object>
 </wxsmith>

@@ -15,9 +15,16 @@ public:
         Event * ev = new Event("onNotebookPageClose", &event);
         handleEvent(ev);
     }
+    bool pageAlreadyExists(string componentID) {
+        if(getChildren(componentID) != NULL) {
+            return true;
+        }
+        return false;
+    }
     void addPage(PanelComponent * newPanel, string label) {
         addChildren(newPanel);
         elementRef->AddPage(newPanel->elementRef, label);
+        newPanel->refreshPanel();
     }
     string getPageComponentID(int id) {
         wxString label = elementRef->GetPage(id)->GetLabel();

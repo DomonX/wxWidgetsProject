@@ -31,6 +31,9 @@ public:
     }
     virtual ~Component(){}
     virtual void deleteComponent() {}
+    string getComponentID() {
+        return componentID;
+    }
     void processEvent(Event * event) {
         event->path.push_back(componentID);
         parent->handleEvent(event);
