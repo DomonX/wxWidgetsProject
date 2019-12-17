@@ -2,6 +2,7 @@
 #define GAMEPANEL_HPP_INCLUDED
 #include "../../Core/Component/panelComponent.hpp"
 #include "../../Core/DataLoader/dataLoader.hpp"
+#include "../../Controls/Image/Image.hpp"
 class GamePanel : public PanelComponent{
 private:
     dataLoader * dataLd;
@@ -17,12 +18,34 @@ public:
         dataLd = new dataLoader(path);
     }
     void loadData() {
-        vector<string> result = dataLd->getData("label");
-        vector<string>::iterator it;
+        vector<string> selectors;
+        selectors.push_back("label");
+        selectors.push_back("img");
+        vector<dataLoaderResult *> result = dataLd->getData(selectors);
+        vector<dataLoaderResult *>::iterator it;
         for(it = result.begin(); it != result.end(); it++) {
-            Label * lb = new Label(this->elementRef,*it,*it);
-            lb->connect(this);
+                if((*it)->selector == "label") {
+                    addText((*it)->data);
+                }
+                if((*it)->selector == "img") {
+                    addImg((*it)->data);
+                }
+
         }
+    }
+    void addText(string label) {
+        LabelMetaData * labelMD = new LabelMetaData();;
+        labelMD->componentID = label;
+        labelMD->label = label;
+        labelMD->parent = this->elementRef;
+        labelMD->width = -1;
+        labelMD->height = -1;
+        Label * lb = new Label(labelMD);
+        lb->connect(this);
+    }
+    void addImg(string path) {
+        Image * img = new Image(this->elementRef,path,path);
+        img->connect(this);
     }
 };
 

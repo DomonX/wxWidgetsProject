@@ -33,7 +33,7 @@ public:
         t1 = new treeTest(this->ownerWindow, "treetest", 1);
         t1->connect(this);
 
-        nt = new Notebook(this->ownerWindow, "nt", 500, 500);
+        nt = new Notebook(this->ownerWindow, "nt", 1000, 500);
         nt->connect(this);
     }
 

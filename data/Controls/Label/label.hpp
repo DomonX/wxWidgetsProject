@@ -5,10 +5,20 @@
 #include "../../Core/Component/component.hpp"
 #include "../../Core/Component/visualComponent.hpp"
 #include "../../Core/Component/controlComponent.hpp"
+#include "labelMetaData.hpp"
 class Label : public ControlComponent<wxStaticText> {
 public:
-    Label(wxWindow * parent, string componentID, string label): ControlComponent(parent, componentID) {
-        elementRef = new wxStaticText(ownerWindow, elementID, _(label), wxDefaultPosition, wxDefaultSize, 0, componentID);
+    LabelMetaData * metaData;
+    Label(LabelMetaData * metaData): ControlComponent(metaData->parent, metaData->componentID) {
+        this->metaData = metaData;
+        elementRef = new wxStaticText(
+                                      ownerWindow,
+                                      elementID,
+                                      _(metaData->label),
+                                      wxDefaultPosition,
+                                      wxSize(metaData->width, metaData->height),
+                                      0,
+                                      metaData->componentID);
     }
     void handleEvent(Event * event) {
         ControlComponent::handleEvent(event);

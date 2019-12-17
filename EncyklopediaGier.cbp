@@ -65,7 +65,9 @@
 		<Unit filename="EncyklopediaGierMain.cpp" />
 		<Unit filename="EncyklopediaGierMain.h" />
 		<Unit filename="data/Controls/Button/button.hpp" />
+		<Unit filename="data/Controls/Image/Image.hpp" />
 		<Unit filename="data/Controls/Label/label.hpp" />
+		<Unit filename="data/Controls/Label/labelMetaData.hpp" />
 		<Unit filename="data/Controls/Notebook/notebook.hpp" />
 		<Unit filename="data/Controls/TextInput/textInput.hpp" />
 		<Unit filename="data/Controls/Tree/Tree.hpp" />

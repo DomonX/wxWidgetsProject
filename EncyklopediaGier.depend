@@ -1690,11 +1690,11 @@
 1573149668 d:\programowanie\c++\wx\encyklopediagier\encyklopediagierapp.h
 	<wx/app.h>
 
-1575668621 d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.h
+1576606880 d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.h
 	<wx/frame.h>
 	"data/Elements/AppComponent/appComponent.hpp"
 
-1575667354 d:\programowanie\c++\wx\encyklopediagier\data\elements\appcomponent\appcomponent.hpp
+1576596445 d:\programowanie\c++\wx\encyklopediagier\data\elements\appcomponent\appcomponent.hpp
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
 	"../../Controls/Button/button.hpp"
@@ -1713,38 +1713,39 @@
 	<wx/aui/aui.h>
 	<memory>
 
-1575653865 d:\programowanie\c++\wx\encyklopediagier\data\core\component\component.hpp
+1576326075 d:\programowanie\c++\wx\encyklopediagier\data\core\component\component.hpp
 	"../Event/event.hpp"
 	<map>
 	<vector>
 
 1575573985 d:\programowanie\c++\wx\encyklopediagier\data\core\event\event.hpp
 
-1574627726 d:\programowanie\c++\wx\encyklopediagier\data\core\component\visualcomponent.hpp
+1576326075 d:\programowanie\c++\wx\encyklopediagier\data\core\component\visualcomponent.hpp
 	"component.hpp"
 	"../View/view.hpp"
 
-1574627750 d:\programowanie\c++\wx\encyklopediagier\data\core\view\view.hpp
+1576326075 d:\programowanie\c++\wx\encyklopediagier\data\core\view\view.hpp
 	<wx/sizer.h>
 	<wx/window.h>
 
-1575573909 d:\programowanie\c++\wx\encyklopediagier\data\controls\button\button.hpp
+1576326075 d:\programowanie\c++\wx\encyklopediagier\data\controls\button\button.hpp
 	<wx/button.h>
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
 	"../../Core/Component/controlComponent.hpp"
 	"../../Core/Event/event.hpp"
 
-1574627726 d:\programowanie\c++\wx\encyklopediagier\data\core\component\controlcomponent.hpp
+1576326075 d:\programowanie\c++\wx\encyklopediagier\data\core\component\controlcomponent.hpp
 	"panelComponent.hpp"
 
-1574628016 d:\programowanie\c++\wx\encyklopediagier\data\controls\label\label.hpp
+1576599478 d:\programowanie\c++\wx\encyklopediagier\data\controls\label\label.hpp
 	<wx/stattext.h>
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
 	"../../Core/Component/controlComponent.hpp"
+	"labelMetaData.hpp"
 
-1575668622 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
+1576606882 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
 	"EncyklopediaGierMain.h"
 	<wx/msgdlg.h>
 	<wx/intl.h>
@@ -1753,7 +1754,7 @@
 1514140570 source:d:\programowanie\c++\wx\encyklopediagier\resource.rc
 	"wx/msw/wx.rc"
 
-1575660141 d:\programowanie\c++\wx\encyklopediagier\data\controls\textinput\textinput.hpp
+1576326075 d:\programowanie\c++\wx\encyklopediagier\data\controls\textinput\textinput.hpp
 	<wx/textctrl.h>
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
@@ -2293,14 +2294,15 @@
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\qt\radiobut.h
 
-1575654219 d:\programowanie\c++\wx\encyklopediagier\data\controls\notebook\notebook.hpp
+1576326075 d:\programowanie\c++\wx\encyklopediagier\data\controls\notebook\notebook.hpp
 	"../../Core/Component/panelComponent.hpp"
 	"wx/aui/aui.h"
 
-1574627726 d:\programowanie\c++\wx\encyklopediagier\data\core\component\panelcomponent.hpp
+1576599971 d:\programowanie\c++\wx\encyklopediagier\data\core\component\panelcomponent.hpp
 	<wx/panel.h>
+	<wx/scrolwin.h>
 
-1575666600 d:\programowanie\c++\wx\encyklopediagier\data\elements\panelexample\panelexample.hpp
+1576326075 d:\programowanie\c++\wx\encyklopediagier\data\elements\panelexample\panelexample.hpp
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\treebook.h
 	"wx/defs.h"
@@ -2443,36 +2445,86 @@
 1544366408 d:\wxwidgets-3.1.2\include\wx\generic\srchctlg.h
 	"wx/bitmap.h"
 
-1575665334 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\tree.hpp
+1576603081 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\tree.hpp
 	<wx/treectrl.h>
 	"../../Core/Component/controlComponent.hpp"
 	<algorithm>
 	"../../Util/wxStringToString.hpp"
 	"../../Core/DataLoader/dataLoader.hpp"
 
-1575665362 d:\programowanie\c++\wx\encyklopediagier\data\elements\treetest\treetest.hpp
+1576326075 d:\programowanie\c++\wx\encyklopediagier\data\elements\treetest\treetest.hpp
 	"../TreePageAdder/treePageAdder.hpp"
 	"../../Controls/Tree/TreeFilter.hpp"
 	"../../Core/DataLoader/dataLoader.hpp"
 
-1575581810 d:\programowanie\c++\wx\encyklopediagier\data\elements\treepageadder\treepageadder.hpp
+1576326075 d:\programowanie\c++\wx\encyklopediagier\data\elements\treepageadder\treepageadder.hpp
 
-1575655067 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\treefilter.hpp
+1576326075 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\treefilter.hpp
 
-1575665831 d:\programowanie\c++\wx\encyklopediagier\data\core\dataloader\dataloader.hpp
+1576606177 d:\programowanie\c++\wx\encyklopediagier\data\core\dataloader\dataloader.hpp
 	<stdlib.h>
 	<vector>
 	<cstdio>
 	<fstream>
 
-1575660302 d:\programowanie\c++\wx\encyklopediagier\data\util\wxstringtostring.hpp
+1576326075 d:\programowanie\c++\wx\encyklopediagier\data\util\wxstringtostring.hpp
 	<wx/string.h>
 	<stdlib.h>
 
-1575660284 source:d:\programowanie\c++\wx\encyklopediagier\data\util\wxstringtostring.cpp
+1576326075 source:d:\programowanie\c++\wx\encyklopediagier\data\util\wxstringtostring.cpp
 	"wxStringToString.hpp"
 
-1575668608 d:\programowanie\c++\wx\encyklopediagier\data\elements\gamepanel\gamepanel.hpp
+1576607609 d:\programowanie\c++\wx\encyklopediagier\data\elements\gamepanel\gamepanel.hpp
 	"../../Core/Component/panelComponent.hpp"
 	"../../Core/DataLoader/dataLoader.hpp"
+	"../../Controls/Image/Image.hpp"
+
+1576597869 d:\programowanie\c++\wx\encyklopediagier\data\controls\label\labelmetadata.hpp
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\statbmp.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/bitmap.h"
+	"wx/icon.h"
+	"wx/univ/statbmp.h"
+	"wx/msw/statbmp.h"
+	"wx/motif/statbmp.h"
+	"wx/gtk/statbmp.h"
+	"wx/gtk1/statbmp.h"
+	"wx/osx/statbmp.h"
+	"wx/qt/statbmp.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\univ\statbmp.h
+	"wx/bitmap.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\statbmp.h
+	"wx/control.h"
+	"wx/icon.h"
+	"wx/bitmap.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\statbmp.h
+	"wx/motif/bmpmotif.h"
+	"wx/icon.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\bmpmotif.h
+	"wx/defs.h"
+	"wx/bitmap.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\statbmp.h
+	"wx/icon.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\statbmp.h
+	"wx/icon.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\statbmp.h
+	"wx/statbmp.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\statbmp.h
+
+1576606902 d:\programowanie\c++\wx\encyklopediagier\data\controls\image\image.hpp
+	<wx/statbmp.h>
+	"../../Core/Component/component.hpp"
+	"../../Core/Component/visualComponent.hpp"
+	"../../Core/Component/controlComponent.hpp"
+	"../../Core/Event/event.hpp"
 

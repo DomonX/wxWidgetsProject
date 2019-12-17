@@ -25,10 +25,12 @@ public:
 
     void loadData() {
         items.clear();
-        vector<string> result = dataLd->getData("treeItem");
-        vector<string>::iterator it;
+        vector<string> selectors;
+        selectors.push_back("treeItem");
+        vector<dataLoaderResult *> result = dataLd->getData(selectors);
+        vector<dataLoaderResult *>::iterator it;
         for(it = result.begin(); it != result.end(); it++) {
-            addItem(*it, *it);
+            addItem((*it)->data, (*it)->data);
         }
     }
 
