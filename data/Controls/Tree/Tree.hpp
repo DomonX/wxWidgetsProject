@@ -5,11 +5,11 @@
 #include "../../Core/Component/controlComponent.hpp"
 #include <algorithm>
 #include "../../Util/wxStringToString.hpp"
-#include "../../Core/DataLoader/dataLoader.hpp"
+#include "../../Core/XmlFileLoader/XmlFileLoader.h"
 
 class Tree: public ControlComponent<wxTreeCtrl> {
 private:
-    dataLoader * dataLd;
+    XmlFileLoader * dataLd;
 public:
     map<string, string> items;
     map<string, string> visibleItems;
@@ -20,25 +20,21 @@ public:
     }
 
     void connectData(string path) {
-        dataLd = new dataLoader(path);
+        dataLd = new XmlFileLoader(path);
+        dataLd->addSelector("treeItem");
     }
-
     void loadData() {
         items.clear();
-        vector<string> selectors;
-        selectors.push_back("treeItem");
-        vector<dataLoaderResult *> result = dataLd->getData(selectors);
-        vector<dataLoaderResult *>::iterator it;
+        vector<XmlParserResult *> result = dataLd->get();
+        vector<XmlParserResult *>::iterator it;
         for(it = result.begin(); it != result.end(); it++) {
             addItem((*it)->data, (*it)->data);
         }
     }
-
     void sendItemClick(wxTreeEvent& event) {
         Event * ev = new Event("onTreeItemClick", &event);
         handleEvent(ev);
     }
-
     void addItem(string id, string label) {
         if(items.find(id) != items.end()) {
             return;
@@ -47,7 +43,6 @@ public:
         elementRef->AppendItem(elementRef->GetRootItem(), label);
         elementRef->Expand(elementRef->GetRootItem());
     }
-
     void filter(string key) {
         visibleItems.clear();
         elementRef->DeleteChildren(elementRef->GetRootItem());
@@ -63,7 +58,6 @@ public:
         }
         showFilteredItems();
     }
-
     void showFilteredItems() {
         map<string, string>::iterator it;
         for(it = visibleItems.begin(); it != visibleItems.end(); it++) {
@@ -76,12 +70,10 @@ public:
             elementRef->AppendItem(elementRef->GetRootItem(), it->second);
         }
     }
-
     string getSelectedItemID() {
         wxString wxStringId = elementRef->GetItemText(elementRef->GetFocusedItem());
         return wxStringToString(wxStringId);
     }
-
     void handleEvent(Event * event) {
         ControlComponent::handleEvent(event);
     }

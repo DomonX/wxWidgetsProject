@@ -13,8 +13,8 @@
 //(*Headers(EncyklopediaGierFrame)
 #include <wx/frame.h>
 //*)
-
 #include "data/Elements/AppComponent/appComponent.hpp"
+
 
 class EncyklopediaGierFrame: public wxFrame
 {

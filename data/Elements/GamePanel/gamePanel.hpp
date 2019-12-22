@@ -1,11 +1,12 @@
 #ifndef GAMEPANEL_HPP_INCLUDED
 #define GAMEPANEL_HPP_INCLUDED
 #include "../../Core/Component/panelComponent.hpp"
-#include "../../Core/DataLoader/dataLoader.hpp"
+#include "../../Core/XmlFileLoader/XmlFileLoader.h"
 #include "../../Controls/Image/Image.hpp"
-class GamePanel : public PanelComponent{
+#include "../../Core/Component/dataComponent.hpp"
+class GamePanel : public PanelComponent {
 private:
-    dataLoader * dataLd;
+    XmlFileLoader * dataLd;
 public:
     GamePanel(wxWindow * parent, string componentID) : PanelComponent(parent, componentID) {
         prepareChildren();
@@ -15,14 +16,14 @@ public:
     }
     void prepareChildren() {}
     void connectData(string path) {
-        dataLd = new dataLoader(path);
+        dataLd = new XmlFileLoader(path);
+        dataLd->addSelector("label");
+        dataLd->addSelector("img");
+
     }
     void loadData() {
-        vector<string> selectors;
-        selectors.push_back("label");
-        selectors.push_back("img");
-        vector<dataLoaderResult *> result = dataLd->getData(selectors);
-        vector<dataLoaderResult *>::iterator it;
+        vector<XmlParserResult *> result = dataLd->get();
+        vector<XmlParserResult *>::iterator it;
         for(it = result.begin(); it != result.end(); it++) {
                 if((*it)->selector == "label") {
                     addText((*it)->data);
@@ -38,7 +39,7 @@ public:
         labelMD->componentID = label;
         labelMD->label = label;
         labelMD->parent = this->elementRef;
-        labelMD->width = -1;
+        labelMD->width = 900;
         labelMD->height = -1;
         Label * lb = new Label(labelMD);
         lb->connect(this);

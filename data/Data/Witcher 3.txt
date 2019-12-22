@@ -1,2 +1,4 @@
-<label>jGra action RPG, stanowi¹ca trzeci¹ czêœæ przygód Geralta z Rivii. Podobnie jak we wczeœniejszych ods³onach cyklu, WiedŸmin 3: Dziki Gon bazuje na motywach twórczoœci literackiej Andrzeja Sapkowskiego, jednak nie jest bezpoœredni¹ adaptacj¹ ¿adnej z jego ksi¹¿ek.</label>
+<label>jGra action RPG, stanowi¹ca trzeci¹ czêœæ przygód Geralta z Rivii. Podobnie jak we wczeœniejszych ods³onach cyklu, 
+WiedŸmin 3: Dziki Gon bazuje na motywach twórczoœci literackiej Andrzeja Sapkowskiego, jednak nie jest bezpoœredni¹ adaptacj¹ ¿adnej z jego ksi¹¿ek.</label>
+<img>data\Data\Witcher3logo.png</img>
 <img>data\Data\Witcher3logo.png</img>

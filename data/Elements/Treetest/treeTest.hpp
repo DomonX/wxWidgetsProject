@@ -2,7 +2,7 @@
 #define TREETEST_HPP_INCLUDED
 #include "../TreePageAdder/treePageAdder.hpp"
 #include "../../Controls/Tree/TreeFilter.hpp"
-#include "../../Core/DataLoader/dataLoader.hpp"
+#include "../../Core/XmlFileLoader/XmlFileLoader.h"
 class treeTest : public VisualComponent {
 public:
     treePageAdder * adderElement;
