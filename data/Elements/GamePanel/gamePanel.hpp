@@ -4,33 +4,31 @@
 #include "../../Core/XmlFileLoader/XmlFileLoader.h"
 #include "../../Controls/Image/Image.hpp"
 #include "../../Core/Component/dataComponent.hpp"
-class GamePanel : public PanelComponent {
-private:
-    XmlFileLoader * dataLd;
+class GamePanel : public PanelComponent, public DataComponent {
 public:
-    GamePanel(wxWindow * parent, string componentID) : PanelComponent(parent, componentID) {
-        prepareChildren();
-    }
+    GamePanel(wxWindow * parent, string componentID) : PanelComponent(parent, componentID), DataComponent() {}
     void handleEvent(Event * event) {
         PanelComponent::handleEvent(event);
     }
-    void prepareChildren() {}
-    void connectData(string path) {
-        dataLd = new XmlFileLoader(path);
-        dataLd->addSelector("label");
-        dataLd->addSelector("img");
-
+    void connectSelectors() {
+        dataLoader->addSelector("label");
+        dataLoader->addSelector("img");
     }
-    void loadData() {
-        vector<XmlParserResult *> result = dataLd->get();
+    void render(){
+        renderComponentFromData();
+    }
+    void renderComponentFromData() {
         vector<XmlParserResult *>::iterator it;
-        for(it = result.begin(); it != result.end(); it++) {
-            if((*it)->selector == "label") {
-                addText((*it)->data);
-            }
-            if((*it)->selector == "img") {
-                addImg((*it)->data);
-            }
+        for(it = loaderResult.begin(); it != loaderResult.end(); it++) {
+            renderOneControl((*it));
+        }
+    }
+    void renderOneControl(XmlParserResult * result) {
+        if(result->selector == "label") {
+            addText(result->data);
+        }
+        if(result->selector == "img") {
+            addImg(result->data);
         }
     }
     void addText(string label) {

@@ -1,18 +1,20 @@
 #ifndef DATACOMPONENT_HPP_INCLUDED
 #define DATACOMPONENT_HPP_INCLUDED
-
+using namespace std;
 class DataComponent {
-private:
-    XmlFileLoader * dataLoader;
 public:
+    XmlFileLoader * dataLoader;
     vector<XmlParserResult *> loaderResult;
+    virtual void connectSelectors() {}
+    virtual void render() {}
     void connectData(string path) {
         dataLoader = new XmlFileLoader(path);
+        connectSelectors();
     }
-    virtual void connectSelectors() {}
     void loadData() {
-        loaderResult = dataLoader->get();
+        loaderResult.empty();
+        this->loaderResult = dataLoader->get();
+        this->render();
     }
-
 };
 #endif // DATACOMPONENT_HPP_INCLUDED
