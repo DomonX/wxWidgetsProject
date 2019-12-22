@@ -1,48 +1,30 @@
 # depslib dependency file v1.0
-1573149668 source:d:\programowanie\c++\labc2\lab3\encyklopediagier\encyklopediagierapp.cpp
-	"EncyklopediaGierApp.h"
-	"EncyklopediaGierMain.h"
-	<wx/image.h>
+1577049885 source:d:\programowanie\c++\wx\encyklopediagier\data\util\wxstringtostring.cpp
+	"wxStringToString.hpp"
 
-1573149668 d:\programowanie\c++\labc2\lab3\encyklopediagier\encyklopediagierapp.h
-	<wx/app.h>
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\util\wxstringtostring.hpp
+	<wx/string.h>
+	<stdlib.h>
 
-1544366408 d:\wxwidgets-3.1.2\include\wx\app.h
-	"wx/event.h"
-	"wx/eventfilter.h"
-	"wx/build.h"
-	"wx/cmdargs.h"
-	"wx/init.h"
-	"wx/intl.h"
-	"wx/log.h"
-	"wx/unix/app.h"
-	"wx/msw/app.h"
-	"wx/motif/app.h"
-	"wx/dfb/app.h"
-	"wx/gtk/app.h"
-	"wx/gtk1/app.h"
-	"wx/x11/app.h"
-	"wx/osx/app.h"
-	"wx/qt/app.h"
-	"wx/univ/theme.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\event.h
+1544366408 d:\wxwidgets-3.1.2\include\wx\string.h
 	"wx/defs.h"
-	"wx/cpp.h"
-	"wx/object.h"
-	"wx/clntdata.h"
-	"wx/math.h"
-	"wx/gdicmn.h"
-	"wx/cursor.h"
-	"wx/mousestate.h"
-	"wx/dynarray.h"
-	"wx/thread.h"
-	"wx/tracker.h"
-	"wx/typeinfo.h"
-	"wx/any.h"
-	"wx/vector.h"
-	"wx/meta/convertible.h"
-	"wx/meta/removeref.h"
+	<ctype.h>
+	<string.h>
+	<stdio.h>
+	<stdarg.h>
+	<limits.h>
+	<stdlib.h>
+	"wx/wxcrtbase.h"
+	"wx/strvararg.h"
+	"wx/buffer.h"
+	"wx/strconv.h"
+	"wx/stringimpl.h"
+	"wx/stringops.h"
+	"wx/unichar.h"
+	"wx/tls.h"
+	<functional>
+	"wx/iosfwrap.h"
+	"wx/crt.h"
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\defs.h
 	"wx/msw/winundef.h"
@@ -162,39 +144,6 @@
 1544366408 d:\wxwidgets-3.1.2\include\wx\qt\defs.h
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\features.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\object.h
-	"wx/memory.h"
-	"wx/xti.h"
-	"wx/rtti.h"
-	"wx/xti2.h"
-	"wx/msw/msvcrt.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\memory.h
-	"wx/defs.h"
-	"wx/string.h"
-	"wx/msgout.h"
-	<stddef.h>
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\string.h
-	"wx/defs.h"
-	<ctype.h>
-	<string.h>
-	<stdio.h>
-	<stdarg.h>
-	<limits.h>
-	<stdlib.h>
-	"wx/wxcrtbase.h"
-	"wx/strvararg.h"
-	"wx/buffer.h"
-	"wx/strconv.h"
-	"wx/stringimpl.h"
-	"wx/stringops.h"
-	"wx/unichar.h"
-	"wx/tls.h"
-	<functional>
-	"wx/iosfwrap.h"
-	"wx/crt.h"
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\wxcrtbase.h
 	"wx/chartype.h"
@@ -332,6 +281,64 @@
 	"wx/strvararg.h"
 	"wx/string.h"
 	<stdarg.h>
+
+1573149668 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagierapp.cpp
+	"EncyklopediaGierApp.h"
+	"EncyklopediaGierMain.h"
+	<wx/image.h>
+
+1573149668 d:\programowanie\c++\wx\encyklopediagier\encyklopediagierapp.h
+	<wx/app.h>
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\app.h
+	"wx/event.h"
+	"wx/eventfilter.h"
+	"wx/build.h"
+	"wx/cmdargs.h"
+	"wx/init.h"
+	"wx/intl.h"
+	"wx/log.h"
+	"wx/unix/app.h"
+	"wx/msw/app.h"
+	"wx/motif/app.h"
+	"wx/dfb/app.h"
+	"wx/gtk/app.h"
+	"wx/gtk1/app.h"
+	"wx/x11/app.h"
+	"wx/osx/app.h"
+	"wx/qt/app.h"
+	"wx/univ/theme.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\event.h
+	"wx/defs.h"
+	"wx/cpp.h"
+	"wx/object.h"
+	"wx/clntdata.h"
+	"wx/math.h"
+	"wx/gdicmn.h"
+	"wx/cursor.h"
+	"wx/mousestate.h"
+	"wx/dynarray.h"
+	"wx/thread.h"
+	"wx/tracker.h"
+	"wx/typeinfo.h"
+	"wx/any.h"
+	"wx/vector.h"
+	"wx/meta/convertible.h"
+	"wx/meta/removeref.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\object.h
+	"wx/memory.h"
+	"wx/xti.h"
+	"wx/rtti.h"
+	"wx/xti2.h"
+	"wx/msw/msvcrt.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\memory.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/msgout.h"
+	<stddef.h>
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\msgout.h
 	"wx/defs.h"
@@ -1495,201 +1502,6 @@
 1544366408 d:\wxwidgets-3.1.2\include\wx\univ\theme.h
 	"wx/string.h"
 
-1573235527 d:\programowanie\c++\labc2\lab3\encyklopediagier\encyklopediagiermain.h
-	<wx/frame.h>
-	"data/Elements/AppComponent/appComponent.hpp"
-
-1573235527 source:d:\programowanie\c++\labc2\lab3\encyklopediagier\encyklopediagiermain.cpp
-	"EncyklopediaGierMain.h"
-	<wx/msgdlg.h>
-	<wx/intl.h>
-	<wx/string.h>
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\msgdlg.h
-	"wx/defs.h"
-	"wx/dialog.h"
-	"wx/stockitem.h"
-	"wx/generic/msgdlgg.h"
-	"wx/msw/msgdlg.h"
-	"wx/motif/msgdlg.h"
-	"wx/gtk/msgdlg.h"
-	"wx/osx/msgdlg.h"
-	"wx/qt/msgdlg.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\dialog.h
-	"wx/toplevel.h"
-	"wx/containr.h"
-	"wx/sharedptr.h"
-	"wx/univ/dialog.h"
-	"wx/msw/dialog.h"
-	"wx/motif/dialog.h"
-	"wx/gtk/dialog.h"
-	"wx/gtk1/dialog.h"
-	"wx/osx/dialog.h"
-	"wx/qt/dialog.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\containr.h
-	"wx/defs.h"
-	"wx/event.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\sharedptr.h
-	"wx/defs.h"
-	"wx/atomic.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\atomic.h
-	"wx/defs.h"
-	"wx/msw/wrapwin.h"
-	"libkern/OSAtomic.h"
-	<atomic.h>
-	"wx/thread.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\univ\dialog.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\msw\dialog.h
-	"wx/panel.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\panel.h
-	"wx/window.h"
-	"wx/containr.h"
-	"wx/univ/panel.h"
-	"wx/msw/panel.h"
-	"wx/generic/panelg.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\univ\panel.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\msw\panel.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\generic\panelg.h
-	"wx/bitmap.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\motif\dialog.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\dialog.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\dialog.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\osx\dialog.h
-	"wx/panel.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\qt\dialog.h
-	"wx/dialog.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\stockitem.h
-	"wx/defs.h"
-	"wx/chartype.h"
-	"wx/string.h"
-	"wx/accel.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\generic\msgdlgg.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\msw\msgdlg.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\motif\msgdlg.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\msgdlg.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\osx\msgdlg.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\qt\msgdlg.h
-	"wx/msgdlg.h"
-
-1514140570 source:d:\programowanie\c++\labc2\lab3\encyklopediagier\resource.rc
-	"wx/msw/wx.rc"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\msw\wx.rc
-	<windows.h>
-	"wx/msw/rcdefs.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\msw\rcdefs.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\sizer.h
-	"wx/defs.h"
-	"wx/window.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gbsizer.h
-	"wx/sizer.h"
-
-1573245006 d:\programowanie\c++\labc2\lab3\encyklopediagier\data\elements\appcomponent\appcomponent.hpp
-	"../../Core/Component/component.hpp"
-	"../../Core/Component/visualComponent.hpp"
-	"../../Controls/Button/button.hpp"
-	"../../Controls/Label/label.hpp"
-	"../../Core/Event/event.hpp"
-	<wx/sizer.h>
-	<wx/panel.h>
-	<wx/intl.h>
-	<wx/string.h>
-	<memory>
-
-1573242616 d:\programowanie\c++\labc2\lab3\encyklopediagier\data\core\component\component.hpp
-	"../Event/event.hpp"
-	<map>
-
-1573150460 d:\programowanie\c++\labc2\lab3\encyklopediagier\data\core\event\index.hpp
-	"event.hpp"
-
-1573150004 d:\programowanie\c++\labc2\lab3\encyklopediagier\data\core\event\event.hpp
-
-1573243700 d:\programowanie\c++\labc2\lab3\encyklopediagier\data\core\component\visualcomponent.hpp
-	"component.hpp"
-	"../View/view.hpp"
-
-1573245661 d:\programowanie\c++\labc2\lab3\encyklopediagier\data\core\view\view.hpp
-	<wx/sizer.h>
-	<wx/window.h>
-
-1573245059 d:\programowanie\c++\labc2\lab3\encyklopediagier\data\controls\button\button.hpp
-	<wx/button.h>
-	"../../Core/Component/component.hpp"
-	"../../Core/Component/visualComponent.hpp"
-	"../../Core/Component/controlComponent.hpp"
-	"../../Core/Event/event.hpp"
-
-1573243673 d:\programowanie\c++\labc2\lab3\encyklopediagier\data\core\component\controlcomponent.hpp
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\stattext.h
-	"wx/defs.h"
-	"wx/control.h"
-	"wx/univ/stattext.h"
-	"wx/msw/stattext.h"
-	"wx/motif/stattext.h"
-	"wx/gtk/stattext.h"
-	"wx/gtk1/stattext.h"
-	"wx/osx/stattext.h"
-	"wx/qt/stattext.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\univ\stattext.h
-	"wx/generic/stattextg.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\generic\stattextg.h
-	"wx/stattext.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\msw\stattext.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\motif\stattext.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\stattext.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\stattext.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\osx\stattext.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\qt\stattext.h
-
-1573240202 d:\programowanie\c++\labc2\lab3\encyklopediagier\data\controls\label\label.hpp
-	<wx/stattext.h>
-	"../../Core/Component/component.hpp"
-	"../../Core/Component/visualComponent.hpp"
-	"../../Core/Component/controlComponent.hpp"
-
-1573149668 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagierapp.cpp
-	"EncyklopediaGierApp.h"
-	"EncyklopediaGierMain.h"
-	<wx/image.h>
-
-1573149668 d:\programowanie\c++\wx\encyklopediagier\encyklopediagierapp.h
-	<wx/app.h>
-
 1577049885 d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.h
 	<wx/frame.h>
 	"data/Elements/AppComponent/appComponent.hpp"
@@ -1728,6 +1540,10 @@
 	<wx/sizer.h>
 	<wx/window.h>
 
+1544366408 d:\wxwidgets-3.1.2\include\wx\sizer.h
+	"wx/defs.h"
+	"wx/window.h"
+
 1576326075 d:\programowanie\c++\wx\encyklopediagier\data\controls\button\button.hpp
 	<wx/button.h>
 	"../../Core/Component/component.hpp"
@@ -1738,6 +1554,44 @@
 1576326075 d:\programowanie\c++\wx\encyklopediagier\data\core\component\controlcomponent.hpp
 	"panelComponent.hpp"
 
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\component\panelcomponent.hpp
+	<wx/panel.h>
+	<wx/scrolwin.h>
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\panel.h
+	"wx/window.h"
+	"wx/containr.h"
+	"wx/univ/panel.h"
+	"wx/msw/panel.h"
+	"wx/generic/panelg.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\containr.h
+	"wx/defs.h"
+	"wx/event.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\univ\panel.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\panel.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\generic\panelg.h
+	"wx/bitmap.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\scrolwin.h
+	"wx/panel.h"
+	"wx/gtk/scrolwin.h"
+	"wx/gtk1/scrolwin.h"
+	"wx/generic/scrolwin.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\scrolwin.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\scrolwin.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\generic\scrolwin.h
+	"wx/recguard.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\recguard.h
+	"wx/defs.h"
+
 1577049885 d:\programowanie\c++\wx\encyklopediagier\data\controls\label\label.hpp
 	<wx/stattext.h>
 	"../../Core/Component/component.hpp"
@@ -1745,14 +1599,36 @@
 	"../../Core/Component/controlComponent.hpp"
 	"labelMetaData.hpp"
 
-1577049885 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
-	"EncyklopediaGierMain.h"
-	<wx/msgdlg.h>
-	<wx/intl.h>
-	<wx/string.h>
+1544366408 d:\wxwidgets-3.1.2\include\wx\stattext.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/univ/stattext.h"
+	"wx/msw/stattext.h"
+	"wx/motif/stattext.h"
+	"wx/gtk/stattext.h"
+	"wx/gtk1/stattext.h"
+	"wx/osx/stattext.h"
+	"wx/qt/stattext.h"
 
-1514140570 source:d:\programowanie\c++\wx\encyklopediagier\resource.rc
-	"wx/msw/wx.rc"
+1544366408 d:\wxwidgets-3.1.2\include\wx\univ\stattext.h
+	"wx/generic/stattextg.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\generic\stattextg.h
+	"wx/stattext.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\stattext.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\stattext.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\stattext.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\stattext.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\stattext.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\stattext.h
+
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\controls\label\labelmetadata.hpp
 
 1577049885 d:\programowanie\c++\wx\encyklopediagier\data\controls\textinput\textinput.hpp
 	<wx/textctrl.h>
@@ -1814,22 +1690,6 @@
 	"wx/scrolwin.h"
 	"wx/univ/inphand.h"
 
-1544366408 d:\wxwidgets-3.1.2\include\wx\scrolwin.h
-	"wx/panel.h"
-	"wx/gtk/scrolwin.h"
-	"wx/gtk1/scrolwin.h"
-	"wx/generic/scrolwin.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\scrolwin.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\scrolwin.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\generic\scrolwin.h
-	"wx/recguard.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\recguard.h
-	"wx/defs.h"
-
 1544366408 d:\wxwidgets-3.1.2\include\wx\msw\textctrl.h
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\motif\textctrl.h
@@ -1844,7 +1704,9 @@
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\qt\textctrl.h
 
-1574627292 d:\programowanie\c++\wx\encyklopediagier\data\elements\formexample\form.hpp
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\controls\notebook\notebook.hpp
+	"../../Core/Component/panelComponent.hpp"
+	"wx/aui/aui.h"
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\aui\aui.h
 	"wx/aui/framemanager.h"
@@ -2238,249 +2100,37 @@
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\qt\mdi.h
 
-1544366408 d:\wxwidgets-3.1.2\include\wx\radiobut.h
-	"wx/defs.h"
-	"wx/control.h"
-	"wx/univ/radiobut.h"
-	"wx/msw/radiobut.h"
-	"wx/motif/radiobut.h"
-	"wx/gtk/radiobut.h"
-	"wx/gtk1/radiobut.h"
-	"wx/osx/radiobut.h"
-	"wx/qt/radiobut.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\univ\radiobut.h
-	"wx/checkbox.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\checkbox.h
-	"wx/defs.h"
-	"wx/control.h"
-	"wx/univ/checkbox.h"
-	"wx/msw/checkbox.h"
-	"wx/motif/checkbox.h"
-	"wx/gtk/checkbox.h"
-	"wx/gtk1/checkbox.h"
-	"wx/osx/checkbox.h"
-	"wx/qt/checkbox.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\univ\checkbox.h
-	"wx/button.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\msw\checkbox.h
-	"wx/msw/ownerdrawnbutton.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\msw\ownerdrawnbutton.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\motif\checkbox.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\checkbox.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\checkbox.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\osx\checkbox.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\qt\checkbox.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\msw\radiobut.h
-	"wx/msw/ownerdrawnbutton.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\motif\radiobut.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\radiobut.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\radiobut.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\osx\radiobut.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\qt\radiobut.h
-
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\controls\notebook\notebook.hpp
-	"../../Core/Component/panelComponent.hpp"
-	"wx/aui/aui.h"
-
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\component\panelcomponent.hpp
-	<wx/panel.h>
-	<wx/scrolwin.h>
-
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\elements\panelexample\panelexample.hpp
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\treebook.h
-	"wx/defs.h"
-	"wx/bookctrl.h"
-	"wx/containr.h"
-	"wx/treebase.h"
-	"wx/vector.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\treebase.h
-	"wx/defs.h"
-	"wx/window.h"
-	"wx/event.h"
-	"wx/dynarray.h"
-	"wx/itemid.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\itemid.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\spinctrl.h
-	"wx/defs.h"
-	"wx/spinbutt.h"
-	"wx/msw/spinctrl.h"
-	"wx/gtk/spinctrl.h"
-	"wx/gtk1/spinctrl.h"
-	"wx/qt/spinctrl.h"
-	"wx/generic/spinctlg.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\spinbutt.h
-	"wx/defs.h"
-	"wx/control.h"
-	"wx/event.h"
-	"wx/range.h"
-	"wx/univ/spinbutt.h"
-	"wx/msw/spinbutt.h"
-	"wx/motif/spinbutt.h"
-	"wx/gtk/spinbutt.h"
-	"wx/gtk1/spinbutt.h"
-	"wx/osx/spinbutt.h"
-	"wx/qt/spinbutt.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\range.h
-	"wx/defs.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\univ\spinbutt.h
-	"wx/univ/scrarrow.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\univ\scrarrow.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\msw\spinbutt.h
-	"wx/control.h"
-	"wx/event.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\motif\spinbutt.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\spinbutt.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\spinbutt.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\osx\spinbutt.h
-	"wx/control.h"
-	"wx/event.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\qt\spinbutt.h
-	"wx/spinbutt.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\msw\spinctrl.h
-	"wx/spinbutt.h"
-	"wx/dynarray.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\spinctrl.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\spinctrl.h
-	"wx/defs.h"
-	"wx/control.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\qt\spinctrl.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\generic\spinctlg.h
-	"wx/compositewin.h"
-	"wx/textctrl.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\compositewin.h
-	"wx/window.h"
-	"wx/containr.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\grid.h
-	"wx/generic/grid.h"
-	"wx/generic/grideditors.h"
-	"wx/generic/gridctrl.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\generic\grid.h
-	"wx/defs.h"
-	"wx/hashmap.h"
-	"wx/scrolwin.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\generic\grideditors.h
-	"wx/defs.h"
-	"wx/scopedptr.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\generic\gridctrl.h
-	"wx/grid.h"
-	"wx/datetime.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\listbook.h
-	"wx/defs.h"
-	"wx/bookctrl.h"
-	"wx/containr.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\treectrl.h
-	"wx/defs.h"
-	"wx/control.h"
-	"wx/treebase.h"
-	"wx/textctrl.h"
-	"wx/systhemectrl.h"
-	"wx/generic/treectlg.h"
-	"wx/msw/treectrl.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\systhemectrl.h
-	"wx/defs.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\generic\treectlg.h
-	"wx/scrolwin.h"
-	"wx/pen.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\msw\treectrl.h
-	"wx/textctrl.h"
-	"wx/dynarray.h"
-	"wx/treebase.h"
-	"wx/hashmap.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\srchctrl.h
-	"wx/defs.h"
-	"wx/textctrl.h"
-	"wx/compositewin.h"
-	"wx/containr.h"
-	"wx/osx/srchctrl.h"
-	"wx/generic/srchctlg.h"
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\osx\srchctrl.h
-
-1544366408 d:\wxwidgets-3.1.2\include\wx\generic\srchctlg.h
-	"wx/bitmap.h"
-
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\tree.hpp
-	<wx/treectrl.h>
-	"../../Core/Component/controlComponent.hpp"
-	<algorithm>
-	"../../Util/wxStringToString.hpp"
-	"../../Core/XmlFileLoader/XmlFileLoader.h"
-	"../../Core/Component/dataComponent.hpp"
-
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\elements\treetest\treetest.hpp
-	"../TreePageAdder/treePageAdder.hpp"
-	"../../Controls/Tree/TreeFilter.hpp"
-
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\elements\treepageadder\treepageadder.hpp
-
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\treefilter.hpp
-
-1577023905 d:\programowanie\c++\wx\encyklopediagier\data\core\dataloader\dataloader.hpp
-	<stdlib.h>
-	<vector>
-	<cstdio>
-	<fstream>
-
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\util\wxstringtostring.hpp
-	<wx/string.h>
-	<stdlib.h>
-
-1577049885 source:d:\programowanie\c++\wx\encyklopediagier\data\util\wxstringtostring.cpp
-	"wxStringToString.hpp"
-
 1577049885 d:\programowanie\c++\wx\encyklopediagier\data\elements\gamepanel\gamepanel.hpp
 	"../../Core/Component/panelComponent.hpp"
 	"../../Core/XmlFileLoader/XmlFileLoader.h"
 	"../../Controls/Image/Image.hpp"
 	"../../Core/Component/dataComponent.hpp"
 
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\controls\label\labelmetadata.hpp
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlfileloader\xmlfileloader.h
+	"../XmlParser/XmlParser.hpp"
+	"../FileLoader/FileLoader.hpp"
+
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparser.hpp
+	<vector>
+	"XmlParserResult.hpp"
+	"XmlSelector.hpp"
+
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparserresult.hpp
+
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlselector.hpp
+
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\fileloader\fileloader.hpp
+	<stdlib.h>
+	<vector>
+	<cstdio>
+	<fstream>
+
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\controls\image\image.hpp
+	<wx/statbmp.h>
+	"../../Core/Component/component.hpp"
+	"../../Core/Component/visualComponent.hpp"
+	"../../Core/Component/controlComponent.hpp"
+	"../../Core/Event/event.hpp"
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\statbmp.h
 	"wx/defs.h"
@@ -2522,31 +2172,139 @@
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\qt\statbmp.h
 
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\controls\image\image.hpp
-	<wx/statbmp.h>
-	"../../Core/Component/component.hpp"
-	"../../Core/Component/visualComponent.hpp"
-	"../../Core/Component/controlComponent.hpp"
-	"../../Core/Event/event.hpp"
-
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlfileloader\xmlfileloader.h
-	"../XmlParser/XmlParser.hpp"
-	"../FileLoader/FileLoader.hpp"
-
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparser.hpp
-	<vector>
-	"XmlParserResult.hpp"
-	"XmlSelector.hpp"
-
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparserresult.hpp
-
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlselector.hpp
-
-1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\fileloader\fileloader.hpp
-	<stdlib.h>
-	<vector>
-	<cstdio>
-	<fstream>
-
 1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\component\datacomponent.hpp
+
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\elements\panelexample\panelexample.hpp
+
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\tree.hpp
+	<wx/treectrl.h>
+	"../../Core/Component/controlComponent.hpp"
+	<algorithm>
+	"../../Util/wxStringToString.hpp"
+	"../../Core/XmlFileLoader/XmlFileLoader.h"
+	"../../Core/Component/dataComponent.hpp"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\treectrl.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/treebase.h"
+	"wx/textctrl.h"
+	"wx/systhemectrl.h"
+	"wx/generic/treectlg.h"
+	"wx/msw/treectrl.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\treebase.h
+	"wx/defs.h"
+	"wx/window.h"
+	"wx/event.h"
+	"wx/dynarray.h"
+	"wx/itemid.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\itemid.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\systhemectrl.h
+	"wx/defs.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\generic\treectlg.h
+	"wx/scrolwin.h"
+	"wx/pen.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\treectrl.h
+	"wx/textctrl.h"
+	"wx/dynarray.h"
+	"wx/treebase.h"
+	"wx/hashmap.h"
+
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\elements\treetest\treetest.hpp
+	"../TreePageAdder/treePageAdder.hpp"
+	"../../Controls/Tree/TreeFilter.hpp"
+
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\elements\treepageadder\treepageadder.hpp
+
+1577049885 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\treefilter.hpp
+
+1577049885 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
+	"EncyklopediaGierMain.h"
+	<wx/msgdlg.h>
+	<wx/intl.h>
+	<wx/string.h>
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msgdlg.h
+	"wx/defs.h"
+	"wx/dialog.h"
+	"wx/stockitem.h"
+	"wx/generic/msgdlgg.h"
+	"wx/msw/msgdlg.h"
+	"wx/motif/msgdlg.h"
+	"wx/gtk/msgdlg.h"
+	"wx/osx/msgdlg.h"
+	"wx/qt/msgdlg.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\dialog.h
+	"wx/toplevel.h"
+	"wx/containr.h"
+	"wx/sharedptr.h"
+	"wx/univ/dialog.h"
+	"wx/msw/dialog.h"
+	"wx/motif/dialog.h"
+	"wx/gtk/dialog.h"
+	"wx/gtk1/dialog.h"
+	"wx/osx/dialog.h"
+	"wx/qt/dialog.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\sharedptr.h
+	"wx/defs.h"
+	"wx/atomic.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\atomic.h
+	"wx/defs.h"
+	"wx/msw/wrapwin.h"
+	"libkern/OSAtomic.h"
+	<atomic.h>
+	"wx/thread.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\univ\dialog.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\dialog.h
+	"wx/panel.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\dialog.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\dialog.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk1\dialog.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\dialog.h
+	"wx/panel.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\dialog.h
+	"wx/dialog.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\stockitem.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/string.h"
+	"wx/accel.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\generic\msgdlgg.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\msgdlg.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\motif\msgdlg.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\gtk\msgdlg.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\osx\msgdlg.h
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\qt\msgdlg.h
+	"wx/msgdlg.h"
+
+1514140570 source:d:\programowanie\c++\wx\encyklopediagier\resource.rc
+	"wx/msw/wx.rc"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\wx.rc
+	<windows.h>
+	"wx/msw/rcdefs.h"
+
+1544366408 d:\wxwidgets-3.1.2\include\wx\msw\rcdefs.h
 
