@@ -25,13 +25,12 @@ public:
         vector<XmlParserResult *> result = dataLd->get();
         vector<XmlParserResult *>::iterator it;
         for(it = result.begin(); it != result.end(); it++) {
-                if((*it)->selector == "label") {
-                    addText((*it)->data);
-                }
-                if((*it)->selector == "img") {
-                    addImg((*it)->data);
-                }
-
+            if((*it)->selector == "label") {
+                addText((*it)->data);
+            }
+            if((*it)->selector == "img") {
+                addImg((*it)->data);
+            }
         }
     }
     void addText(string label) {

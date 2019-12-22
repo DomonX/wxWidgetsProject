@@ -1690,7 +1690,7 @@
 1573149668 d:\programowanie\c++\wx\encyklopediagier\encyklopediagierapp.h
 	<wx/app.h>
 
-1577023905 d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.h
+1577024111 d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.h
 	<wx/frame.h>
 	"data/Elements/AppComponent/appComponent.hpp"
 
@@ -2298,7 +2298,7 @@
 	"../../Core/Component/panelComponent.hpp"
 	"wx/aui/aui.h"
 
-1577023905 d:\programowanie\c++\wx\encyklopediagier\data\core\component\panelcomponent.hpp
+1577024111 d:\programowanie\c++\wx\encyklopediagier\data\core\component\panelcomponent.hpp
 	<wx/panel.h>
 	<wx/scrolwin.h>
 
@@ -2445,14 +2445,14 @@
 1544366408 d:\wxwidgets-3.1.2\include\wx\generic\srchctlg.h
 	"wx/bitmap.h"
 
-1577023905 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\tree.hpp
+1577024111 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\tree.hpp
 	<wx/treectrl.h>
 	"../../Core/Component/controlComponent.hpp"
 	<algorithm>
 	"../../Util/wxStringToString.hpp"
 	"../../Core/XmlFileLoader/XmlFileLoader.h"
 
-1577023905 d:\programowanie\c++\wx\encyklopediagier\data\elements\treetest\treetest.hpp
+1577024111 d:\programowanie\c++\wx\encyklopediagier\data\elements\treetest\treetest.hpp
 	"../TreePageAdder/treePageAdder.hpp"
 	"../../Controls/Tree/TreeFilter.hpp"
 	"../../Core/XmlFileLoader/XmlFileLoader.h"
@@ -2474,7 +2474,7 @@
 1576326075 source:d:\programowanie\c++\wx\encyklopediagier\data\util\wxstringtostring.cpp
 	"wxStringToString.hpp"
 
-1577023905 d:\programowanie\c++\wx\encyklopediagier\data\elements\gamepanel\gamepanel.hpp
+1577024498 d:\programowanie\c++\wx\encyklopediagier\data\elements\gamepanel\gamepanel.hpp
 	"../../Core/Component/panelComponent.hpp"
 	"../../Core/XmlFileLoader/XmlFileLoader.h"
 	"../../Controls/Image/Image.hpp"
@@ -2529,11 +2529,11 @@
 	"../../Core/Component/controlComponent.hpp"
 	"../../Core/Event/event.hpp"
 
-1577023744 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlfileloader\xmlfileloader.h
+1577024475 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlfileloader\xmlfileloader.h
 	"../XmlParser/XmlParser.hpp"
 	"../FileLoader/FileLoader.hpp"
 
-1577023489 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparser.hpp
+1577025244 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparser.hpp
 	<vector>
 	"XmlParserResult.hpp"
 	"XmlSelector.hpp"

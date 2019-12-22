@@ -47,7 +47,7 @@ private:
                 continue;
             }
             currentSelector = (*it);
-            eraseBeginSelector();
+            currentLine = eraseBeginSelector();
             isInside = true;
             return;
         }
@@ -57,7 +57,7 @@ private:
             return;
         }
         if((currentLine.find(currentSelector->endSelector) != std::string::npos)) {
-            eraseEndSelector();
+            currentLine = eraseEndSelector();
             addResult();
         }
     }
@@ -84,6 +84,7 @@ public:
     }
     vector<XmlParserResult *> get(vector<string> lines) {
         resetParser();
+        linesBuffer = lines;
         vector<string>::iterator it;
         for(it = linesBuffer.begin(); it != linesBuffer.end(); it++) {
             currentLine = (*it);
