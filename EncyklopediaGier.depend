@@ -1690,7 +1690,7 @@
 1573149668 d:\programowanie\c++\wx\encyklopediagier\encyklopediagierapp.h
 	<wx/app.h>
 
-1577024111 d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.h
+1577025628 d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.h
 	<wx/frame.h>
 	"data/Elements/AppComponent/appComponent.hpp"
 
@@ -1738,14 +1738,14 @@
 1576326075 d:\programowanie\c++\wx\encyklopediagier\data\core\component\controlcomponent.hpp
 	"panelComponent.hpp"
 
-1576612504 d:\programowanie\c++\wx\encyklopediagier\data\controls\label\label.hpp
+1577025805 d:\programowanie\c++\wx\encyklopediagier\data\controls\label\label.hpp
 	<wx/stattext.h>
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
 	"../../Core/Component/controlComponent.hpp"
 	"labelMetaData.hpp"
 
-1577023905 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
+1577025501 source:d:\programowanie\c++\wx\encyklopediagier\encyklopediagiermain.cpp
 	"EncyklopediaGierMain.h"
 	<wx/msgdlg.h>
 	<wx/intl.h>
@@ -2298,7 +2298,7 @@
 	"../../Core/Component/panelComponent.hpp"
 	"wx/aui/aui.h"
 
-1577024111 d:\programowanie\c++\wx\encyklopediagier\data\core\component\panelcomponent.hpp
+1577025328 d:\programowanie\c++\wx\encyklopediagier\data\core\component\panelcomponent.hpp
 	<wx/panel.h>
 	<wx/scrolwin.h>
 
@@ -2445,14 +2445,14 @@
 1544366408 d:\wxwidgets-3.1.2\include\wx\generic\srchctlg.h
 	"wx/bitmap.h"
 
-1577024111 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\tree.hpp
+1577025328 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\tree.hpp
 	<wx/treectrl.h>
 	"../../Core/Component/controlComponent.hpp"
 	<algorithm>
 	"../../Util/wxStringToString.hpp"
 	"../../Core/XmlFileLoader/XmlFileLoader.h"
 
-1577024111 d:\programowanie\c++\wx\encyklopediagier\data\elements\treetest\treetest.hpp
+1577025328 d:\programowanie\c++\wx\encyklopediagier\data\elements\treetest\treetest.hpp
 	"../TreePageAdder/treePageAdder.hpp"
 	"../../Controls/Tree/TreeFilter.hpp"
 	"../../Core/XmlFileLoader/XmlFileLoader.h"
@@ -2474,7 +2474,7 @@
 1576326075 source:d:\programowanie\c++\wx\encyklopediagier\data\util\wxstringtostring.cpp
 	"wxStringToString.hpp"
 
-1577024498 d:\programowanie\c++\wx\encyklopediagier\data\elements\gamepanel\gamepanel.hpp
+1577025328 d:\programowanie\c++\wx\encyklopediagier\data\elements\gamepanel\gamepanel.hpp
 	"../../Core/Component/panelComponent.hpp"
 	"../../Core/XmlFileLoader/XmlFileLoader.h"
 	"../../Controls/Image/Image.hpp"
@@ -2522,31 +2522,32 @@
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\qt\statbmp.h
 
-1576612504 d:\programowanie\c++\wx\encyklopediagier\data\controls\image\image.hpp
+1577026206 d:\programowanie\c++\wx\encyklopediagier\data\controls\image\image.hpp
 	<wx/statbmp.h>
+	<wx/bitmap.h>
 	"../../Core/Component/component.hpp"
 	"../../Core/Component/visualComponent.hpp"
 	"../../Core/Component/controlComponent.hpp"
 	"../../Core/Event/event.hpp"
 
-1577024475 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlfileloader\xmlfileloader.h
+1577025328 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlfileloader\xmlfileloader.h
 	"../XmlParser/XmlParser.hpp"
 	"../FileLoader/FileLoader.hpp"
 
-1577025244 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparser.hpp
+1577025328 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparser.hpp
 	<vector>
 	"XmlParserResult.hpp"
 	"XmlSelector.hpp"
 
-1577022183 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparserresult.hpp
+1577025328 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparserresult.hpp
 
-1577022195 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlselector.hpp
+1577025328 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlselector.hpp
 
-1577023804 d:\programowanie\c++\wx\encyklopediagier\data\core\fileloader\fileloader.hpp
+1577025328 d:\programowanie\c++\wx\encyklopediagier\data\core\fileloader\fileloader.hpp
 	<stdlib.h>
 	<vector>
 	<cstdio>
 	<fstream>
 
-1577023175 d:\programowanie\c++\wx\encyklopediagier\data\core\component\datacomponent.hpp
+1577025328 d:\programowanie\c++\wx\encyklopediagier\data\core\component\datacomponent.hpp
 

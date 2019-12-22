@@ -12,13 +12,14 @@ public:
     Label(LabelMetaData * metaData): ControlComponent(metaData->parent, metaData->componentID) {
         this->metaData = metaData;
         elementRef = new wxStaticText(
-                                      ownerWindow,
-                                      elementID,
-                                      _(metaData->label),
-                                      wxDefaultPosition,
-                                      wxSize(metaData->width, metaData->height),
-                                      0,
-                                      metaData->componentID);
+          ownerWindow,
+          elementID,
+          _(metaData->label),
+          wxDefaultPosition,
+          wxSize(metaData->width, metaData->height),
+          0,
+          metaData->componentID);
+          elementRef->Wrap(metaData->width);
     }
     void handleEvent(Event * event) {
         ControlComponent::handleEvent(event);

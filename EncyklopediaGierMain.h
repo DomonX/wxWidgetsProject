@@ -29,9 +29,6 @@ class EncyklopediaGierFrame: public wxFrame
         //(*Handlers(EncyklopediaGierFrame)
         void OnQuit(wxCommandEvent& event);
         void OnAbout(wxCommandEvent& event);
-        void OnTreeCtrl1BeginDrag(wxTreeEvent& event);
-        void OnTreeCtrl1ItemActivated(wxTreeEvent& event);
-        void OnTextCtrl1Text(wxCommandEvent& event);
         //*)
 
         //(*Identifiers(EncyklopediaGierFrame)
