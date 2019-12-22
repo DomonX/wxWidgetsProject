@@ -6,10 +6,8 @@
 #include <algorithm>
 #include "../../Util/wxStringToString.hpp"
 #include "../../Core/XmlFileLoader/XmlFileLoader.h"
-
-class Tree: public ControlComponent<wxTreeCtrl> {
-private:
-    XmlFileLoader * dataLd;
+#include "../../Core/Component/dataComponent.hpp"
+class Tree: public ControlComponent<wxTreeCtrl>, public DataComponent {
 public:
     map<string, string> items;
     map<string, string> visibleItems;
@@ -18,22 +16,16 @@ public:
         elementRef->AddRoot(label);
         elementRef->Bind(wxEVT_COMMAND_TREE_ITEM_ACTIVATED, &sendItemClick, this);
     }
-
-    void connectData(string path) {
-        dataLd = new XmlFileLoader(path);
-        dataLd->addSelector("treeItem");
+    void connectSelectors() {
+        dataLoader->addSelector("treeItem");
     }
-    void loadData() {
+    void beforeRender() {
         items.clear();
-        vector<XmlParserResult *> result = dataLd->get();
-        vector<XmlParserResult *>::iterator it;
-        for(it = result.begin(); it != result.end(); it++) {
-            addItem((*it)->data, (*it)->data);
-        }
     }
-    void sendItemClick(wxTreeEvent& event) {
-        Event * ev = new Event("onTreeItemClick", &event);
-        handleEvent(ev);
+    void renderControl(XmlParserResult * result) {
+        if(result->selector == "treeItem") {
+            addItem(result->data, result->data);
+        }
     }
     void addItem(string id, string label) {
         if(items.find(id) != items.end()) {
@@ -42,6 +34,10 @@ public:
         items[id] = label;
         elementRef->AppendItem(elementRef->GetRootItem(), label);
         elementRef->Expand(elementRef->GetRootItem());
+    }
+    void sendItemClick(wxTreeEvent& event) {
+        Event * ev = new Event("onTreeItemClick", &event);
+        handleEvent(ev);
     }
     void filter(string key) {
         visibleItems.clear();

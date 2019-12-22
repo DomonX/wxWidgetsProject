@@ -14,16 +14,7 @@ public:
         dataLoader->addSelector("label");
         dataLoader->addSelector("img");
     }
-    void render(){
-        renderComponentFromData();
-    }
-    void renderComponentFromData() {
-        vector<XmlParserResult *>::iterator it;
-        for(it = loaderResult.begin(); it != loaderResult.end(); it++) {
-            renderOneControl((*it));
-        }
-    }
-    void renderOneControl(XmlParserResult * result) {
+    void renderControl(XmlParserResult * result) {
         if(result->selector == "label") {
             addText(result->data);
         }
