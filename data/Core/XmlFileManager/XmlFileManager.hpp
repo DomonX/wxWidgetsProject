@@ -16,17 +16,17 @@ public:
         fileS = new FileSaver(dataPath);
     }
     void addSelector(string selector) {
-        xml->addSelector(selector);
+        //xml->addSelector(selector);
     }
     void clearSelectors() {
-        xml->clearSelectors();
+        //xml->clearSelectors();
     }
     void deleteSelector(string selector) {
-        xml->deleteSelector(selector);
+        //xml->deleteSelector(selector);
     }
     vector<XmlParserResult *> get() {
         vector<string> lines = file->get();
-        return xml->get(lines);
+        return xml->load(lines);
     }
     void set(vector<XmlParserResult *> lines) {
         vector<XmlParserResult *>::iterator it;

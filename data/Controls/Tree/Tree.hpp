@@ -24,8 +24,26 @@ public:
     }
     void renderControl(XmlParserResult * result) {
         if(result->selector == "treeItem") {
-            addItem(result->data, result->data);
+            string label = getTreeItemLabel(result);
+            string link = getTreeItemLabel(result);
+            addItem(label, link);
         }
+    }
+    string getTreeItemLabel(XmlParserResult * result) {
+        vector<XmlParserResult *>::iterator it;
+        XmlParserResult * label = result->lookFor("label");
+        if(!label) {
+            return "";
+        }
+        return label->data;
+    }
+    string getTreeItemLink(XmlParserResult * result) {
+        vector<XmlParserResult *>::iterator it;
+        XmlParserResult * link = result->lookFor("link");
+        if(!link) {
+            return "";
+        }
+        return link->data;
     }
     void addItem(string id, string label) {
         if(items.find(id) != items.end()) {
