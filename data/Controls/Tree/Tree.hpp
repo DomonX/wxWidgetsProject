@@ -5,7 +5,7 @@
 #include "../../Core/Component/controlComponent.hpp"
 #include <algorithm>
 #include "../../Util/wxStringToString.hpp"
-#include "../../Core/XmlFileLoader/XmlFileLoader.h"
+#include "../../Core/XmlFileManager/XmlFileManager.hpp"
 #include "../../Core/Component/dataComponent.hpp"
 class Tree: public ControlComponent<wxTreeCtrl>, public DataComponent {
 public:
@@ -72,6 +72,16 @@ public:
     }
     void handleEvent(Event * event) {
         ControlComponent::handleEvent(event);
+    }
+    vector<XmlParserResult *> prepareDataToSave() {
+        vector<XmlParserResult *> result;
+        map<string,string>::iterator it;
+        for(it = items.begin(); it != items.end(); it++) {
+            string data = it->second;
+            XmlParserResult * temp = new XmlParserResult("treeItem", data);
+            result.push_back(temp);
+        }
+        return result;
     }
 };
 

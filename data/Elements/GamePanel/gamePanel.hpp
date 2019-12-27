@@ -1,7 +1,7 @@
 #ifndef GAMEPANEL_HPP_INCLUDED
 #define GAMEPANEL_HPP_INCLUDED
 #include "../../Core/Component/panelComponent.hpp"
-#include "../../Core/XmlFileLoader/XmlFileLoader.h"
+#include "../../Core/XmlFileManager/XmlFileManager.hpp"
 #include "../../Controls/Image/Image.hpp"
 #include "../../Core/Component/dataComponent.hpp"
 class GamePanel : public PanelComponent, public DataComponent {

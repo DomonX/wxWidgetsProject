@@ -26,6 +26,7 @@ public:
     void handlePageAdd(Event * event) {
         string text = adderElement->textElement->getText();
         treeElement->treeElement->addItem(text, text);
+        treeElement->treeElement->saveData();
     }
 };
 

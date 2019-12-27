@@ -1,7 +1,8 @@
 #ifndef XMLPARSERRESULT_HPP_INCLUDED
 #define XMLPARSERRESULT_HPP_INCLUDED
 
-class XmlParserResult {
+class XmlParserResult
+{
 public:
     string selector;
     string data;

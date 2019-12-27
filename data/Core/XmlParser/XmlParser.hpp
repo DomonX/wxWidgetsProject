@@ -72,6 +72,11 @@ private:
         contentBuffer = "";
         isInside = false;
     }
+    void parseLine() {
+        lookForBeginSelector();
+        lookForEndSelector();
+        endLine();
+    }
 public:
     void addSelector(string selector) {
         selectors.push_back(new XmlSelector(selector));
@@ -79,18 +84,14 @@ public:
     void clearSelectors() {
         selectors.empty();
     }
-    void deleteSelector(string selector) {
-
-    }
+    void deleteSelector(string selector) {}
     vector<XmlParserResult *> get(vector<string> lines) {
         resetParser();
         linesBuffer = lines;
         vector<string>::iterator it;
         for(it = linesBuffer.begin(); it != linesBuffer.end(); it++) {
             currentLine = (*it);
-            lookForBeginSelector();
-            lookForEndSelector();
-            endLine();
+            parseLine();
         }
         return result;
     }
