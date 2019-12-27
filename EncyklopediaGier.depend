@@ -2110,12 +2110,13 @@
 	"../XmlParser/XmlParser.hpp"
 	"../FileLoader/FileLoader.hpp"
 
-1577384647 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparser.hpp
+1577465358 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparser.hpp
 	<vector>
 	"XmlParserResult.hpp"
 	"XmlSelector.hpp"
 
-1577385877 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparserresult.hpp
+1577465677 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlparserresult.hpp
+	<map>
 
 1577049885 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlparser\xmlselector.hpp
 
@@ -2172,11 +2173,11 @@
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\qt\statbmp.h
 
-1577387147 d:\programowanie\c++\wx\encyklopediagier\data\core\component\datacomponent.hpp
+1577464810 d:\programowanie\c++\wx\encyklopediagier\data\core\component\datacomponent.hpp
 
 1577049885 d:\programowanie\c++\wx\encyklopediagier\data\elements\panelexample\panelexample.hpp
 
-1577387166 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\tree.hpp
+1577464238 d:\programowanie\c++\wx\encyklopediagier\data\controls\tree\tree.hpp
 	<wx/treectrl.h>
 	"../../Core/Component/controlComponent.hpp"
 	<algorithm>
@@ -2308,7 +2309,7 @@
 
 1544366408 d:\wxwidgets-3.1.2\include\wx\msw\rcdefs.h
 
-1577387560 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlfilemanager\xmlfilemanager.hpp
+1577464369 d:\programowanie\c++\wx\encyklopediagier\data\core\xmlfilemanager\xmlfilemanager.hpp
 	"../XmlParser/XmlParser.hpp"
 	"../FileLoader/FileLoader.hpp"
 	"../FileSaver/FileSaver.hpp"

@@ -9,27 +9,7 @@ using namespace std;
 
 class XmlParser {
 private:
-    vector<XmlSelector *> selectors;
     vector<XmlParserResult *> result;
-    vector<string> linesBuffer;
-    string currentLine;
-    string contentBuffer;
-    XmlSelector * currentSelector;
-    bool isInside;
-    void resetParser() {
-        result.empty();
-        linesBuffer.empty();
-        contentBuffer = "";
-        currentLine = "";
-        isInside = false;
-        currentSelector = NULL;
-    }
-    string eraseBeginSelector() {
-        return eraseSelectorSubString(currentLine, currentSelector->beginSelector);
-    }
-    string eraseEndSelector() {
-        return eraseSelectorSubString(currentLine, currentSelector->endSelector);
-    }
     string eraseSelectorSubString(string src, string selector) {
         size_t pos = src.find(selector);
         if (pos != std::string::npos){
@@ -37,63 +17,17 @@ private:
         }
         return src;
     }
-    void lookForBeginSelector() {
-        if(isInside) {
-            return;
+    string flattenLines(vector<string> lines) {
+        vector<string>::iterator it;
+        string result;
+        for(it = lines.begin(); it != lines.end(); it++) {
+            result.append((*it));
+            result.append(" ");
         }
-        vector<XmlSelector *>::iterator it;
-        for(it = selectors.begin(); it != selectors.end(); it++) {
-            if(currentLine.find((*it)->beginSelector) == std::string::npos) {
-                continue;
-            }
-            currentSelector = (*it);
-            currentLine = eraseBeginSelector();
-            isInside = true;
-            return;
-        }
-    }
-    void lookForEndSelector() {
-        if(!isInside) {
-            return;
-        }
-        if((currentLine.find(currentSelector->endSelector) != std::string::npos)) {
-            currentLine = eraseEndSelector();
-            addResult();
-        }
-    }
-    void endLine() {
-        if(isInside) {
-            contentBuffer += currentLine;
-        }
-    }
-    void addResult() {
-        contentBuffer += currentLine;
-        result.push_back(new XmlParserResult(currentSelector->baseSelector, contentBuffer));
-        contentBuffer = "";
-        isInside = false;
-    }
-    void parseLine() {
-        lookForBeginSelector();
-        lookForEndSelector();
-        endLine();
     }
 public:
-    void addSelector(string selector) {
-        selectors.push_back(new XmlSelector(selector));
-    }
-    void clearSelectors() {
-        selectors.empty();
-    }
-    void deleteSelector(string selector) {}
-    vector<XmlParserResult *> get(vector<string> lines) {
-        resetParser();
-        linesBuffer = lines;
+    vector<XmlParserResult *> load(vector<string> lines) {
         vector<string>::iterator it;
-        for(it = linesBuffer.begin(); it != linesBuffer.end(); it++) {
-            currentLine = (*it);
-            parseLine();
-        }
-        return result;
     }
 };
 

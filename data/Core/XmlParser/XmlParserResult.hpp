@@ -6,9 +6,12 @@ class XmlParserResult
 public:
     string selector;
     string data;
+    vector<XmlParserResult *> children;
+    bool isGroup;
     XmlParserResult(string selector, string data) {
         this->selector = selector;
         this->data = data;
+        this->isGroup = false;
     }
 };
 
