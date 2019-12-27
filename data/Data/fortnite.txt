@@ -1,0 +1,5 @@
+<img>data\Data\fortnitelogo.png</img>
+<label>Fortnite Battle Royale – komputerowa gra wieloosobowa z trybem rozgrywki battle royale opracowana i wydana przez Epic Games w 2017 roku na platformy Windows, macOS, 
+PlayStation 4 i Xbox One oraz w 2018 roku na iOS, Nintendo Switch i Android. Gra jest dystrybuowana za poœrednictwem dystrybucji cyfrowej w modelu free-to-play. 
+Fortnite Battle Royale jest pochodn¹ gry komputerowej Fortnite: Save the World – symulatora przetrwania z mo¿liwoœci¹ tworzenia ró¿nych struktur budowlanych.
+</label>
