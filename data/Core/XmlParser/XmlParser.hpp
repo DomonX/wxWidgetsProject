@@ -25,9 +25,17 @@ private:
             result.append(" ");
         }
     }
+    vector<XmlParserResult *> loadFlat(string line) {
+        int startingPosition = line.find("<");
+        int endingPosition = line.find(">");
+        string sub = line.substr(startingPosition, endingPosition);
+    }
 public:
     vector<XmlParserResult *> load(vector<string> lines) {
-        vector<string>::iterator it;
+        string flattenContent = flattenLines(lines);
+        string buffer = flattenContent;
+        buffer.find("<");
+        buffer.find()
     }
 };
 
