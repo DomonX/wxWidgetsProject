@@ -10,13 +10,6 @@ using namespace std;
 class XmlParser {
 private:
     vector<XmlParserResult *> result;
-    string eraseSelectorSubString(string src, string selector) {
-        size_t pos = src.find(selector);
-        if (pos != std::string::npos){
-            src.erase(pos, selector.length());
-        }
-        return src;
-    }
     string flattenLines(vector<string> lines) {
         vector<string>::iterator it;
         string result;
@@ -24,18 +17,47 @@ private:
             result.append((*it));
             result.append(" ");
         }
+        return result;
     }
     vector<XmlParserResult *> loadFlat(string line) {
-        int startingPosition = line.find("<");
-        int endingPosition = line.find(">");
-        string sub = line.substr(startingPosition, endingPosition);
+        vector<XmlParserResult *> result;
+        string buffer = line;
+        while(true){
+            cout << buffer << endl;
+            int startingPosition = buffer.find("<");
+            if(startingPosition == std::string::npos) {
+                return result;
+            }
+            cout << "START:" << startingPosition << endl;
+            int endingPosition = buffer.find(">");
+            if(endingPosition == std::string::npos) {
+                return result;
+            }
+            cout << "END:" << endingPosition << endl;
+            if(startingPosition+1 > endingPosition -1) {
+                return result;
+            }
+            int newStrLen = endingPosition - startingPosition - 1;
+            string currentSelector = buffer.substr(startingPosition+1, newStrLen);
+            cout << "SEL:" << currentSelector << endl;
+            string endSelector = "</" + currentSelector + ">";
+            int endOfTag = buffer.find(endSelector);
+            int startOfInside = endingPosition + 1;
+            int insideLen = endOfTag - startOfInside;
+            string inside = buffer.substr(startOfInside,insideLen);
+            vector<XmlParserResult *> children = loadFlat(inside);
+            XmlParserResult * temp = new XmlParserResult(currentSelector, inside);
+            temp->children = children;
+            buffer = buffer.substr(endOfTag + endSelector.length() + 1, buffer.length()-1);
+            result.push_back(temp);
+        }
+        return result;
     }
+
 public:
     vector<XmlParserResult *> load(vector<string> lines) {
         string flattenContent = flattenLines(lines);
-        string buffer = flattenContent;
-        buffer.find("<");
-        buffer.find()
+        return loadFlat(flattenContent);
     }
 };
 
