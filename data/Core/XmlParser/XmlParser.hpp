@@ -48,7 +48,7 @@ private:
             vector<XmlParserResult *> children = loadFlat(inside);
             XmlParserResult * temp = new XmlParserResult(currentSelector, inside);
             temp->children = children;
-            buffer = buffer.substr(endOfTag + endSelector.length() + 1, buffer.length()-1);
+            buffer = buffer.substr(endOfTag + endSelector.length(), buffer.length()-1);
             result.push_back(temp);
         }
         return result;

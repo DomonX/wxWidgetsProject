@@ -1,8 +1,0 @@
-<treeItem>
-    <label>Witcher 3</label>
-    <link>Witcher 3</link>
-</treeItem>
-<treeItem>
-    <label>Assasin's Creed Unity</label>
-    <link>Assasin's Creed Unity</link>
-</treeItem>

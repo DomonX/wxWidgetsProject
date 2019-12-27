@@ -7,51 +7,35 @@
 #include "../../Util/wxStringToString.hpp"
 #include "../../Core/XmlFileManager/XmlFileManager.hpp"
 #include "../../Core/Component/dataComponent.hpp"
+#include "../../XMLModels/TreeItemBase.xml.hpp"
 class Tree: public ControlComponent<wxTreeCtrl>, public DataComponent {
 public:
-    map<string, string> items;
-    map<string, string> visibleItems;
+    map<string, TreeItemBaseXml *> items;
+    map<string, TreeItemBaseXml *> visibleItems;
     Tree(wxWindow * parent, string componentID, string label): ControlComponent(parent, componentID) {
         elementRef = new wxTreeCtrl(ownerWindow, elementID, wxDefaultPosition, wxSize(200,200), wxTR_DEFAULT_STYLE, wxDefaultValidator, componentID);
         elementRef->AddRoot(label);
         elementRef->Bind(wxEVT_COMMAND_TREE_ITEM_ACTIVATED, &sendItemClick, this);
-    }
-    void connectSelectors() {
-        dataLoader->addSelector("treeItem");
     }
     void beforeRender() {
         items.clear();
     }
     void renderControl(XmlParserResult * result) {
         if(result->selector == "treeItem") {
-            string label = getTreeItemLabel(result);
-            string link = getTreeItemLabel(result);
-            addItem(label, link);
+            TreeItemBaseXml * temp = buildItem(result);
+            addItem(temp);
         }
     }
-    string getTreeItemLabel(XmlParserResult * result) {
-        vector<XmlParserResult *>::iterator it;
-        XmlParserResult * label = result->lookFor("label");
-        if(!label) {
-            return "";
-        }
-        return label->data;
-    }
-    string getTreeItemLink(XmlParserResult * result) {
-        vector<XmlParserResult *>::iterator it;
-        XmlParserResult * link = result->lookFor("link");
-        if(!link) {
-            return "";
-        }
-        return link->data;
-    }
-    void addItem(string id, string label) {
-        if(items.find(id) != items.end()) {
+    void addItem(TreeItemBaseXml * newItem) {
+        if(items.find(newItem->id) != items.end()) {
             return;
         }
-        items[id] = label;
-        elementRef->AppendItem(elementRef->GetRootItem(), label);
+        items[newItem->id] = newItem;
+        elementRef->AppendItem(elementRef->GetRootItem(), newItem->label);
         elementRef->Expand(elementRef->GetRootItem());
+    }
+    virtual TreeItemBaseXml * buildItem(XmlParserResult * result) {
+        return new TreeItemBaseXml(result);
     }
     void sendItemClick(wxTreeEvent& event) {
         Event * ev = new Event("onTreeItemClick", &event);
@@ -64,24 +48,24 @@ public:
             showAllItems();
             return;
         }
-        map<string, string>::iterator it;
+        map<string, TreeItemBaseXml *>::iterator it;
         for(it = items.begin(); it != items.end(); it++) {
-            if(it->second.find(key)!= std::string::npos) {
+            if(it->second->label.find(key)!= std::string::npos) {
                 visibleItems[it->first] = items[it->first];
             }
         }
         showFilteredItems();
     }
     void showFilteredItems() {
-        map<string, string>::iterator it;
+        map<string, TreeItemBaseXml *>::iterator it;
         for(it = visibleItems.begin(); it != visibleItems.end(); it++) {
-            elementRef->AppendItem(elementRef->GetRootItem(), it->second);
+            elementRef->AppendItem(elementRef->GetRootItem(), it->second->label);
         }
     }
     void showAllItems() {
-        map<string, string>::iterator it;
+        map<string, TreeItemBaseXml *>::iterator it;
         for(it = items.begin(); it != items.end(); it++) {
-            elementRef->AppendItem(elementRef->GetRootItem(), it->second);
+            elementRef->AppendItem(elementRef->GetRootItem(), it->second->label);
         }
     }
     string getSelectedItemID() {
@@ -91,11 +75,24 @@ public:
     void handleEvent(Event * event) {
         ControlComponent::handleEvent(event);
     }
+    virtual string prepareElement(TreeItemBaseXml * item) {
+        string data = "";
+        data += "<label>";
+        data += item->label;
+        data += "</label>";
+        data += "<id>";
+        data += item->id;
+        data += "</id>";
+        data += "<link>";
+        data += item->link;
+        data += "</link>";
+        return data;
+    }
     vector<XmlParserResult *> prepareDataToSave() {
         vector<XmlParserResult *> result;
-        map<string,string>::iterator it;
+        map<string,TreeItemBaseXml *>::iterator it;
         for(it = items.begin(); it != items.end(); it++) {
-            string data = it->second;
+            string data = prepareElement(it->second);
             XmlParserResult * temp = new XmlParserResult("treeItem", data);
             result.push_back(temp);
         }

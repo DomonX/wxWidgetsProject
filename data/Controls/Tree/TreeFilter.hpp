@@ -1,18 +1,17 @@
 #ifndef TREEFILTER_HPP_INCLUDED
 #define TREEFILTER_HPP_INCLUDED
-
 class treeFilter : public VisualComponent {
 public:
     Tree * treeElement;
     TextInput * textElement;
 
-    treeFilter(wxWindow * parent, string componentID, int viewWidth) : VisualComponent(parent, componentID, viewWidth) {
-        prepareChildren();
-    }
+    treeFilter(wxWindow * parent, string componentID, int viewWidth) : VisualComponent(parent, componentID, viewWidth) {}
 
-    void prepareChildren() {
+    void loadSearch() {
         textElement = new TextInput(this->ownerWindow, "Search", "");
         textElement->connect(this);
+    }
+    void loadTree() {
         treeElement = new Tree(this->ownerWindow, "Tree" , "Pages");
         treeElement->connect(this);
     }

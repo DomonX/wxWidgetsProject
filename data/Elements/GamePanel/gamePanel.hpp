@@ -10,10 +10,6 @@ public:
     void handleEvent(Event * event) {
         PanelComponent::handleEvent(event);
     }
-    void connectSelectors() {
-        dataLoader->addSelector("label");
-        dataLoader->addSelector("img");
-    }
     void renderControl(XmlParserResult * result) {
         if(result->selector == "label") {
             addText(result->data);

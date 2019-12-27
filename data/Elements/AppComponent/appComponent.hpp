@@ -33,7 +33,7 @@ public:
         t1 = new treeTest(this->ownerWindow, "treetest", 1);
         t1->connect(this);
 
-        nt = new Notebook(this->ownerWindow, "nt", 1000, 500);
+        nt = new Notebook(this->ownerWindow, "nt", 1000, 800);
         nt->connect(this);
     }
 
@@ -49,11 +49,20 @@ public:
 
     void handleOnTreeItemClick(Event * event) {
         string pageID = t1->treeElement->treeElement->getSelectedItemID();
+        TreeItemBaseXml * treeItem = t1->treeElement->treeElement->items[pageID];
+        if(!treeItem) {
+            return;
+        }
+        TreeItemGameXml * treeItemGame = dynamic_cast<TreeItemGameXml *>(treeItem);
+        if(!treeItemGame) {
+            return;
+        }
+        string link = treeItemGame->link;
         if(nt->pageAlreadyExists(pageID)) {
             return;
         }
         GamePanel * newPanel = new GamePanel(nt->elementRef, pageID);
-        newPanel->connectData(pageID+".txt");
+        newPanel->connectData(link);
         newPanel->loadData();
         nt->addPage(newPanel, pageID);
     }
