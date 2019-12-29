@@ -2,8 +2,7 @@
 #define TREEGAME_HPP_INCLUDED
 
 class TreeGame: public Tree {
-public:
-    TreeGame(wxWindow * parent, string componentID, string label): Tree(parent, componentID, label) {}
+protected:
     void handleEvent(Event * event) {
         Tree::handleEvent(event);
     }
@@ -21,6 +20,15 @@ public:
         data += "</type>";
         return data;
     }
+    virtual bool checkFilter(string key, TreeItemBaseXml * item) {
+        TreeItemGameXml * gameItem = dynamic_cast<TreeItemGameXml *>(item);
+        if(!gameItem) {
+            return false;
+        }
+        return gameItem->type == key;
+    }
+public:
+    TreeGame(wxWindow * parent, string componentID, string label): Tree(parent, componentID, label) {}
 };
 
 #endif // TREEGAME_HPP_INCLUDED

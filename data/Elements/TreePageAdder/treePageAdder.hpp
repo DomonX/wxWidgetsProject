@@ -47,7 +47,7 @@ public:
     }
     void sendAddPage(Event * event) {
         Event * ev = new Event("onAddPage", event->caller);
-        handleEvent(ev);
+        VisualComponent::handleEvent(ev);
     }
     string getLabel() {
         return label->getText();

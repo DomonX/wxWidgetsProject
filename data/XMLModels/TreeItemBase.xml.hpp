@@ -3,7 +3,7 @@
 
 class TreeItemBaseXml {
 public:
-    virtual ~TreeItemBaseXml() = default;
+    virtual ~TreeItemBaseXml() {}
     string label;
     string id;
     string link;

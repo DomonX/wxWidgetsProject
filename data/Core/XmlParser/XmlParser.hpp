@@ -23,25 +23,24 @@ private:
         vector<XmlParserResult *> result;
         string buffer = line;
         while(true){
-            cout << buffer << endl;
-            int startingPosition = buffer.find("<");
+            size_t startingPosition = buffer.find("<");
             if(startingPosition == std::string::npos) {
                 return result;
             }
-            cout << "START:" << startingPosition << endl;
-            int endingPosition = buffer.find(">");
+            size_t endingPosition = buffer.find(">");
             if(endingPosition == std::string::npos) {
                 return result;
             }
-            cout << "END:" << endingPosition << endl;
             if(startingPosition+1 > endingPosition -1) {
                 return result;
             }
             int newStrLen = endingPosition - startingPosition - 1;
             string currentSelector = buffer.substr(startingPosition+1, newStrLen);
-            cout << "SEL:" << currentSelector << endl;
             string endSelector = "</" + currentSelector + ">";
-            int endOfTag = buffer.find(endSelector);
+            size_t endOfTag = buffer.find(endSelector);
+            if(endOfTag == std::string::npos) {
+                return result;
+            }
             int startOfInside = endingPosition + 1;
             int insideLen = endOfTag - startOfInside;
             string inside = buffer.substr(startOfInside,insideLen);

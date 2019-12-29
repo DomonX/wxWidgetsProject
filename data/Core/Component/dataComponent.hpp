@@ -10,7 +10,6 @@ private:
         }
     }
 protected:
-    virtual void connectSelectors() {}
     virtual void beforeRender() {}
     virtual void afterRender() {}
     virtual void renderControl(XmlParserResult *xml) {}
@@ -20,15 +19,14 @@ protected:
     }
     XmlFileManager *dataLoader;
     vector<XmlParserResult *> loaderResult;
-public:
     void render() {
         beforeRender();
         renderComponent();
         afterRender();
     }
+public:
     void connectData(string path) {
         dataLoader = new XmlFileManager(path);
-        connectSelectors();
     }
     void loadData() {
         loaderResult.empty();
