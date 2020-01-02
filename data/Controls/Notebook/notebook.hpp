@@ -3,6 +3,11 @@
 #include "../../Core/Component/panelComponent.hpp"
 #include "wx/aui/aui.h"
 class Notebook : public ControlComponent<wxAuiNotebook> {
+protected:
+    void sendPageClose(wxAuiNotebookEvent& event) {
+        Event * ev = new Event("onNotebookPageClose", &event);
+        handleEvent(ev);
+    }
 public:
     Notebook(wxWindow * parent, string componentID, int width, int height): ControlComponent(parent, componentID) {
         elementRef = new wxAuiNotebook(ownerWindow, elementID, wxDefaultPosition, wxSize(width,height), wxAUI_NB_DEFAULT_STYLE);
@@ -10,10 +15,6 @@ public:
     }
     void handleEvent(Event * event) {
         ControlComponent::handleEvent(event);
-    }
-    void sendPageClose(wxAuiNotebookEvent& event) {
-        Event * ev = new Event("onNotebookPageClose", &event);
-        handleEvent(ev);
     }
     bool pageAlreadyExists(string componentID) {
         if(getChildren(componentID) != NULL) {

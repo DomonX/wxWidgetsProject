@@ -8,17 +8,18 @@
 #include "../../Core/Event/event.hpp"
 #include "../../Util/wxStringToString.hpp"
 class TextInput : public ControlComponent<wxTextCtrl> {
-public:
-    TextInput(wxWindow * parent, string componentID, string label): ControlComponent(parent, componentID) {
-        elementRef = new wxTextCtrl(ownerWindow, elementID, _(label), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, componentID);
-        elementRef->Bind(wxEVT_COMMAND_TEXT_UPDATED, &sendChange, this);
-    }
+protected:
     void handleEvent(Event * event) {
         ControlComponent::handleEvent(event);
     }
     void sendChange(wxCommandEvent& event) {
         Event * ev = new Event("onChange", &event);
         handleEvent(ev);
+    }
+public:
+    TextInput(wxWindow * parent, string componentID, string label): ControlComponent(parent, componentID) {
+        elementRef = new wxTextCtrl(ownerWindow, elementID, _(label), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, componentID);
+        elementRef->Bind(wxEVT_COMMAND_TEXT_UPDATED, &sendChange, this);
     }
     string getText() {
         return wxStringToString(elementRef->GetLineText(0));

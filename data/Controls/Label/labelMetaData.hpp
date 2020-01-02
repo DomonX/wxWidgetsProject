@@ -3,6 +3,13 @@
 
 class LabelMetaData {
 public:
+    LabelMetaData() {
+        parent = NULL;
+        componentID = "";
+        label = "";
+        width = -1;
+        height = -1;
+    }
     wxWindow * parent;
     string componentID;
     string label;

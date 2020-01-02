@@ -1,0 +1,6 @@
+<img>data\Data\horizon 4\horizon4logo.png</img>
+
+<label>Forza Horizon 4 – komputerowa gra wyœcigowa w otwartym œwiecie, wyprodukowana przez brytyjskie studio Playground Games. Gra zosta³a wydana 2 paŸdziernika 2018 r. na Xbox One i Microsoft Windows przez Microsoft Studios. Akcja rozgrywa siê w œwiecie stylizowanym na Wielk¹ Brytaniê.
+Forza Horizon 4 oddaje do dyspozycji gracza rozleg³y otwarty œwiat zawieraj¹cy wirtualne reprezentacje Edynburga, Lake District, Cotswolds oraz innych miejsc. Produkcja oferuje ponad 450 licencjonowanych samochodów do wyboru. Do u¿ytku gracza zosta³ te¿ oddany kreator w³asnych tras wyœcigowych.
+
+W grze jest system pór roku, które zmieniaj¹ siê co okreœlony czas. Ka¿da z nich zmienia rozgrywkê. Na przyk³ad zim¹ zamarzaj¹ jeziora, wiêc gracz zyskuje mo¿liwoœæ dojechania do miejsc niedostêpnych podczas innych pór roku, a jesieni¹ drogi s¹ zazwyczaj mokre, co zmniejsza przyczepnoœæ.</label>

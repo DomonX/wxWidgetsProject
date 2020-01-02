@@ -1,0 +1,3 @@
+<img>data\Data\Smite\smitelogo.png</img>
+
+<label>Smite (stylizowane jako SMITE) – wieloosobowa gra komputerowa z gatunku MOBA, stworzona przez Hi-Rez Studios na platformê Microsoft Windows. Gra zosta³a wydana 25 marca 2014 roku na komputery z systemem Windows. W sierpniu 2015 pojawi³a siê wersja na Xbox One, a 31 maja 2016 odby³a siê premiera na konsolê PlayStation 4. W Smite gracz wciela siê w jednego z kilkudziesiêciu mitycznych bogów i bierze udzia³ w walce na arenie oraz na ró¿nych mapach, gdzie pokonuje przeciwników wykorzystuj¹c umiejêtnoœci taktyczne bohaterów. Przed ukazaniem siê gra wzbudzi³a protesty wyznawców hinduizmu ze wzglêdu na komercyjne u¿ycie symboli religijnych.</label>

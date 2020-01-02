@@ -1,0 +1,6 @@
+<img>data\Data\Witcher 3\Witcher3logo.png</img>
+<label>WiedŸmin 3: Dziki Gon (ang. The Witcher 3: Wild Hunt) – fabularna gra akcji stworzona i wydana przez polskie studio CD Projekt RED 19 maja 2015 na platformy Microsoft Windows, PlayStation 4 i Xbox One[15].
+
+Gra jest kontynuacj¹ wydanego w 2007 roku WiedŸmina oraz WiedŸmina 2: Zabójców królów, który mia³ swoj¹ premierê w 2011 roku. Tak jak poprzednie czêœci, opowiada ona historiê tytu³owego wiedŸmina – Geralta z Rivii – i jest osadzona w œwiecie wiedŸmina, którego twórc¹ jest Andrzej Sapkowski. Produkcja jest ostatni¹ czêœci¹ cyklu, którego g³ównym bohaterem jest tytu³owy wiedŸmin, razem z ni¹ stanowi¹cego trylogiê[16].
+
+Pierwszy zwiastun produkcji zosta³ zaprezentowany na konferencji Microsoftu na targach E3 w czerwcu 2013 roku[17]. Ponadto WiedŸmin 3 zdoby³ tam kilkadziesi¹t nagród oraz nominacji przyznanych przez czasopisma i portale z bran¿y gier komputerowych[18][19]. Wersja na Nintendo Switch zosta³a zapowiedziana na prezentacji przedsiêbiorstwa na targach E3 w 2019 roku. Wersja na konsole przenoœne japoñskiej marki ukaza³a siê 15 paŸdziernika 2019[20].</label>

@@ -1,0 +1,44 @@
+<img>data\Data\Farming simluator\farmlogo.png</img>
+
+<label>Farming Simulator – komputerowa gra symulacyjna szwajcarskiej firmy Giants Software GmbH wydana po raz pierwszy w 2008 roku, bêd¹ca symulatorem pojazdów i maszyn rolniczych. Gra umo¿liwia prowadzenie gospodarstwa rolnego, w tym jazdê ci¹gnikiem rolniczym oraz wykonywanie prac rolniczych. Wed³ug danych producenta wersjê gry z 2011 roku sprzedano w liczbie pó³ miliona egzemplarzy.
+
+Opis gier
+Otwarty silnik, na którym oparta jest produkcja, daje du¿e mo¿liwoœci spo³ecznoœci graczy, którzy tworz¹ dziêki temu nowe maszyny rolnicze dostosowuj¹c i ca³kowicie zmieniaj¹c otoczenie gry. Gra jest ³atwa w moddingu, przez co gracze mog¹ tworzyæ w³asne modyfikacje i dodawaæ je do gry. Symulator Farmy doczeka³ siê wielu edycji, pocz¹wszy od wydanej 14 kwietnia 2008 wersji Symulator Farmy 2008 stworzonej przez studio Giants Software, a koñcz¹c na wydanej 20 listopada 2018 gry Farming Simulator 2019. W 2010 roku do³¹czona zosta³a mo¿liwoœæ rozgrywki przez internet, a tak¿e hodowli zwierz¹t. W Farming Simulator 2013 w rêce graczy zosta³a oddana mo¿liwoœæ gry na serwerach dedykowanych utrzymywanych przez zewnêtrzne firmy – co ciekawe, projekt ten by³ ca³kowicie sfinansowany przez spo³ecznoœæ[6]. W Farming Simulator 17 do dyspozycji oddano kilkaset pojazdów i narzêdzi, w tym 75 licencjonowanych marek.
+
+Pierwszym polskim oficjalnym dystrybutorem zosta³a wroc³awska firma Techland. Najnowsz¹ ods³onê promowa³ ju¿ CD Projekt nie pod nazw¹ Symulator Farmy 2013, a Farming Simulator 2013. Z inicjatywy obecnego polskiego dystrybutora pojawi³a siê specjalna edycja pod tytu³em Farming Simulator 2013: Edycja Ursus, która swoj¹ premierê mia³a 5 maja 2013. Najnowszy pakiet DLC pojawi³ siê na pocz¹tku paŸdziernika 2013 roku pod nazw¹ Farming Simulator 2013 Titanium, który to wprowadza klimat stylizowany na charakterystykê gospodarstw rolnych Stanów Zjednoczonych. Od 4 wrzeœnia 2013 gra dostêpna jest na takie platformy jak Xbox 360 czy PS3.
+
+Paczki DLC dla Farming Simulator 2013
+Zawartoœæ do pobrania dla Farming Simulator 2013:
+
+Darmowe DLC wprowadzaj¹ce klasyczne maszyny
+Dodatek URSUS
+Dodatek Marshall Trailers
+Dodatek Titanium
+Dodatek Väderstad
+Dodatek Linder
+Paczki DLC dla Farming Simulator 15
+Zawartoœæ do pobrania dla Farming Simulator 15:
+
+Poradniki do tworzenia modyfikacji
+Dodatek ITRunner
+Dodatek JCB
+Darmowy dodatek NH Loaders
+Dodatek New Holland
+Dodatek Gold
+Darmowy dodatek Farming Classics
+Dodatek Holmer
+Paczki DLC dla Farming Simulator 17
+FarmCon 16 Media Vault
+Cyfrowy upgrade kolekcjonerski
+Dodatek Kuhn
+Dodatek BigBud
+Dodatek Platinum (14 listopada 2017)
+Dodatek Ropa DLC
+Farming Simulator 19
+W odró¿nieniu od poprzednich tytu³ów z tej serii, gra otrzyma³a unowoczeœniony silnik graficzny z fotorealistyczn¹ grafik¹[11].
+
+W Farming Simulator 19 znajduj¹ siê trzy mapy, w tym Estancia Lapacho z wersji „platinum” gry Farming Simulator 17. Po raz pierwszy w historii serii mo¿na hodowaæ konie i na nich jeŸdziæ. Dodano mo¿liwoœæ uprawy bawe³ny i owsa.
+
+Kolejn¹ nowoœci¹ w serii jest mo¿liwoœæ kupienia terenu i budowy w³asnego gospodarstwa. Jest to mo¿liwe równie¿ w trybie wieloosobowym. Ci¹gniki i inne maszyny rolnicze ulegaj¹ zu¿yciu. Pojawi³y siê te¿ nowe animacje pojazdów.
+
+Zniesiono ograniczenie czasowe misji i udostêpniono je w trybie wielu graczy. Premiera gry odby³a siê 20 listopada 2018. </label>
