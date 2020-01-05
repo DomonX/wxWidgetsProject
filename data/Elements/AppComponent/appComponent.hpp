@@ -37,14 +37,16 @@ public:
         nt->connect(this);
     }
 
-    void handleEvent(Event * event) {
+    bool handleEvent(Event * event) {
         if(event->eventType == "onTreeItemClick") {
             handleOnTreeItemClick(event);
+            return true;
         }
         if(event->eventType == "onNotebookPageClose") {
             handleNotebookPageClose(event);
+            return true;
         }
-        VisualComponent::handleEvent(event);
+        return false;
     }
 
     void handleOnTreeItemClick(Event * event) {

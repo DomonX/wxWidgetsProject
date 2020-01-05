@@ -23,17 +23,16 @@ protected:
         Submit = new Button(this->ownerWindow, "Submit", "Filtruj");
         Submit->connect(this);
     }
-    void handleEvent(Event * event) {
+    bool handleEvent(Event * event) {
         if(event->eventType == "onClick" && event->path.at(0) == "Submit") {
             sendFilter(event);
-            deleteEvent(event);
-            return;
+            return true;
         }
-        VisualComponent::handleEvent(event);
+        return false;
     }
     void sendFilter(Event * event) {
         Event * ev = new Event("onFilter", event->caller);
-        VisualComponent::handleEvent(ev);
+        processEvent(ev);
     }
 public:
     Checkbox * RPG;

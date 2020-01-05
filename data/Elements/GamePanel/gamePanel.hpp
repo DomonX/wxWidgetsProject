@@ -7,9 +7,6 @@
 class GamePanel : public PanelComponent, public DataComponent {
 public:
     GamePanel(wxWindow * parent, string componentID) : PanelComponent(parent, componentID), DataComponent() {}
-    void handleEvent(Event * event) {
-        PanelComponent::handleEvent(event);
-    }
     void renderControl(XmlParserResult * result) {
         if(result->selector == "label") {
             addText(result->data);

@@ -6,15 +6,12 @@ class Notebook : public ControlComponent<wxAuiNotebook> {
 protected:
     void sendPageClose(wxAuiNotebookEvent& event) {
         Event * ev = new Event("onNotebookPageClose", &event);
-        handleEvent(ev);
+        processEvent(ev);
     }
 public:
     Notebook(wxWindow * parent, string componentID, int width, int height): ControlComponent(parent, componentID) {
         elementRef = new wxAuiNotebook(ownerWindow, elementID, wxDefaultPosition, wxSize(width,height), wxAUI_NB_DEFAULT_STYLE);
         elementRef->Bind(wxEVT_AUINOTEBOOK_PAGE_CLOSE, &sendPageClose, this);
-    }
-    void handleEvent(Event * event) {
-        ControlComponent::handleEvent(event);
     }
     bool pageAlreadyExists(string componentID) {
         if(getChildren(componentID) != NULL) {

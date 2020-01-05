@@ -2,13 +2,13 @@
 #define TREEFILTER_HPP_INCLUDED
 class treeFilter : public VisualComponent {
 protected:
-    void handleEvent(Event * event) {
+    bool handleEvent(Event * event) {
         if(event->eventType == "onChange") {
             handleOnChange(event);
             deleteEvent(event);
-            return;
+            return true;
         }
-        VisualComponent::handleEvent(event);
+        return false;
     }
     void handleOnChange(Event * event) {
         if(event->path.at(0) == "Search") {

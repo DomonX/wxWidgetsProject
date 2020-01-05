@@ -29,14 +29,16 @@ public:
         treeElement->treeElement = new TreeGame(treeElement->ownerWindow, "Tree" , "Pages");
         treeElement->treeElement->connect(treeElement);
     }
-    void handleEvent(Event * event) {
+    bool handleEvent(Event * event) {
         if(event->eventType == "onAddPage") {
             handlePageAdd(event);
+            return true;
         }
         if(event->eventType == "onFilter") {
             handleFilter(event);
+            return true;
         }
-        VisualComponent::handleEvent(event);
+        return false;
     }
     void handlePageAdd(Event * event) {
         TreeItemGameXml * temp = new TreeItemGameXml();

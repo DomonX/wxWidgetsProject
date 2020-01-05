@@ -9,9 +9,6 @@ public:
     ControlComponent(wxWindow *parent, string componentID) : VisualComponent(parent, componentID, 1) {
         elementID = wxNewId();
     }
-    void handleEvent(Event *event) {
-        VisualComponent::handleEvent(event);
-    }
     void connect(VisualComponent *parentComponent) {
         parentComponent->addChildren(this);
         view->sizer->Add(elementRef, 1, wxALL | wxALIGN_CENTER_HORIZONTAL | wxALIGN_CENTER_VERTICAL, 5);

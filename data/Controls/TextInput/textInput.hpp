@@ -9,12 +9,9 @@
 #include "../../Util/wxStringToString.hpp"
 class TextInput : public ControlComponent<wxTextCtrl> {
 protected:
-    void handleEvent(Event * event) {
-        ControlComponent::handleEvent(event);
-    }
     void sendChange(wxCommandEvent& event) {
         Event * ev = new Event("onChange", &event);
-        handleEvent(ev);
+        processEvent(ev);
     }
 public:
     TextInput(wxWindow * parent, string componentID, string label): ControlComponent(parent, componentID) {

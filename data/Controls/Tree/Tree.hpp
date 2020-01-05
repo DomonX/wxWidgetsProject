@@ -25,9 +25,6 @@ protected:
             visibleItems[it->first] = items[it->first];
         }
     }
-    void handleEvent(Event * event) {
-        ControlComponent::handleEvent(event);
-    }
     virtual string prepareElement(TreeItemBaseXml * item) {
         string data = "";
         data += "<label>";
@@ -43,7 +40,7 @@ protected:
     }
     void sendItemClick(wxTreeEvent& event) {
         Event * ev = new Event("onTreeItemClick", &event);
-        handleEvent(ev);
+        processEvent(ev);
     }
     vector<XmlParserResult *> prepareDataToSave() {
         vector<XmlParserResult *> result;

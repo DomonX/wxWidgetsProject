@@ -11,9 +11,6 @@ public:
     Image(wxWindow * parent, string componentID, string path): ControlComponent(parent, componentID) {
         elementRef = new wxStaticBitmap(ownerWindow, elementID, wxBitmap(wxImage(path)), wxDefaultPosition, wxDefaultSize, wxSIMPLE_BORDER, componentID);
     }
-    void handleEvent(Event * event) {
-        ControlComponent::handleEvent(event);
-    }
 };
 
 #endif // IMAGE_HPP_INCLUDED

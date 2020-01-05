@@ -11,12 +11,9 @@ public:
         elementRef = new wxButton(ownerWindow, elementID, _(label), wxPoint(0,0), wxDefaultSize, 0, wxDefaultValidator, componentID);
         elementRef->Bind(wxEVT_COMMAND_BUTTON_CLICKED, &sendClick, this);
     }
-    void handleEvent(Event * event) {
-        ControlComponent::handleEvent(event);
-    }
     void sendClick(wxCommandEvent& event) {
         Event * ev = new Event("onClick", &event);
-        handleEvent(ev);
+        processEvent(ev);
     }
 };
 

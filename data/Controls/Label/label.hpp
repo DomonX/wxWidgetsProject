@@ -21,9 +21,6 @@ public:
           metaData->componentID);
           elementRef->Wrap(metaData->width);
     }
-    void handleEvent(Event * event) {
-        ControlComponent::handleEvent(event);
-    }
 };
 
 #endif // LABEL_HPP_INCLUDED

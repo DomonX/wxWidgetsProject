@@ -23,9 +23,6 @@ public:
         parentComponent->addChildren(this);
         parentComponent->view->sizer->Add(view->sizer, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
     }
-    void handleEvent(Event * event) {
-        Component::handleEvent(event);
-    }
     void connectWxWindowToSizer() {
         ownerWindow->SetSizer(view->sizer);
         view->sizer->Fit(ownerWindow);

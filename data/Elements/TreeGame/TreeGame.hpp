@@ -3,9 +3,6 @@
 
 class TreeGame: public Tree {
 protected:
-    void handleEvent(Event * event) {
-        Tree::handleEvent(event);
-    }
     TreeItemBaseXml * buildItem(XmlParserResult * result) {
         return new TreeItemGameXml(result);
     }

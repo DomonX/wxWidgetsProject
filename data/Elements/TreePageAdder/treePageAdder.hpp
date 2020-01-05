@@ -27,13 +27,13 @@ public:
         buttonElement = new Button(this->ownerWindow, "Submit", "Add Page");
         buttonElement->connect(this);
     }
-    void handleEvent(Event * event) {
+    bool handleEvent(Event * event) {
         if(event->eventType == "onClick" && event->path.at(0) == "Submit") {
             sendAddPage(event);
             deleteEvent(event);
-            return;
+            return true;
         }
-        VisualComponent::handleEvent(event);
+        return false;
     }
     void addLabelForControl(string label, string id) {
         LabelMetaData * lbMD = new LabelMetaData();
@@ -47,7 +47,7 @@ public:
     }
     void sendAddPage(Event * event) {
         Event * ev = new Event("onAddPage", event->caller);
-        VisualComponent::handleEvent(ev);
+        processEvent(ev);
     }
     string getLabel() {
         return label->getText();

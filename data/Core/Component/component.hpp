@@ -22,7 +22,14 @@ public:
     virtual void deleteEvent(Event * event) {
         free(event);
     }
-    virtual void handleEvent(Event * event) {
+    virtual bool handleEvent(Event * event) {
+        return false;
+    }
+    virtual void catchEvent(Event * event) {
+        if(handleEvent(event)) {
+            deleteEvent(event);
+            return;
+        }
         if(parent == NULL) {
             deleteEvent(event);
             return;
@@ -36,7 +43,7 @@ public:
     }
     void processEvent(Event * event) {
         event->path.push_back(componentID);
-        parent->handleEvent(event);
+        parent->catchEvent(event);
     }
     void addChildren(Component * newComponent) {
         newComponent->parent = this;

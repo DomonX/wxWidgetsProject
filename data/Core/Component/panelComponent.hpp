@@ -17,9 +17,6 @@ public:
         this->elementRef->SetScrollRate(5, 5);
         refreshPanel();
     }
-    void handleEvent(Event * event) {
-        VisualComponent::handleEvent(event);
-    }
     void prepareChildren() {}
     void refreshPanel() {
         elementRef->SetSizer(view->sizer);
