@@ -22,7 +22,6 @@ protected:
         Other->connect(this);
         Submit = new Button(this->ownerWindow, "Submit", "Filtruj");
         Submit->connect(this);
-
     }
     void handleEvent(Event * event) {
         if(event->eventType == "onClick" && event->path.at(0) == "Submit") {
