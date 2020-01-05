@@ -3,34 +3,41 @@
 #include "../XmlParser/XmlParser.hpp"
 #include "../FileLoader/FileLoader.hpp"
 #include "../FileSaver/FileSaver.hpp"
+#include "../XmlParser/XmlSelector.hpp"
 class XmlFileManager {
 private:
     XmlParser *xml;
-    FileLoader *file;
-    FileSaver *fileS;
+    FileLoader *fileOut;
+    FileSaver *fileIn;
 
 public:
     XmlFileManager(string dataPath) {
         xml = new XmlParser();
-        file = new FileLoader(dataPath);
-        fileS = new FileSaver(dataPath);
+        fileOut = new FileLoader(dataPath);
+        fileIn = new FileSaver(dataPath);
     }
     vector<XmlParserResult *> get() {
-        vector<string> lines = file->get();
+        vector<string> lines = fileOut->get();
         return xml->load(lines);
     }
-    void set(vector<XmlParserResult *> lines) {
-        vector<XmlParserResult *>::iterator it;
-        vector<string> stringLines;
-        for (it = lines.begin(); it != lines.end(); it++) {
-            string temp;
-            temp.append("<" + (*it)->selector + ">");
+string set(vector<XmlParserResult *> lines) {
+    vector<XmlParserResult *>::iterator it;
+    vector<string> stringLines;
+    for (it = lines.begin(); it != lines.end(); it++) {
+        XmlSelector * sel = new XmlSelector((*it)->selector);
+        string temp;
+        temp.append(sel->beginSelector);
+        if((*it)->children.empty()) {
             temp.append((*it)->data);
-            temp.append("</" + (*it)->selector + ">");
-            stringLines.push_back(temp);
+        } else {
+            temp.append(set((*it)->children));
         }
-        fileS->set(stringLines);
+        temp.append(sel->endSelector);
+        stringLines.push_back(temp);
     }
+    fileIn->set(stringLines);
+    return xml->flattenLines(stringLines);
+}
 };
 
 #endif // XMLFILEMANAGER_H_INCLUDED

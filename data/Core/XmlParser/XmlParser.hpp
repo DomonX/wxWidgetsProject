@@ -3,50 +3,42 @@
 
 #include <vector>
 #include "XmlParserResult.hpp"
+#include "XmlSelector.hpp"
 
 using namespace std;
 
 class XmlParser {
 private:
-    string flattenLines(vector<string> lines) {
-        vector<string>::iterator it;
-        string result;
-        for(it = lines.begin(); it != lines.end(); it++) {
-            result.append((*it));
-            result.append(" ");
-        }
-        return result;
-    }
     vector<XmlParserResult *> loadFlat(string line) {
         vector<XmlParserResult *> result;
         string buffer = line;
         while(true){
-            size_t startingPosition = buffer.find("<");
-            if(startingPosition == std::string::npos) {
+            size_t startSelectorBegin = buffer.find("<");
+            if(startSelectorBegin == std::string::npos) {
                 return result;
             }
-            size_t endingPosition = buffer.find(">");
-            if(endingPosition == std::string::npos) {
+            size_t startSelectorEnd = buffer.find(">");
+            if(startSelectorEnd == std::string::npos) {
                 return result;
             }
-            if(startingPosition+1 > endingPosition -1) {
+            if(startSelectorBegin+1 > startSelectorEnd -1) {
                 return result;
             }
-            int selectorLen = endingPosition - startingPosition - 1;
-            string currentSelector = buffer.substr(startingPosition+1, selectorLen);
-            string endSelector = "</" + currentSelector + ">";
-            size_t endOfTag = buffer.find(endSelector);
-            if(endOfTag == std::string::npos) {
+            int startSelectorLen = startSelectorEnd - startSelectorBegin - 1;
+            XmlSelector * sel = new XmlSelector(buffer.substr(startSelectorBegin+1, startSelectorLen));
+            size_t endSelectorBegin = buffer.find(sel->endSelector);
+            if(endSelectorBegin == std::string::npos) {
                 return result;
             }
-            int startOfInside = endingPosition + 1;
-            int insideLen = endOfTag - startOfInside;
+            size_t startOfInside = startSelectorEnd + 1;
+            int insideLen = endSelectorBegin - startOfInside;
             string inside = buffer.substr(startOfInside,insideLen);
             vector<XmlParserResult *> children = loadFlat(inside);
-            XmlParserResult * temp = new XmlParserResult(currentSelector, inside);
+            XmlParserResult * temp = new XmlParserResult(sel->baseSelector, inside);
             temp->children = children;
-            buffer = buffer.substr(endOfTag + endSelector.length(), buffer.length()-1);
+            buffer = buffer.substr(endSelectorBegin + sel->endSelector.length(), buffer.length()-1);
             result.push_back(temp);
+            free(sel);
         }
         return result;
     }
@@ -55,6 +47,15 @@ public:
     vector<XmlParserResult *> load(vector<string> lines) {
         string flattenContent = flattenLines(lines);
         return loadFlat(flattenContent);
+    }
+    string flattenLines(vector<string> lines) {
+        vector<string>::iterator it;
+        string result;
+        for(it = lines.begin(); it != lines.end(); it++) {
+            result.append((*it));
+            result.append(" ");
+        }
+        return result;
     }
 };
 

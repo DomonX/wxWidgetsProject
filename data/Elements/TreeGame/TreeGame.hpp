@@ -6,16 +6,18 @@ protected:
     TreeItemBaseXml * buildItem(XmlParserResult * result) {
         return new TreeItemGameXml(result);
     }
-    string prepareElement(TreeItemBaseXml * item) {
-        string data = Tree::prepareElement(item);
+    XmlParserResult * prepareElement(TreeItemBaseXml * item) {
+        XmlParserResult * treeElement = Tree::prepareElement(item);
         TreeItemGameXml * gameItem = dynamic_cast<TreeItemGameXml *>(item);
         if(!item) {
-            return data;
+            return treeElement;
         }
-        data += "<type>";
-        data += gameItem->type;
-        data += "</type>";
-        return data;
+        treeElement->data += "<type>";
+        treeElement->data += gameItem->type;
+        treeElement->data += "</type>";
+        XmlParserResult * type = new XmlParserResult("type", gameItem->type);
+        treeElement->children.push_back(type);
+        return treeElement;
     }
     virtual bool checkFilter(string key, TreeItemBaseXml * item) {
         TreeItemGameXml * gameItem = dynamic_cast<TreeItemGameXml *>(item);

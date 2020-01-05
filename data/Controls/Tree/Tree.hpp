@@ -25,7 +25,7 @@ protected:
             visibleItems[it->first] = items[it->first];
         }
     }
-    virtual string prepareElement(TreeItemBaseXml * item) {
+    virtual XmlParserResult * prepareElement(TreeItemBaseXml * item) {
         string data = "";
         data += "<label>";
         data += item->label;
@@ -36,7 +36,14 @@ protected:
         data += "<link>";
         data += item->link;
         data += "</link>";
-        return data;
+        XmlParserResult * temp = new XmlParserResult("treeItem", data);
+        XmlParserResult * label = new XmlParserResult("label", item->label);
+        temp->children.push_back(label);
+        XmlParserResult * id = new XmlParserResult("id", item->id);
+        temp->children.push_back(id);
+        XmlParserResult * link = new XmlParserResult("link", item->link);
+        temp->children.push_back(link);
+        return temp;
     }
     void sendItemClick(wxTreeEvent& event) {
         Event * ev = new Event("onTreeItemClick", &event);
@@ -46,8 +53,7 @@ protected:
         vector<XmlParserResult *> result;
         map<string,TreeItemBaseXml *>::iterator it;
         for(it = items.begin(); it != items.end(); it++) {
-            string data = prepareElement(it->second);
-            XmlParserResult * temp = new XmlParserResult("treeItem", data);
+            XmlParserResult * temp = prepareElement(it->second);
             result.push_back(temp);
         }
         return result;
