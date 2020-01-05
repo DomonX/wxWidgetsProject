@@ -6,14 +6,14 @@
 
 class VisualComponent : public Component {
 public:
-    View * view;
     wxWindow * ownerWindow;
+    View * view;
     VisualComponent(wxWindow * parentWindow, string componentID, int viewWidth) : Component(componentID) {
         setOwnerWindow(parentWindow);
         createView(viewWidth);
     }
     VisualComponent(string componentID) : Component(componentID) {}
-    void setOwnerWindow(wxWindow * parentWindow) {
+    virtual void setOwnerWindow(wxWindow * parentWindow) {
         this->ownerWindow = parentWindow;
     }
     void createView(int viewWidth) {

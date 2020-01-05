@@ -14,12 +14,12 @@ public:
         elementRef = new wxStaticText(
           ownerWindow,
           elementID,
-          _(metaData->label),
+          metaData->label,
           wxDefaultPosition,
           wxSize(metaData->width, metaData->height),
           0,
           metaData->componentID);
-          elementRef->Wrap(metaData->width);
+        elementRef->Wrap(metaData->width);
     }
 };
 

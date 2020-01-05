@@ -13,6 +13,13 @@ class Component {
 private:
     Component * parent;
     string componentID;
+    void catchEvent(Event * event) {
+        if(handleEvent(event)) {
+            deleteEvent(event);
+            return;
+        }
+        processEvent(event);
+    }
 public:
     map<string, Component *> children;
     Component(string componentID) {
@@ -25,23 +32,16 @@ public:
     virtual bool handleEvent(Event * event) {
         return false;
     }
-    virtual void catchEvent(Event * event) {
-        if(handleEvent(event)) {
-            deleteEvent(event);
-            return;
-        }
-        if(parent == NULL) {
-            deleteEvent(event);
-            return;
-        }
-        processEvent(event);
-    }
     virtual ~Component(){}
     virtual void deleteComponent() {}
     string getComponentID() {
         return componentID;
     }
     void processEvent(Event * event) {
+        if(parent == NULL) {
+            deleteEvent(event);
+            return;
+        }
         event->path.push_back(componentID);
         parent->catchEvent(event);
     }

@@ -4,21 +4,20 @@
 template <class T>
 class ControlComponent : public VisualComponent {
 public:
-    T *elementRef;
-    long elementID;
-    ControlComponent(wxWindow *parent, string componentID) : VisualComponent(parent, componentID, 1) {
-        elementID = wxNewId();
-    }
-    void connect(VisualComponent *parentComponent) {
-        parentComponent->addChildren(this);
-        view->sizer->Add(elementRef, 1, wxALL | wxALIGN_CENTER_HORIZONTAL | wxALIGN_CENTER_VERTICAL, 5);
-        parentComponent->view->sizer->Add(view->sizer, 1, wxALL | wxALIGN_CENTER_HORIZONTAL | wxALIGN_CENTER_VERTICAL, 5);
-    }
-    void deleteComponent() {
-        VisualComponent::deleteComponent();
-        elementRef->Destroy();
-        delete (this);
-    }
+T *elementRef;
+long elementID;
+ControlComponent(wxWindow *parent, string componentID) : VisualComponent(parent, componentID, 1) {
+    elementID = wxNewId();
+}
+void connect(VisualComponent *parentComponent) {
+    parentComponent->addChildren(this);
+    view->sizer->Add(elementRef, 1, wxALL | wxALIGN_CENTER_HORIZONTAL | wxALIGN_CENTER_VERTICAL, 5);
+    parentComponent->view->sizer->Add(view->sizer, 1, wxALL | wxALIGN_CENTER_HORIZONTAL | wxALIGN_CENTER_VERTICAL, 5);
+}
+void deleteComponent() {
+    elementRef->Destroy();
+    VisualComponent::deleteComponent();
+}
 };
 
 #endif // CONTROLCOMPONENT_HPP_INCLUDED

@@ -3,13 +3,11 @@
 
 #include <vector>
 #include "XmlParserResult.hpp"
-#include "XmlSelector.hpp"
 
 using namespace std;
 
 class XmlParser {
 private:
-    vector<XmlParserResult *> result;
     string flattenLines(vector<string> lines) {
         vector<string>::iterator it;
         string result;
@@ -34,8 +32,8 @@ private:
             if(startingPosition+1 > endingPosition -1) {
                 return result;
             }
-            int newStrLen = endingPosition - startingPosition - 1;
-            string currentSelector = buffer.substr(startingPosition+1, newStrLen);
+            int selectorLen = endingPosition - startingPosition - 1;
+            string currentSelector = buffer.substr(startingPosition+1, selectorLen);
             string endSelector = "</" + currentSelector + ">";
             size_t endOfTag = buffer.find(endSelector);
             if(endOfTag == std::string::npos) {
