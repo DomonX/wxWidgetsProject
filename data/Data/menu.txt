@@ -2,3 +2,12 @@
 <treeItem><label>Somsiedzi</label><id>Somsiedzi</id><link>s.txt</link><type>Other</type></treeItem>
 <treeItem><label>Witcher 2</label><id>Witcher 2</id><link>Witcher 2/w2.txt</link><type>RPG</type></treeItem>
 <treeItem><label>Witcher 3</label><id>Witcher 3</id><link>Witcher 3/w3.txt</link><type>RPG</type></treeItem>
+<treeItem><label>Horizon 4</label><id>Horizon 4</id><link>horizon 4/h4.txt</link><type>Race</type></treeItem>
+<treeItem><label>Fortnite</label><id>Fortnite</id><link>Fortnite/fortnite.txt</link><type>Action</type></treeItem>
+<treeItem><label>Smite</label><id>Smite</id><link>Smite/smite.txt</link><type>MMORPG</type></treeItem>
+<treeItem><label>Battlefield 3</label><id>Battlefield 3</id><link>Battlefield 3/b3.txt</link><type>FPS</type></treeItem>
+<treeItem><label>Battlefield 4</label><id>Battlefield 4</id><link>Battlefield 4/b4.txt</link><type>FPS</type></treeItem>
+<treeItem><label>Battlefield 1</label><id>Battlefield 1</id><link>Battlefield 1/b1.txt</link><type>FPS</type></treeItem>
+<treeItem><label>Battlefield Hardline</label><id>Battlefield Hardline</id><link>Battlefield Hardline/bh.txt</link><type>FPS</type></treeItem>
+<treeItem><label>Farming simulator</label><id>Farming simulator</id><link>Farming simluator/farm.txt</link><type>Simulation</type></treeItem>
+<treeItem><label>Civilization 5</label><id>Civilization 5</id><link>Civilization 5/civka.txt</link><type>Strategy</type></treeItem>

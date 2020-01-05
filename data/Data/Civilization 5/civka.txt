@@ -1,0 +1,20 @@
+<img>data\Data\Civilization 5\civkalogo.png</img>
+
+
+<label>Sid Meier's Civilization V – turowa gra strategiczna z serii gier Civilization, której premiera mia³a miejsce 21 wrzeœnia 2010 w Stanach Zjednoczonych, a 24 wrzeœnia 2010 w Polsce.
+
+Redakcja magazynu PC Gamer UK w 2015 roku przyzna³a grze 37. miejsce na liœcie najlepszych gier na PC.
+
+Zmiany wzglêdem poprzedniej czêœci
+Zast¹piono pola kwadratowe heksagonalnymi. Na jednym polu mo¿e znajdowaæ siê w danym momencie tylko jedna jednostka. £ucznicy i artyleria mog¹ prowadziæ ostrza³ oddzia³ów oddalonych o wiêcej ni¿ jedno pole. Zlikwidowano handel technologiami, ale bêdzie mo¿na je opracowywaæ razem z innymi cywilizacjami. Dodano mo¿liwoœæ handlowania w³asnymi terenami. Mo¿liwe jest tak¿e kupno ziemi przed uprzednim rozroœniêciem siê pañstwa.
+Aktualizacje gry (w tym wersja polska) s¹ dostêpne wy³¹cznie na platformie Steam oraz Mac App Store.
+
+
+Cywilizacje i przywódcy
+Dostêpnych jest 18 cywilizacji, z których ka¿da ma swojego lidera, unikaln¹ jednostkê, budynek i zdolnoœci. To pierwsza ods³ona serii, w której przywódcy mówi¹ w swoim ojczystym jêzyku.
+
+Rozszerzenia
+19 czerwca 2012 wydane zosta³o rozszerzenie do gry zatytu³owane Civilization V: Bogowie i królowie. Rozszerzenie wzbogaca grê o nowe technologie, jednostki, budynki i cuda œwiata. Wprowadza 9 nowych cywilizacji: Kartaginê, Szwecjê, Holandiê, Hiszpaniê, Celtów, Majów, Hunów, Bizancjum i Austriê. W mechanice gry pojawia siê religia, nowe mo¿liwoœci daje dyplomacja.
+
+12 lipca 2013 Firaxis wyda³o drugie rozszerzenie do gry pod tytu³em Civilization V: Nowy wspania³y œwiat. Rozszerzenie wprowadza kolejne 9 nowych cywilizacji: Polskê pod przywództwem Kazimierza III Wielkiego, Zulusów, Wenecjê, Asyriê, Szoszonów, Indonezjê, Maroko, Portugaliê i Brazyliê. Mechanika wzbogacona jest o zgromadzenie miêdzynarodowe, miêdzynarodowe szlaki handlowe oraz zmianê w zasadach zwyciêstwa kulturowego.</label>
+

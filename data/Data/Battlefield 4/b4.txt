@@ -1,0 +1,32 @@
+<img>data\Data\Battlefield 4\bf4logo.png</img>
+
+<label> Battlefield 4 – gra komputerowa z gatunku first-person shooter stworzona przez EA Digital Illusions CE. Tytu³ zosta³ wydany przez Electronic Arts na komputery PC oraz konsole PlayStation 3 i Xbox 360 31 paŸdziernika 2013 roku. Pod koniec listopada wydano grê na konsole nowej generacji – PlayStation 4 i Xbox One. Gra jest kolejn¹ czêœci¹ serii Battlefield. 27 grudnia 2013 roku chiñskie ministerstwo kultury og³osi³o zakaz sprzeda¿y gry w tym kraju.
+Fabu³a
+Fabu³a gry rozpoczyna siê w roku 2020, szeœæ lat po wydarzeniach z gry Battlefield 3. Gracz wciela siê w postaæ Daniela Reckera, cz³onka specjalnego oddzia³u amerykañskiego „Grabarze”. Do za³ogi oddzia³u nale¿¹: lider dru¿yny Dunn, drugi dowódca Kimble „Irish” Graves oraz ratownik Clayton „Pac” Pakowski. Fabu³a kampanii jednoosobowej jest rozgrywana m.in. na terytorium Chiñskiej Republiki Ludowej. Gracz spotyka osoby takie jak Chinka Hannah, znany z poprzedniej czêœci Dima Majakowski, kandydat na prezydenta Chin Jin Jie, agent CIA Lazlo Kovic i kapitan Garrison dowodz¹cy amerykañskim okrêtem USS Walkiria.
+
+Akcja gry rozpoczyna siê w mieœcie Baku w Azerbejd¿anie, gdzie oddzia³ Grabarzy przej¹³ dane wywiadowcze. Po ich zdobyciu ¿o³nierze mieli ewakuowaæ siê helikopterem na statek USS Walkiria, jednak atakuj¹cy ich rosyjski œmig³owiec doprowadzi³ do œmierci dowódcy oddzia³u, sier¿anta Dunna. Po tym wydarzeniu dowództwo nad oddzia³em Grabarzy przej¹³ sier¿ant Recker. Nastêpnym zadaniem dru¿yny, tym razem bez Dunna, jest uratowanie kilku VIP-ów z budynku Zhi You Towers w Szanghaju. Kolejne misje rozgrywane s¹ kolejno: na pok³adzie okrêtu USS Walkiria na Morzu Po³udniowochiñskim, gdzie bohater przejmuje informacje z ton¹cego okrêtu USS Tytan; w Singapurze, szturmuj¹c chiñskie lotnisko (bohater trafia do niewoli); Górach Kunlun, sk¹d protagonista ucieka. Bohater trafia do Taszgaru, gdzie niszczy zaporê kontrolowan¹ przez Rosjan. W ostatniej misji gracz pokonuje g³ównego antagonistê – Changa.
+
+Rozgrywka
+Tryb wieloosobowy oferuje trzy grywalne frakcje: USA, Chiny i Rosjê oraz do³¹czenie do serwerów z maksymalnie 64 graczami(na konsolach starszej generacji 24 graczy. Do nowoœci w trybie gry wieloosobowej mo¿na zaliczyæ powrót „trybu dowódcy”. Po raz pierwszy zadebiutowa³ wczeœniej w Battlefield 2, jednak w kolejnych ods³onach gry zosta³ wycofany. Dostêpne tryby rozgrywki wieloosobowej to: podbój (Conquest), szturm (Rush), zespo³owy deathmatch(Team DM), unicestwienie (Obliteration), neutralizacja (Defuse), dru¿ynowy DM (Squad DM), dominacja (Domination), podbój – bitwa powietrzna (Conquest Air Superiority), zdob¹dŸ flagê (Capture The Flag), dowódca (Commander). Tryb bitwy powietrznej jest dostêpny jedynie dla graczy ze statusem premium i osób, które zakupi³y ten dodatek. Tryb gry wieloosobowej zapewnia rozwój wirtualnego ¿o³nierza do 140 poziomu doœwiadczenia.
+
+Do dyspozycji gracz otrzymuje wiele rodzajów broni palnej, granatów i no¿y. Do broni palnej mo¿na tak¿e dodaæ ró¿ne akcesoria tj. celowniki, akcesoria podwieszane, oraz kamufla¿e. Dostêpne s¹ tak¿e barwy maskuj¹ce.
+
+W panelu zarz¹dzania ¿o³nierzem, postaæ dostaje osiem slotów do zagospodarowania dodatkami: broñ g³ówna, broñ druga (podrêczna), dwa gad¿ety, granaty, nó¿, specjalizacja, kamufla¿. Do pierwszych dwóch zosta³y jeszcze dodane trzy podrzêdne sloty na akcesoria.
+
+W wersji wieloosobowej bez dodatków mo¿liwe jest zagranie na dziesiêciu mapach.
+
+Silnik Frostbite 3 jest oparty o API Microsoft DirectX 11, dodatkowo wykorzystuje technologiê AMD Mantle. 30 stycznia 2014 roku ukaza³a siê aktualizacja wprowadzaj¹ca obs³ugê Mantle do Battlefield 4, co razem z odpowiednimi sterownikami przynios³o znaczny wzrost wydajnoœci na komputerach dysponuj¹cych s³abymi procesorami.
+
+
+DLC
+
+Chiñska nawa³nica (China Rising) to pierwszy dodatek, zosta³ udostêpniony 4 grudnia dla graczy premium lub osób które zamówi³y grê w przedsprzeda¿y[34], natomiast dla wszystkich zosta³ udostêpniony 17 grudnia. Dodatek dodaje tryb rozgrywki Bitwa Powietrzna, piêæ nowych broni, 10 misji oraz 4 nowe mapy.
+
+Drugi dodatek, który zosta³ wydany 4 marca 2014. Drugie uderzenie (Second Assault) rozszerza grê o tryb „zdob¹dŸ flagê” oraz dodaje cztery najpopularniejsze mapy z poprzedniej czêœci w odœwie¿onej wersji, a s¹ to, Operation Metro 2014 (Operacja Metro 2014), Caspian Border 2014 (Kaspijska Granica 2014), Gulf of Oman 2014 (Zatoka Omañska 2014), Operation Firestorm 2014 (Operacja Pustynna Burza 2014). Oprócz tego dodatek oferuje piêæ nowych rodzajów broni, dziesiêæ nowych zadañ oraz pojazd typu buggy[37].
+
+Wojna na morzu (Naval Strike) to dodatek wydany 15 kwietnia 2014. Gracze „premium” maj¹ mo¿liwoœæ grania od 31 marca 2014. W dodatku znajduje siê nowy tryb – „Carrier Assault” (w Battlefield 2142 zwa³ siê „Titan”), piêæ nowych broni, nowy pojazd (poduszkowiec), dwa nowe gad¿ety (wyrzutnia granatów 3GL i mina przeciwlotnicza) oraz cztery nowe mapy.
+
+Zêby smoka (Dragon's Teeth) zosta³ wydany 29 lipca 2014 roku, a gracze „premium” uzyskali do niego dostêp 15 lipca 2014. DLC zawiera piêæ nowych rodzajów broni oraz gad¿et w postaci tarczy balistycznej. Pojawi³ siê tak¿e nowy tryb o nazwie „sprzê¿enie”, który bêdzie mia³ podobne zasady co tryb „podbój” – gracze bêd¹ musieli przej¹æ wszystkie punkty kontrolne wroga, by odnieœæ zwyciêstwo. Ponadto DLC zawiera dziesiêæ nowych zadañ oraz nowy, zdalnie sterowany pojazd bojowy „R.A.W.R.”. Dodane zostan¹ tak¿e cztery nowe mapy[39][40].
+
+Wydanie DLC Ostateczna Rozgrywka (ang. Final Stand) planowane by³o na okres letni 2014 roku, jednak data premiery zosta³a przesuniêta na bli¿ej nieokreœlon¹ w okresie jesieni 2014 roku, a póŸniej ustalona na 18 listopada 2014 roku dla graczy Premium, a dla pozosta³ych graczy 4 grudnia 2014. Wraz z premier¹ dodatku dla graczy Premium wydano du¿¹ aktualizacjê poprawiaj¹c¹ szereg b³êdów zwi¹zanych z gr¹ i jej opraw¹ graficzn¹. Do gry dodano cztery nowe mapy w klimacie zimowym, na których znajduj¹ siê bazy militarne: Olbrzymy z Karelii, Kryptonim M³ot, Hangar 211 i Operacja Zamieæ. Gracze mog¹ siê na nich poruszaæ nowymi pojazdami, jakimi s¹ skuter œnie¿ny i czo³g poduszkowy. Ponadto zaimplementowano w dodatku karabin kinetyczny do znalezienia podczas rozgrywki, a tak¿e nowy gad¿et: zdalnie kierowany dron z rêcznym karabinem maszynowym[45]. Jest to ostatni wydany dodatek do gry.
+</label>

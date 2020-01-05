@@ -1,0 +1,76 @@
+<img>data\Data\Battlefield 3\bf3logo.png</img>
+
+<label>Battlefield 3 – gra komputerowa z gatunku first-person shooter stworzona przez EA Digital Illusions CE i wydana przez Electronic Arts na komputery osobiste oraz konsole PlayStation 3 i Xbox 360. Stanowi³a ona kontynuacjê gier Battlefield 1942, Battlefield Vietnam oraz Battlefield 2.
+
+Wersja gry przeznaczona na PC wymaga platformy Origin.
+
+Trzecia czêœæ Battlefielda to kontynuacja rozgrywki z poprzednich czêœci serii w ró¿nych trybach jedno- i wieloosobowych. Gracze bior¹ udzia³ w walkach ukazanych z pierwszej perspektywy, prowadzonych na du¿¹ skalê, gdzie mo¿na u¿ywaæ ró¿nych pojazdów – czo³gów, transporterów opancerzonych, helikopterów oraz odrzutowców. W wersji PC na jednej mapie mog¹ graæ maksymalnie 64 osoby, na konsolach 24. Wa¿n¹ zmian¹ w nowej ods³onie Battlefielda jest wprowadzenie systemu destrukcji znanego z serii Bad Company oraz Battlefield 1943 dziêki u¿yciu Frostbite 2. System zniszczeñ zosta³ ulepszony w stosunku do poprzedniej wersji silnika. Przyk³adowe miasta, w których rozgrywa siê akcja, to Teheran, Pary¿ oraz Nowy Jork.
+
+Kampania dla jednego gracza
+W tym trybie gracz wciela siê w ¿o³nierza elitarnego oddzia³u amerykañskich Marines Henry'ego Blackburna, rosyjskiego agenta GRU Dmitrija "Dimy" Majakowskiego, pilota myœliwca F/A-18F Jennifer Hawkins i czo³gistê Jonathana Millera. Rozgrywka odbywa siê w kilku krajach Bliskiego Wschodu oraz znanych miastach takich jak Pary¿ czy Nowy Jork.
+
+Kampania opowiada o ¿o³nierzu, który zosta³ uwik³any w aferê atomow¹ zwi¹zan¹ z rosyjskimi walizkowymi bombami atomowymi. Jedna z nich wybuch³a w Pary¿u, a gracz musi udaremniæ wybuch drugiej w Nowym Jorku. Ca³oœæ fabu³y jest stylizowana na opowieœæ Blackburna, który jest przes³uchiwany przez dwóch agentów wojskowego biura œledczego (CIA). Gracz odwiedza Teheran, lasy w Iranie, gie³dê finansow¹ w Pary¿u, kana³y w Nowym Jorku i Iracki Kurdystan.
+
+Tryb gry wieloosobowej
+Ogó³em
+Tryb dla wielu graczy jest kontynuacj¹ tego, co znamy z poprzednich czêœci, tzn. powraca tryb Podbój i znany z Battlefield: Bad Company 2 tryb Gor¹czka, tu nazywany Szturmem. Polega on na zdobywaniu pozycji przeciwnika i niszczeniu przekaŸników.
+
+Klasy postaci
+Mamy cztery podstawowe klasy postaci, a mianowicie:
+
+Szturmowca z karabinem szturmowym, defibrylatorem i apteczk¹, granatnikiem M320 lub podwieszan¹ strzelb¹
+¯o³nierza wsparcia z rêcznym karabinem maszynowym, skrzynk¹ z amunicj¹ i ³adunkiem C4, min¹ przeciwpiechotn¹ M18A1 Claymore lub moŸdzierzem M224
+Technika z subkarabinkiem lub pistoletem maszynowym, wyrzutni¹ rakiet przeciwpancernych albo przeciwlotniczych i palnikiem do napraw, minami ppanc. M15 lub robotem saperskim
+Zwiadowcê z karabinem wyborowym i czujnikiem ruchu, dronem MAV albo znacznikiem laserowym SOFLAM i sygnalizatorem, czyli mobilnym punktem odrodzenia
+Ponadto, ka¿da klasa posiada broñ krótk¹, strzelby i specjalizacjê. Po zdobyciu kilku poziomów do arsena³u dochodz¹ strzelby i broñ PDW m.in. MP7A1. Broni jest du¿o, a ka¿da klasa rozwija siê oddzielnie tj. je¿eli gramy zwiadowc¹, to nie zdobêdziemy punktów szturmowca. Tak jak w Battlefield: Bad Company 2 mamy tu do czynienia z odznaczeniami, tu z baretkami i medalami. Baretki zdobywamy bêd¹c aktywnym na placu boju np. reanimuj¹c piêciu kolegów w jednej rundzie otrzymamy stosown¹ baretkê. Medale zdobywamy albo zdobywaj¹c odpowiedni¹ iloœæ baretek, albo graj¹c jak¹œ klas¹ przez odpowiedni¹ liczbê czasu. Dodatki do broni zdobywamy u¿ywaj¹c jej tzn. po osi¹gniêciu pewnej iloœci zabiæ (np. 10, 175) otrzymamy dodatek. Dodatki dzielimy na amerykañskie i rosyjskie.
+
+Pojazdy
+W Battlefield 3, tak jak w poprzednich ods³onach serii, wa¿n¹ rolê na polu walki odgrywaj¹ pojazdy. Ich ró¿norakie typy i zastosowanie pozwalaj¹ przej¹æ w³adzê na ziemi, w wodzie i w powietrzu, co czyni rozgrywkê znacznie bardziej zró¿nicowan¹. Obie armie, czyli Amerykanie i Rosjanie, posiadaj¹ w³asny odpowiednik danego pojazdu np. Amerykañskim czo³giem jest M1 Abrams, natomiast rosyjskim – T-90A.
+
+
+DLC
+Powrót do Karkand (Back to Karkand)
+Egzemplarze gry zamówione przed premier¹ otrzyma³y za darmo dodatek DLC, który zawiera odœwie¿one wersje czterech map z gry Battlefield 2 przeznaczonych dla gry wieloosobowej. Premiera dodatku na konsolach PlayStation 3 odby³a siê 6 grudnia 2011 roku, natomiast premiera dodatku na PC i konsoli Xbox 360 odby³a siê 13 grudnia 2011 roku.
+
+Dodatek dodaje dziesiêæ nowych broni m.in. francuski karabin szturmowy FAMAS i brytyjski karabin snajperski L96. Dodaje tak¿e 4 nowe mapy:
+
+Pó³wysep Sharqi
+Zatoka Omañska
+Szturm na Karkand
+Wyspa Wake
+Walka w zwarciu (Close Quarters)
+Dodatek wprowadza tryb gry wieloosobowej, dziesiêæ nowych broni w tym m.in. w³osk¹ strzelbê SPAS-12, piêæ nieœmiertelników do odblokowania oraz nowe mapy:
+
+Scrapmetal – Z³omowisko
+Operation 925 – Operacja 925
+Donya Fortress – Forteca Donia
+Ziba Tower – Wie¿a Ziba
+Premiera dodatku odby³a siê 26 czerwca 2012 roku.
+
+Si³y pancerne (Armored Kill)
+Dodatek wprowadzi³ cztery nowe rodzaje pojazdów: quady, samobie¿n¹ artyleriê, lekkie czo³gi oraz samolot Lockheed AC-130 oraz cztery rozleg³e mapy, wœród których znajduje siê najwiêksza w historii ca³ej serii:
+
+Bandar Desert – Pustynia Bandar
+Death Valley – Dolina Œmierci
+Alborz Mountain – Góry Elburs
+Armored Shield – Pancerna Tarcza
+Premiera dodatku dla u¿ytkowników premium na konsolach PlayStation 3: 4 wrzeœnia 2012 roku. Premiera dodatku dla u¿ytkowników premium na PC i konsoli Xbox 360: 18 wrzeœnia 2012 roku. Zaœ dla zwyk³ych u¿ytkowników na konsolach Playstation 3: 18 wrzeœnia 2012 roku. Na PC i konsoli Xbox 360 premiera odby³a siê 25 wrzeœnia 2012 roku.
+
+Dogrywka (Aftermath)
+Dodatek ten wprowadzi³ trzy nowe pojazdy, nowy typ gry Padlino¿erca oparty na podboju, nowe zadania, osi¹gniêcia i nieœmiertelniki. Zosta³a te¿ dodana kusza. Oraz cztery nowe mapy:
+
+Epicenter – Epicentrum
+Marakaz Monolith – Monolit Markaz
+Talah Market – Bazar Talah
+Azadi Palace – Pa³ac Azadi
+Premiera dodatku dla u¿ytkowników premium na konsoli PlayStation 3 odby³a siê 27 listopada 2012 roku, natomiast dla zwyk³ych u¿ytkowników 11 grudnia 2012 roku. Premiera dodatku dla u¿ytkowników premium na PC i konsoli Xbox 360 odby³a siê 4 grudnia 2012 roku, a dla zwyk³ych u¿ytkowników 18 grudnia 2012 roku.
+
+Decyduj¹ce starcie (Endgame)
+W ostatnim dodatku zosta³y dodane cztery nowe mapy oraz dwa nowe typy gry – „Bitwa Powietrzna” i „Przejêcie Flagi”. Oprócz tego zosta³y dodane nowe zadania i mo¿liwoœæ jazdy motocyklem. Dodatek zosta³ wydany w marcu 2013 roku[16]:
+
+Operation Riverside – Operacja Brzeg Rzeki
+Nebandan Flats – Równina Nebandan
+Kiasar Railroad – Linia Kolejowa Kiasar
+Sabalan Pipeline – Ruroci¹g Sabalan
+
+</label>

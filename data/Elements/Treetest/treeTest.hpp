@@ -64,6 +64,12 @@ public:
         if(filterElement->Action->getValue()) {
             keys.push_back("Action");
         }
+        if(filterElement->Simulation->getValue()) {
+            keys.push_back("Simulation");
+        }
+          if(filterElement->Strategy->getValue()) {
+            keys.push_back("Strategy");
+        }
         if(filterElement->Other->getValue()) {
             keys.push_back("Other");
         }

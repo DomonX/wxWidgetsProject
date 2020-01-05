@@ -14,6 +14,10 @@ protected:
         Race->connect(this);
         Action = new Checkbox(this->ownerWindow, "Action", "Action");
         Action->connect(this);
+        Simulation = new Checkbox(this->ownerWindow, "Simulation", "Simulation");
+        Simulation->connect(this);
+        Strategy = new Checkbox(this->ownerWindow, "Strategy", "Strategy");
+        Strategy->connect(this);
         Other = new Checkbox(this->ownerWindow, "Other", "Other");
         Other->connect(this);
         Submit = new Button(this->ownerWindow, "Submit", "Filtruj");
@@ -37,6 +41,8 @@ public:
     Checkbox * MMORPG;
     Checkbox * Race;
     Checkbox * Action;
+    Checkbox * Simulation;
+    Checkbox * Strategy;
     Checkbox * Other;
     Button * Submit;
     gameFilter(wxWindow * parent, string componentID, int viewWidth) : VisualComponent(parent, componentID, viewWidth) {

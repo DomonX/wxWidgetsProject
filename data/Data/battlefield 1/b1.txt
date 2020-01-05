@@ -1,0 +1,8 @@
+<img>data\Data\battlefield 1\bf1logo.png</img>
+
+<label>Battlefield 1 – strzelanka pierwszoosobowa, stworzona przez firmê EA DICE. Tytu³ zosta³ wydany przez Electronic Arts 21 paŸdziernika 2016 na platformê Microsoft Windows, PlayStation 4 i Xbox One. Jest to piêtnasta ods³ona Battlefielda w historii serii. Akcja gry zosta³a osadzona w realiach I wojny œwiatowej, a rozgrywkê w kampanii zaprezentowano z punktu widzenia kilku ró¿nych bohaterów.
+Podobnie jak w poprzednich czêœciach serii, Battlefield 1 nastawiony jest przede wszystkim na rozgrywkê wieloosobow¹. Dostêpne s¹ nastêpuj¹ce tryby: podbój, szturm, operacje, go³êbie wojenne, zespo³owy deathmatch, linia frontu i dominacja.
+
+W samym trybie multiplayer do wyboru s¹ cztery klasy: szturmowiec (specjalista od walki w zwarciu i niszczenia pojazdów), ¿o³nierz wsparcia (specjalista od obrony danej pozycji i zaopatrywania dru¿yny w amunicjê), medyk (zajmuje siê leczeniem cz³onków dru¿yny), zwiadowca (specjalista od walk na odleg³oœæ, dodatkowo dostarcza informacji na temat rozmieszczenia przeciwnika), dodatkowo graæ mo¿na tak¿e postaci¹ lotnika i czo³gisty.
+
+W podstawowej wersji zawarto dziesiêæ ró¿nych map odwzorowuj¹cych realne dzia³ania z czasów I wojny (np. walki w Lesie Argoñskim czy bitwê pod Amiens). W dodatku zatytu³owanym Nie przejd¹ dodano armiê francusk¹, a w dodatku W imiê Cara zaprezentowano front wschodni. Przy trzecim dodatku o tytule Niespokojne wody skupiono siê na walkach na pó³wyspie Gallipoli i operacjach na Morzu Pó³nocnym, natomiast w ostatnim rozszerzeniu – Apokalipsie ukazano najbardziej krwawe bitwy Wielkiej Wojny, np. trzeci¹ bitwê pod Ypres czy ofensywê nad Somm¹.</label>
