@@ -13,17 +13,17 @@ protected:
     virtual void beforeRender() {}
     virtual void afterRender() {}
     virtual void renderControl(XmlParserResult *xml) {}
-    virtual vector<XmlParserResult *> prepareDataToSave() {
-        vector<XmlParserResult *> temp;
-        return temp;
-    }
+virtual vector<XmlParserResult *> prepareDataToSave() {
+    vector<XmlParserResult *> temp;
+    return temp;
+}
     XmlFileManager *dataLoader;
     vector<XmlParserResult *> loaderResult;
-    void render() {
-        beforeRender();
-        renderComponent();
-        afterRender();
-    }
+void render() {
+    beforeRender();
+    renderComponent();
+    afterRender();
+}
 public:
     void connectData(string path) {
         dataLoader = new XmlFileManager(path);

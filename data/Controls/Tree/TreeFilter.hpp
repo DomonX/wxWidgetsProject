@@ -1,11 +1,10 @@
 #ifndef TREEFILTER_HPP_INCLUDED
 #define TREEFILTER_HPP_INCLUDED
-class treeFilter : public VisualComponent {
+class TreeFilter : public VisualComponent {
 protected:
     bool handleEvent(Event * event) {
         if(event->eventType == "onChange") {
             handleOnChange(event);
-            deleteEvent(event);
             return true;
         }
         return false;
@@ -21,7 +20,7 @@ protected:
 public:
     Tree * treeElement;
     TextInput * textElement;
-    treeFilter(wxWindow * parent, string componentID, int viewWidth) : VisualComponent(parent, componentID, viewWidth) {}
+    TreeFilter(wxWindow * parent, string componentID, int viewWidth) : VisualComponent(parent, componentID, viewWidth) {}
     void loadSearch() {
         textElement = new TextInput(this->ownerWindow, "Search", "");
         textElement->connect(this);

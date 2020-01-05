@@ -9,7 +9,7 @@ class treeTest : public VisualComponent {
 public:
     treePageAdder * adderElement;
     gameFilter * filterElement;
-    treeFilter * treeElement;
+    TreeFilter * treeElement;
     treeTest(wxWindow * parent, string componentID, int viewWidth): VisualComponent(parent, componentID, viewWidth) {
         prepareChildren();
         treeElement->treeElement->connectData("menu.txt");
@@ -20,7 +20,7 @@ public:
         adderElement->connect(this);
         filterElement = new gameFilter(this->ownerWindow, "fil", 2);
         filterElement->connect(this);
-        treeElement = new treeFilter(this->ownerWindow, "tree", 1);
+        treeElement = new TreeFilter(this->ownerWindow, "tree", 1);
         treeElement->loadSearch();
         loadTreeGame();
         treeElement->connect(this);
@@ -69,7 +69,7 @@ public:
         if(filterElement->Simulation->getValue()) {
             keys.push_back("Simulation");
         }
-          if(filterElement->Strategy->getValue()) {
+            if(filterElement->Strategy->getValue()) {
             keys.push_back("Strategy");
         }
         if(filterElement->Other->getValue()) {
@@ -77,10 +77,6 @@ public:
         }
         treeElement->treeElement->filter(keys);
     }
-    virtual TreeItemBaseXml * buildTreeItem(XmlParserResult * result) {
-        return new TreeItemGameXml(result);
-    }
-
 };
 
 #endif // TREETEST_HPP_INCLUDED

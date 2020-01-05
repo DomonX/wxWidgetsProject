@@ -25,7 +25,7 @@ protected:
             visibleItems[it->first] = items[it->first];
         }
     }
-    virtual XmlParserResult * prepareElement(TreeItemBaseXml * item) {
+    virtual XmlParserResult * prepareElementToSave(TreeItemBaseXml * item) {
         string data = "";
         data += "<label>";
         data += item->label;
@@ -53,7 +53,7 @@ protected:
         vector<XmlParserResult *> result;
         map<string,TreeItemBaseXml *>::iterator it;
         for(it = items.begin(); it != items.end(); it++) {
-            XmlParserResult * temp = prepareElement(it->second);
+            XmlParserResult * temp = prepareElementToSave(it->second);
             result.push_back(temp);
         }
         return result;
@@ -121,18 +121,18 @@ public:
         elementRef->DeleteChildren(elementRef->GetRootItem());
     }
 
-    void applySearch() {
-        if(searchKey.length() == 0) {
-            showAllItems();
-            return;
-        }
-        map<string, TreeItemBaseXml *>::iterator it;
-        for(it = items.begin(); it != items.end(); it++) {
-            if(it->second->label.find(searchKey)!= std::string::npos) {
-                visibleItems[it->first] = items[it->first];
-            }
+void applySearch() {
+    if(searchKey.length() == 0) {
+        showAllItems();
+        return;
+    }
+    map<string, TreeItemBaseXml *>::iterator it;
+    for(it = items.begin(); it != items.end(); it++) {
+        if(it->second->label.find(searchKey)!= std::string::npos) {
+            visibleItems[it->first] = items[it->first];
         }
     }
+}
 
     void reloadTree() {
         clearTree();

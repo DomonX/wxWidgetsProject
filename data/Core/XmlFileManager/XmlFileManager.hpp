@@ -20,7 +20,7 @@ public:
         vector<string> lines = fileOut->get();
         return xml->load(lines);
     }
-string set(vector<XmlParserResult *> lines) {
+string set(vector<XmlParserResult *> lines, bool isInside = false) {
     vector<XmlParserResult *>::iterator it;
     vector<string> stringLines;
     for (it = lines.begin(); it != lines.end(); it++) {
@@ -30,12 +30,14 @@ string set(vector<XmlParserResult *> lines) {
         if((*it)->children.empty()) {
             temp.append((*it)->data);
         } else {
-            temp.append(set((*it)->children));
+            temp.append(set((*it)->children, true));
         }
         temp.append(sel->endSelector);
         stringLines.push_back(temp);
     }
-    fileIn->set(stringLines);
+    if(!isInside) {
+        fileIn->set(stringLines);
+    }
     return xml->flattenLines(stringLines);
 }
 };

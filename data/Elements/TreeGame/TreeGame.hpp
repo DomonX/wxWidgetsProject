@@ -6,8 +6,8 @@ protected:
     TreeItemBaseXml * buildItem(XmlParserResult * result) {
         return new TreeItemGameXml(result);
     }
-    XmlParserResult * prepareElement(TreeItemBaseXml * item) {
-        XmlParserResult * treeElement = Tree::prepareElement(item);
+    XmlParserResult * prepareElementToSave(TreeItemBaseXml * item) {
+        XmlParserResult * treeElement = Tree::prepareElementToSave(item);
         TreeItemGameXml * gameItem = dynamic_cast<TreeItemGameXml *>(item);
         if(!item) {
             return treeElement;
