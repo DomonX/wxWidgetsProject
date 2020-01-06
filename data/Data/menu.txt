@@ -3,7 +3,7 @@
 <treeItem><label>Witcher 2</label><id>Witcher 2</id><link>Witcher 2/w2.txt</link><type>RPG</type></treeItem>
 <treeItem><label>Witcher 3</label><id>Witcher 3</id><link>Witcher 3/w3.txt</link><type>RPG</type></treeItem>
 <treeItem><label>Horizon 4</label><id>Horizon 4</id><link>horizon 4/h4.txt</link><type>Race</type></treeItem>
-<treeItem><label>Fortnite</label><id>Fortnite</id><link>Fortnite/fortnite.txt</link><type>Action</type></treeItem>
+<treeItem><label>Fortnite</label><id>Fortnite</id><link>Fortnite/fortnite.txt</link><type>BattleRoyal</type></treeItem>
 <treeItem><label>Smite</label><id>Smite</id><link>Smite/smite.txt</link><type>MMORPG</type></treeItem>
 <treeItem><label>Battlefield 3</label><id>Battlefield 3</id><link>Battlefield 3/b3.txt</link><type>FPS</type></treeItem>
 <treeItem><label>Battlefield 4</label><id>Battlefield 4</id><link>Battlefield 4/b4.txt</link><type>FPS</type></treeItem>
@@ -11,3 +11,69 @@
 <treeItem><label>Battlefield Hardline</label><id>Battlefield Hardline</id><link>Battlefield Hardline/bh.txt</link><type>FPS</type></treeItem>
 <treeItem><label>Farming simulator</label><id>Farming simulator</id><link>Farming simluator/farm.txt</link><type>Simulation</type></treeItem>
 <treeItem><label>Civilization 5</label><id>Civilization 5</id><link>Civilization 5/civka.txt</link><type>Strategy</type></treeItem>
+<treeItem><label>Alan Wake</label><id>Alan Wake</id><link>Alan Wake/alan wake.txt</link><type>Horror</type></treeItem>
+<treeItem><label>Amnesia</label><id>Amnesia</id><link>Amnesia/amnesia.txt</link><type>Horror</type></treeItem>
+<treeItem><label>Apex Legends</label><id>Apex Legends</id><link>Apex/apex.txt</link><type>BattleRoyale</type></treeItem>
+<treeItem><label>Arma 3</label><id>Arma 3</id><link>Arma 3/arma.txt</link><type>Simulation</type></treeItem>
+<treeItem><label>Assassin's creed 2</label><id>Assassin's creed 2</id><link>Asasyn 2/asasyn 2.txt</link><type>Action</type></treeItem>
+<treeItem><label>Assassin's creed Black Flag</label><id>Assassin's creed Black Flag</id><link>Asasyn Black Flag/asasynblack.txt</link><type>Action</type></treeItem>
+<treeItem><label>Assassin's creed Brotherhood</label><id>Assassin's creed Brotherhood</id><link>Asasyn Brotherhood/asasynbrother.txt</link><type>Action</type></treeItem>
+<treeItem><label>Batman Arkham Asylum</label><id>Batman Arkham Asylum</id><link>Batman Arkham Asylum/asylum.txt</link><type>Action</type></treeItem>
+<treeItem><label>Batman Arkham City</label><id>Batman Arkham City</id><link>Batman Arkham City/city.txt</link><type>Action</type></treeItem>
+<treeItem><label>Batman Arkham Origins</label><id>Batman Arkham Origins</id><link>Batman Arkham Origins/origin.txt</link><type>Action</type></treeItem>
+<treeItem><label>Bioshock</label><id>Bioshock</id><link>Bioshock/bio1.txt</link><type>Action</type></treeItem>
+<treeItem><label>Bioshock 2</label><id>Bioshock 2</id><link>Bioshock 2/bio2.txt</link><type>Action</type></treeItem>
+<treeItem><label>Bioshock infinit</label><id>Bioshock infinit</id><link>Bioshock infinit/bio infinity.txt</link><type>Action</type></treeItem>
+<treeItem><label>Borderlands 2</label><id>Borderlands 2</id><link>Borderlands 2/border2.txt</link><type>FPS</type></treeItem>
+<treeItem><label>Borderlands 3</label><id>Borderlands 3</id><link>Borderlands 3/border 3.txt</link><type>FPS</type></treeItem>
+<treeItem><label>Bully: Scholarship Edition</label><id>Bully: Scholarship Edition</id><link>Bully/Bully.txt</link><type>Sandbox</type></treeItem>
+<treeItem><label>Call of Duty Black OPS 2</label><id>Call of Duty Black OPS 2</id><link>Call of Duty Black OPS 2/black ops 2.txt</link><type>FPS</type></treeItem>
+<treeItem><label>Call of Duty Black ops 4</label><id>Call of Duty Black ops 4</id><link>Call of Duty Black ops 4/black ops 4.txt</link><type>BattleRoyal</type></treeItem>
+<treeItem><label>Car mechanic Simulator</label><id>Car mechanic Simulator</id><link>Car mechanic Simulator/ca4.txt</link><type>Simulation</type></treeItem>
+<treeItem><label>Castle crascher</label><id>Castle crascher</id><link>Castle crascher/castle.txt</link><type>Arcade</type></treeItem>
+<treeItem><label>Company of Heroes</label><id>Company of Heroes</id><link>Company of Heroes/company.txt</link><type>Strategy</type></treeItem>
+<treeItem><label>Crysis 3</label><id>Crysis 3</id><link>Crysis 3/crysis 3.txt</link><type>FPS</type></treeItem>
+<treeItem><label>Darksiders</label><id>Darksiders</id><link>Darksiders/darksiders.txt</link><type>Action</type></treeItem>
+<treeItem><label>Dawn of War 2</label><id>Dawn of War 2</id><link>Dawn of War 2/dawn of war 2.txt</link><type>Strategy</type></treeItem>
+<treeItem><label>Dead island</label><id>Dead island</id><link>Dead island/dead island.txt</link><type>Sandbox</type></treeItem>
+<treeItem><label>Dead Space</label><id>Dead Space</id><link>Dead Space/Dead Space.txt</link><type>Horror</type></treeItem>
+<treeItem><label>Deponia</label><id>Deponia</id><link>Deponia/Deponia.txt</link><type>Action</type></treeItem>
+<treeItem><label>DIRT 3</label><id>DIRT 3</id><link>DIRT 3/dirt3.txt</link><type>Race</type></treeItem>
+<treeItem><label>ESCAPE FROM TARKOV</label><id>ESCAPE FROM TARKOV</id><link>ESCAPE FROM TARKOV/tarkov.txt</link><type>Survival</type></treeItem>
+<treeItem><label>Euro Truck Simulator 2</label><id>Euro Truck Simulator 2</id><link>Euro Truck Simulator 2/Euro Truck Simulator 2.txt</link><type>Simulation</type></treeItem>
+<treeItem><label>Europa Universalis</label><id>Europa Universalis</id><link>Europa Universalis/Europa Universalis.txt</link><type>Strategy</type></treeItem>
+<treeItem><label>Goat simulator</label><id>Goat simulator</id><link>Goat simulator/goat.txt</link><type>Simulation</type></treeItem>
+<treeItem><label>Grid 2</label><id>Grid 2</id><link>Grid 2/grid2.txt</link><type>Race</type></treeItem>
+<treeItem><label>GTA 3</label><id>GTA 3</id><link>GTA 3/GTA 3.txt</link><type>Sandbox</type></treeItem>
+<treeItem><label>GTA 4</label><id>GTA 4</id><link>GTA 4/GTA 4.txt</link><type>Sandbox</type></treeItem>
+<treeItem><label>GTA 5</label><id>GTA 5</id><link>GTA 5/GTA 5.txt</link><type>Sandbox</type></treeItem>
+<treeItem><label>GTA London</label><id>GTA London</id><link>GTA London/GTA London.txt</link><type>Sandbox</type></treeItem>
+<treeItem><label>GTA SanAndreas</label><id>GTA SanAndreas</id><link>GTA SA/GTA SA.txt</link><type>Sandbox</type></treeItem>
+<treeItem><label>Infestation</label><id>Infestation</id><link>Infestation/Infestation.txt</link><type>Survival</type></treeItem>
+<treeItem><label>Knights and merchants</label><id>Knights and merchants</id><link>Knights and merchants/Knights and merchants.txt</link><type>Strategy</type></treeItem>
+<treeItem><label>Left 4 dead 2</label><id>Left 4 dead 2</id><link>Left 4 dead 2/Left 4 dead 2.txt</link><type>Action</type></treeItem>
+<treeItem><label>Mafia 2</label><id>Mafia 2</id><link>Mafia 2/Mafia 2.txt</link><type>Sandbox</type></treeItem>
+<treeItem><label>Metin 2</label><id>Metin 2</id><link>Metin 2/Metin 2.txt</link><type>MMORPG</type></treeItem>
+<treeItem><label>Microsoft Flight Simulator</label><id>Microsoft Flight Simulator</id><link>Microsoft Flight Simulator/Microsoft Flight Simulator.txt</link><type>Simulation</type></treeItem>
+<treeItem><label>Minecraft</label><id>Minecraft</id><link>Minecraft/Minecraft.txt</link><type>Sandbox</type></treeItem>
+<treeItem><label>Need for Speed Most Wanted</label><id>Need for Speed Most Wanted</id><link>Need for Speed Most Wanted/Need for Speed Most Wanted.txt</link><type>Race</type></treeItem>
+<treeItem><label>Need for Speed UnderGround</label><id>Need for Speed UnderGround</id><link>Need for Speed UnderGround/Need for Speed UnderGround.txt</link><type>Race</type></treeItem>
+<treeItem><label>Outlast</label><id>Outlast</id><link>Outlast/Outlast.txt</link><type>Horror</type></treeItem>
+<treeItem><label>POSTAL 2</label><id>POSTAL 2</id><link>POSTAL 2/POSTAL 2.txt</link><type>Action</type></treeItem>
+<treeItem><label>PUBG</label><id>PUBG</id><link>PUBG/pubg.txt</link><type>BattleRoyal</type></treeItem>
+<treeItem><label>Rainbow Six Siege</label><id>Rainbow Six Siege</id><link>Rainbow Six Siege/Rainbow Six Siege.txt</link><type>Action</type></treeItem>
+<treeItem><label>RUST</label><id>RUST</id><link>RUST/RUST.txt</link><type>Survival</type></treeItem>
+<treeItem><label>Saints Row 3</label><id>Saints Row 3</id><link>Saints Row 3/Saints Row 3.txt</link><type>Sandbox</type></treeItem>
+<treeItem><label>Shank</label><id>Shank</id><link>Shank/Shank.txt</link><type>Arcade</type></treeItem>
+<treeItem><label>Steam world dig</label><id>Steam world dig</id><link>Steam world dig/Steam world dig.txt</link><type>Arcade</type></treeItem>
+<treeItem><label>Stronghold Cruseder</label><id>Stronghold Cruseder</id><link>Stronghold Cruseder/Stronghold Cruseder.txt</link><type>Strategy</type></treeItem>
+<treeItem><label>Supreme Commander</label><id>Supreme Commander</id><link>Supreme Commander/Supreme Commander.txt</link><type>Strategy</type></treeItem>
+<treeItem><label>Surgeon Simulator</label><id>Surgeon Simulator</id><link>Surgeon Simulator/Surgeon Simulator.txt</link><type>Simulation</type></treeItem>
+<treeItem><label>Team fortress 2</label><id>Team fortress 2</id><link>Team fortress 2/Team fortress 2.txt</link><type>FPS</type></treeItem>
+<treeItem><label>Terraria</label><id>Terraria</id><link>Terraria/Terraria.txt</link><type>Sandbox</type></treeItem>
+<treeItem><label>The Elder Scrolls V Skyrim</label><id>The Elder Scrolls V Skyrim</id><link>The Elder Scrolls V Skyrim/The Elder Scrolls V Skyrim.txt</link><type>RPG</type></treeItem>
+<treeItem><label>Tibia</label><id>Tibia</id><link>Tibia/Tibia.txt</link><type>MMORPG</type></treeItem>
+<treeItem><label>Unturned</label><id>Unturned</id><link>Unturned/Unturned.txt</link><type>Survival</type></treeItem>
+
+
+

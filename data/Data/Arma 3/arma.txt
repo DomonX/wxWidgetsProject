@@ -1,0 +1,9 @@
+<img>data\Data\Arma 3\armalogo.png</img>
+
+<label>Arma 3 lub Arma III – strzelanka pierwszoosobowa będąca kontynuacją wojskowego symulatora Arma 2, stworzonego i wydanego przez Bohemia Interactive Studio. Gra została wydana 12 września 2013.
+
+Fabuła
+Akcja Arma III osadzona została w niedalekiej przyszłości (ok. 2035 rok). Gracz wciela się w kaprala Bena Kerry'ego. Po latach intensywnych działań wojennych na Bliskim Wschodzie, Europa staje się ostatnim bastionem dla osłabionych sił wojskowych NATO. Dowództwo paktu upatruje szansy na zmianę sytuacji w desperackiej misji. Niewielkie wyspy (Stratis i Altis) na Morzu Śródziemnym (odpowiedniki wysp Limnos i Ajos Efstratios) skrywają militarny sekret, który może mieć kluczowe znaczenie dla losów toczącego się konfliktu w Europie. Zdesperowane siły sojuszu wyruszają za linię wroga, by odkryć ten sekret. Rozpoczyna się operacja o kryptonimie „Magnitude”. Po tych wydarzeniach następują akcje z dodatku Apex, rozgrywające się na Pacyfiku, w którym gracz wciela się w żołnierza jednostki CTRG (Combat Technology Research Group) stacjonującej na archipelagu wysp Tanoa.
+
+Odbiór gry
+Gra spotkała się z mieszanymi reakcjami recenzentów, uzyskując średnią wynoszącą 74,87% według agregatora GameRankings oraz 74/100 według serwisu Metacritic.</label>

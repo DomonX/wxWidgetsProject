@@ -1,0 +1,12 @@
+<img>data\Data\Batman Arkham Origin\originlogo.png</img>
+
+<label>Batman: Arkham Origins – przygodowa gra akcji stworzona przez kanadyjskie studio Warner Bros. Games Montreal i wydana przez Warner Bros. Interactive Entertainment. Produkcja ukazała się na konsole PlayStation 3, Wii U, Xbox 360 oraz komputery osobiste 25 października 2013. Jest ona kolejną częścią serii po wydanej w 2011 roku grze Batman: Arkham City, a gracz ponownie wciela się w postać „Mrocznego Rycerza”.
+
+Fabuła
+Akcja gry toczy się pięć lat przed wydarzeniami z pierwszej części serii. Głównym antagonistą jest przestępca o pseudonimie Czarna Maska, który wyznacza nagrodę za głowę Batmana. Przeciwnicy głównego bohatera, jak Joker i Anarky wykorzystują sytuację chaosu w mieście by zemścić się na swoim wrogu. Bohater musi odkryć dlaczego ktoś próbuje go zabić. 12 sierpnia 2014 wydano film animowany zatytułowany Batman: Atak na Arkham, który kontynuuje fabułę gry.
+
+Rozgrywka
+Rozgrywka nie różni się znacząco w stosunku do poprzednich części cyklu. Protagonista oprócz walki wręcz, ma do dyspozycji różne gadżety ułatwiające mu walkę ze złoczyńcami takie jak: batarang, wybuchowy żel, dekoder kryptograficzny itp. W stosunku do poprzedników oferowany obszar gry uległ powiększeniu. Kolejną zmianą jest obecność misji pobocznych urozmaicających rozgrywkę.
+
+Odbiór gry
+Produkcja spotkała się w większości z pozytywnym odbiorem recenzentów, uzyskując w wersji na konsolę Xbox 360 według agregatora Metacritic średnią z 46 ocen wynoszącą 74/100 punktów oraz 73,14% z 29 recenzji według serwisu GameRankings. Redaktor serwisu Gry-Online, Przemysław Zamęcki, przyznał grze ocenę 8/10, doceniając mroczny klimat rozgrywki oraz wyższy stopień trudności walk niż w Batman: Arkham City. Jako wadę wymienił brak nowych pomysłów w stosunku do poprzednich odsłon serii oraz nieciekawe pojedynki z niektórymi bossami.</label>

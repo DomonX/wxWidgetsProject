@@ -1,0 +1,44 @@
+<img>data\Data\Asasyn Brotherhood\asasynbrologo.png</img>
+
+<label> Assassin’s Creed: Brotherhood – przygodowa gra akcji wyprodukowana i wydana w 2010 roku przez Ubisoft. Jest to trzecia część serii gier Assassin’s Creed. Gra jest bezpośrednią kontynuacją drugiej części serii, nie należy jednak jej mylić z Assassin’s Creed III, której akcja jest osadzona w nowym przedziale czasowym, wraz z nowym bohaterem. Gracz ponownie wciela się w postać Ezia Auditore da Firenze. W Brotherhood wprowadzono tryb dla wielu osób. Premiera komputerowej wersji gry odbyła się 17 marca 2011.
+
+Bezpośrednia kontynuacja gry, Assassin’s Creed: Revelations, została wydana 15 listopada 2011 roku na konsole, a na PC 2 grudnia 2011 r.
+
+
+Fabuła
+Gra rozpoczyna się zaraz po wydarzeniach z drugiej części serii. Ezio wraca do Monteriggioni, jednak zaraz potem willa zostaje zaatakowana i zniszczona przez Cezara Borgię. Zmuszony do ucieczki, Ezio wybiera się do Rzymu, aby stworzyć od podstaw zakon asasynów i z jego pomocą ostatecznie rozprawić się z templariuszami.
+
+Rozgrywka
+
+
+Rozgrywka w Brotherhood jest podobna do sposobu gry znanej z poprzednich części serii, jednak w nowej części twórcy wprowadzili wiele ulepszeń i zmian. Akcja gry dzieje się w XVI-wiecznym Rzymie, czyli głównej siedzibie wrogów asasynów – templariuszy. W przeciwieństwie do poprzednich części serii, otwarty świat gry jest ograniczony do jednego miasta – Rzymu, ale jego obszar jest aż trzy raz większy niż Florencja z Assassin’s Creed 2. Ponadto Brotherhood zawiera szereg liniowych misji, które przenoszą gracza na tereny inne niż Rzym. Podczas zabawy spotkamy postaci znane z poprzedniej części gry, takie jak Leonardo Da Vinci, Niccolò Machiavelli czy Caterina Sforza. Naszym głównym celem jest Cezar Borgia. Kampania dla jednego gracza trwa około 15 godzin. Jedną z ważniejszych nowości jest wprowadzenie systemu zarządzania bractwem asasynów i korzystania z ich pomocy podczas misji. Od momentu uzyskania pierwszych rekrutów Ezio może wezwać asasynów do pomocy w prawie każdej chwili gry. Ulepszeniu uległ także ekwipunek Ezio – podczas wykonywania misji gracze mogą użyć kuszy, zatrutej strzałki, a nawet spadochronu. Asasyn w specjalnych misjach maszyn wojennych Leonarda kieruje ponadto różnymi machinami, jak np. czołgiem i ulepszoną machiną latającą.
+
+Tryb wieloosobowy
+
+
+Brotherhood to pierwsza część głównej serii, która posiada tryb wieloosobowy. Gracze wcielają się w agentów korporacji Abstergo, którzy wykorzystują maszyny Animus, biorąc udział w eksperymencie zmierzającym do poznania tajników kunsztu asasynów.
+
+W grach może wziąć udział od 6-8 graczy. Mapy w tym trybie to miejsca znane z Assassin’s Creed II, z trybu jednoosobowego Brotherhood oraz zupełnie nowe tereny, jak np. San Donato, Castel Gandolfo, Siena. Ubisoft opracował kilka typów gry, w tym deathmatch, tryby drużynowe oraz kooperacyjne.
+
+W grze wieloosobowej zastosowanie mają mechanizmy rozgrywki znane z trybu jednoosobowego. W podstawowym założeniu każdy gracz musi zabić konkretną osobę, a jednocześnie uważać, by samemu nie stać się ofiarą zabójcy. W znalezieniu naszego celu pomaga radar umieszczony na ekranie. Po pomyślnym wykonaniu zadania otrzymujemy kolejny kontrakt. Jeśli cel wykryje zabójcę, uaktywnia się tryb pościgu. Cel rozpoczyna wtedy ucieczkę i może korzystać z wielu pomocy, jak np. zamykających się bram czy stogów siana, w których można się ukryć. Pomyślna ucieczka powoduje stratę kontraktu przez zabójcę. Liczba zabójców zwiększa się po pewnym czasie zabawy – gracz będzie musiał uważać na kilku ścigających go zabójców, a jednocześnie uważać, aby inny rywal nie uśmiercił jego celu. Dodatkowo gra jest trudniejsza z tego względu, że modele postaci graczy są powielone. Zabicie osoby niewinnej powoduje anulowanie kontraktu.
+
+Dodatkową warstwą trybu sieciowego jest system rozwoju postaci oraz specjalne umiejętności: aktywne zdolności (abilities: przykładowo sprint czy czasowe przebranie) oraz pasywne korzyści (perks) i premie za serie (streaks).
+
+Gra nalicza punkty w zależności od rodzaju i stylu zabójstwa. Przykładowo, gracz dostanie więcej punktów za dyskretne zabójstwo połączone z ruchem akrobatycznym. Zwycięzcą jest osoba, które otrzyma najwięcej punktów podczas meczu lub drużyna, która osiągnie najlepszy wynik.
+
+Postacie
+W rozgrywce sieciowej gracz może wybrać jedną z kilkunastu dostępnych postaci. Każda z nich posiada unikalną broń i własne animacje zabójstw. Postacie nie różnią się jednak umiejętnościami. Dwie dodatkowe postaci (Oficer, Harlekin) dostępne były w przedsprzedaży oraz dla osób, które zakupiły zawartość do pobrania Porwanie Leonarda Da Vinci. Dostępne postacie to doktor, kurtyzana, kat, łowca, bankier, mnich, golibroda, najemnik, kowal, szlachcic, żołnierz, oficer, arlekin, przemytnik, hellequin[9], inżynier, rzezimieszek i złodziej. W Porwaniu Leonarda da Vinci dodano cztery nowe postaci: czerwona dama, rycerz, markiz, parias.
+
+Wersja beta
+27 września 2010 roku ruszyła wersja beta trybu gry wieloosobowej na konsoli PlayStation 3 dla posiadaczy PlayStation Plus, natomiast otwarta beta dla wszystkich posiadaczy PlayStation 3, którzy zdobyli specjalny kod (można było go otrzymać na wielu serwisach zajmujących się tematyk związaną z grami) ruszyła 4 października 2010 roku.
+
+Assassin’s Creed: Project Legacy
+Assassin’s Creed: Project Legacy jest grą, którą Ubisoft opublikował 1 października 2010 roku w serwisie Facebook, a dzięki której gracze mogą odblokowywać dodatki w Assassin’s Creed: Brotherhood m.in. dodatkowe doświadczenie i przedmioty. Podobnie działa to w drugą stronę; grając w Brotherhood można odblokować 25 bonusowych misji do przeglądarkowej produkcji z Facebooka.
+
+Zawartość do pobrania
+
+Mikołaj Kopernik
+Spisek Kopernika – pierwszy dodatek DLC wprowadzający postać Mikołaja Kopernika do gry. Darmowy dodatek ukazał się 18 listopada 2010 roku na PlayStation 3. Dodatek zawiera pakiet misji. Mikołaj Kopernik prowadzi badania kosmosu, które nie podobają się Watykanowi, zwłaszcza rodzinie Borgia, dlatego zostaje na niego podpisany wyrok śmierci. Ezio postanawia pomóc przeżyć jemu i wielu innym naukowcom. Dodatkowym powodem, dla którego Borgiowie chcą się go pozbyć jest również fakt, że Kopernik w grze należał do stowarzyszenia templariuszy i postanowił z niego odejść, kiedy ci zażądali od niego ukrywania efektów jego badań.
+Animus Project Update 1.0 – drugi darmowy dodatek DLC dla gry sieciowej, który wprowadza nowy tryb rozgrywki – Advanced Alliance, oraz nowa mapę Mont Saint-Michel. Jego premiera odbyła się 15 grudnia 2010 roku zarówno na PlayStation 3 i Xbox 360.
+Animus Project Update 2.0 – trzeci darmowy dodatek DLC oferujący nowy tryb rozgrywki przez sieć – Chest Capture, nową mapę osadzoną w toskańskim mieście Pienza, oraz funkcję Templar Score zawierającą ranking najlepszych graczy. Jego premiera odbyła się 19 stycznia 2011 roku.
+Porwanie Da Vinciego – czwarty dodatek DLC, którego premiera odbyła się 9 marca 2011 roku. W trybie dla pojedynczego gracza dodatek wprowadza szereg misji, których celem jest podążanie za sektą hermetystów w celu odnalezienia porwanego Leonarda Da Vinci. Natomiast do rozgrywki wieloosobowej cztery nowe postacie, dwa tryby rozgrywki i jeden dodatkowy obszar. Pakiet zawiera też postaci i mapy, które wcześniej dostępne były tylko w edycji limitowanej gry (tylko konsole).</label>

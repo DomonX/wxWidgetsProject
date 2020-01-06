@@ -1,0 +1,11 @@
+<img>data\Data\Batman Arkham City\citylogo.png</img>
+
+
+<label>Batman: Arkham City – komputerowa gra akcji wyprodukowana przez Rocksteady Studios, wydana w listopadzie 2011 roku. Stanowi kontynuację Batman: Arkham Asylum i rozgrywa się na ulicach Gotham City. Batman przemierza ciemne zakamarki mrocznych ulic oraz dachy wieżowców w poszukiwaniu Jokera i jego popleczników wraz z Kobietą-Kot i Robinem. Do antagonistów, oprócz postaci znanych z pierwszej części, dołączyli Harvey „Dwie Twarze” Dent oraz tajemniczy Hugo Strange, który został nowym naczelnikiem Azylu Arkham.
+
+Fabuła
+Wątek fabularny Batman: Arkham City rozpoczyna się rok po wydarzeniach przedstawionych w Batman: Arkham Asylum. Quincy Sharp, były zarządca szpitala psychiatrycznego Arkham, po schwytaniu Jokera zyskuje uznanie społeczeństwa i, wykorzystując chwilową popularność, zostaje nowym burmistrzem Gotham City.
+
+Kiedy ani Azyl Arkham, ani więzienie Blackgate nie są w stanie pomieścić przestępców, Quincy Sharp kupuje znaczną część slumsów Gotham City, wynajmuje najemników wojskowych mających strzec tych rejonów i przekształca to miejsce w tak zwane Arkham City. Przeniesieni tam przestępcy są umownie wolni – do momentu, w którym nie spróbują uciec. Nowy burmistrz wybiera Hugo Strange’a na nadzorcę nowej kolonii karnej, jednak wszystko wskazuje na to, że szalony psychiatra ma własne plany związane z tym miejscem.
+
+Batman, sceptycznie nastawiony do całego przedsięwzięcia, monitoruje Arkham City w obawie, że sytuacja może wymknąć się spod kontroli.</label>
