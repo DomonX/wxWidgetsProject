@@ -1,8 +1,8 @@
 <img>data\Data\Asasyn Black Flag\asasynblacklogo.png</img>
 
 
-<label>Assassinâ€™s Creed IV: Black Flag â€“ przygodowa gra akcji stworzona przez Ubisoft Montreal, szÃ³sta odsÅ‚ona gÅ‚Ã³wnej serii Assassinâ€™s Creed. Jej premiera miaÅ‚a miejsce 29 paÅºdziernika 2013 w Ameryce PÃ³Å‚nocnej, 31 paÅºdziernika 2013 w Australii, 1 listopada 2013 w Europie i 28 listopada 2013 w Japonii. DostÄ™pna jest na platformy PC, PlayStation 3, Wii U, Xbox 360, PlayStation 4 i Xbox One. Akcja tytuÅ‚u rozgrywa siÄ™ na XVIII-wiecznych Karaibach, gdzie gracz wciela siÄ™ w kapitana statku pirackiego â€Kawkaâ€ â€“ Edwarda Jamesa Kenwaya.
+<label>Assassin’s Creed IV: Black Flag – przygodowa gra akcji stworzona przez Ubisoft Montreal, szósta ods³ona g³ównej serii Assassin’s Creed. Jej premiera mia³a miejsce 29 paŸdziernika 2013 w Ameryce Pó³nocnej, 31 paŸdziernika 2013 w Australii, 1 listopada 2013 w Europie i 28 listopada 2013 w Japonii. Dostêpna jest na platformy PC, PlayStation 3, Wii U, Xbox 360, PlayStation 4 i Xbox One. Akcja tytu³u rozgrywa siê na XVIII-wiecznych Karaibach, gdzie gracz wciela siê w kapitana statku pirackiego „Kawka” – Edwarda Jamesa Kenwaya.
 
-OdbiÃ³r gry
+Odbiór gry
 
-Gra spotkaÅ‚a siÄ™ w wiÄ™kszoÅ›ci z pozytywnymi reakcjami recenzentÃ³w, osiÄ…gajÄ…c w wersji na konsolÄ™ PlayStation 3 Å›redniÄ… z ocen wynoszÄ…cÄ… 88/100 punktÃ³w wedÅ‚ug agregatora Metacritic oraz 87,62% wedÅ‚ug serwisu GameRankings.</label>
+Gra spotka³a siê w wiêkszoœci z pozytywnymi reakcjami recenzentów, osi¹gaj¹c w wersji na konsolê PlayStation 3 œredni¹ z ocen wynosz¹c¹ 88/100 punktów wed³ug agregatora Metacritic oraz 87,62% wed³ug serwisu GameRankings.</label>

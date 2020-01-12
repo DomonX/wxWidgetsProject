@@ -1,19 +1,19 @@
 <img>data\Data\Apex\apexlogo.png</img>
 
-<label>Apex Legends â€“ strzelanka pierwszoosobowa z trybem rozgrywki battle royale stworzona przez Respawn Entertainment i wydana przez Electronic Arts 4 lutego 2019 na komputery PC oraz konsole Xbox One i PlayStation 4.
+<label>Apex Legends – strzelanka pierwszoosobowa z trybem rozgrywki battle royale stworzona przez Respawn Entertainment i wydana przez Electronic Arts 4 lutego 2019 na komputery PC oraz konsole Xbox One i PlayStation 4.
 
 Rozgrywka
-Apex Legends to strzelanka z trybem rozgrywki battle royale, ktÃ³rej akcja odbywa siÄ™ trzydzieÅ›ci lat po wydarzeniach z Titanfall 2.
+Apex Legends to strzelanka z trybem rozgrywki battle royale, której akcja odbywa siê trzydzieœci lat po wydarzeniach z Titanfall 2.
 
-Apex rÃ³Å¼ni siÄ™ od innych gier typu battle royale tym, Å¼e wprowadza do gry legendarnych bohaterÃ³w o wyjÄ…tkowych zdolnoÅ›ciach. KaÅ¼dy z nich moÅ¼e przyjÄ…Ä‡ rolÄ™ ofensywnÄ…, defensywnÄ… lub wsparcia. Gracze sÄ… podzieleni na trzyosobowe skÅ‚ady, z ktÃ³rych kaÅ¼dy wybiera legendÄ™. W jednym meczu moÅ¼e uczestniczyÄ‡ do dwudziestu walczÄ…cych ze sobÄ… druÅ¼yn. Do wyboru jest jedenaÅ›cie grywalnych postaci.
+Apex ró¿ni siê od innych gier typu battle royale tym, ¿e wprowadza do gry legendarnych bohaterów o wyj¹tkowych zdolnoœciach. Ka¿dy z nich mo¿e przyj¹æ rolê ofensywn¹, defensywn¹ lub wsparcia. Gracze s¹ podzieleni na trzyosobowe sk³ady, z których ka¿dy wybiera legendê. W jednym meczu mo¿e uczestniczyæ do dwudziestu walcz¹cych ze sob¹ dru¿yn. Do wyboru jest jedenaœcie grywalnych postaci.
 
-Gracze zostajÄ… umiejscowieni na rozlegÅ‚ej mapie. Wszyscy uczestnicy wybierajÄ… bohaterÃ³w (w druÅ¼ynie nie moÅ¼e byÄ‡ dwÃ³ch takich samych postaci) i miejsce gdzie wylÄ…dujÄ…. Po wylÄ…dowaniu gracz zbiera leÅ¼Ä…cÄ… na mapie broÅ„, amunicjÄ™ i pancerze. Na mapie znajduje siÄ™ strefa bezpieczeÅ„stwa â€“ jeÅ›li ktÃ³rykolwiek gracz znajdzie siÄ™ poza niÄ…, automatycznie traci zdrowie. Strefa bezpieczeÅ„stwa caÅ‚y czas siÄ™ zmniejsza. Rozgrywka koÅ„czy siÄ™, gdy na polu bitwy pozostanie tylko jedna druÅ¼yna.
+Gracze zostaj¹ umiejscowieni na rozleg³ej mapie. Wszyscy uczestnicy wybieraj¹ bohaterów (w dru¿ynie nie mo¿e byæ dwóch takich samych postaci) i miejsce gdzie wyl¹duj¹. Po wyl¹dowaniu gracz zbiera le¿¹c¹ na mapie broñ, amunicjê i pancerze. Na mapie znajduje siê strefa bezpieczeñstwa – jeœli którykolwiek gracz znajdzie siê poza ni¹, automatycznie traci zdrowie. Strefa bezpieczeñstwa ca³y czas siê zmniejsza. Rozgrywka koñczy siê, gdy na polu bitwy pozostanie tylko jedna dru¿yna.
 
-Gra pozwala na komunikacjÄ™ gÅ‚osowÄ… z czÅ‚onkami druÅ¼yny oraz wysyÅ‚anie komend dotyczÄ…cych elementÃ³w na mapie takich jak lokalizacja broni, pozycje wrogÃ³w czy teÅ¼ miejsca spotkaÅ„. Apex jest grÄ… darmowÄ… z wbudowanymi mikropÅ‚atnoÅ›ciami, umoÅ¼liwiajÄ…cymi zakup bohaterÃ³w, nagrÃ³d bitewnych i nowych komunikatÃ³w gÅ‚osowych.
+Gra pozwala na komunikacjê g³osow¹ z cz³onkami dru¿yny oraz wysy³anie komend dotycz¹cych elementów na mapie takich jak lokalizacja broni, pozycje wrogów czy te¿ miejsca spotkañ. Apex jest gr¹ darmow¹ z wbudowanymi mikrop³atnoœciami, umo¿liwiaj¹cymi zakup bohaterów, nagród bitewnych i nowych komunikatów g³osowych.
 
-OdbiÃ³r
-Apex Legends otrzymaÅ‚ zdecydowanie pozytywny odbiÃ³r. 8 godzin po uruchomieniu gry, baza graczy przekroczyÅ‚a milion. DzieÅ„ pÃ³Åºniej byÅ‚o juÅ¼ 2,5 miliona. 3 dni pÃ³Åºniej gra miaÅ‚a juÅ¼ 10 milionÃ³w graczy, z milionem aktywnych graczy.
+Odbiór
+Apex Legends otrzyma³ zdecydowanie pozytywny odbiór. 8 godzin po uruchomieniu gry, baza graczy przekroczy³a milion. Dzieñ póŸniej by³o ju¿ 2,5 miliona. 3 dni póŸniej gra mia³a ju¿ 10 milionów graczy, z milionem aktywnych graczy.
 
-Apex Legends zostaÅ‚ ogÅ‚oszony 4 lutego 2019, EA w poniedziaÅ‚ek przed wydaniem gry, opublikowaÅ‚a, Å¼e kwartalne wyniki finansowe, ktÃ³re nie speÅ‚niÅ‚y oczekiwaÅ„ spowodowaÅ‚y, Å¼e wartoÅ›Ä‡ spÃ³Å‚ki spadÅ‚a o 13% nastÄ™pnego dnia. Lecz ze wzrostem i popularnoÅ›ciÄ… gry, analitycy uznali Apex za coÅ› co moÅ¼e konkurowaÄ‡ i zdominowaÄ‡ Fortnite. 8 lutego EA odnotowaÅ‚o najwiÄ™kszy wzrost wartoÅ›ci spÃ³Å‚ki od 2014 roku z powodu nagÅ‚ego sukcesu Apex.
+Apex Legends zosta³ og³oszony 4 lutego 2019, EA w poniedzia³ek przed wydaniem gry, opublikowa³a, ¿e kwartalne wyniki finansowe, które nie spe³ni³y oczekiwañ spowodowa³y, ¿e wartoœæ spó³ki spad³a o 13% nastêpnego dnia. Lecz ze wzrostem i popularnoœci¹ gry, analitycy uznali Apex za coœ co mo¿e konkurowaæ i zdominowaæ Fortnite. 8 lutego EA odnotowa³o najwiêkszy wzrost wartoœci spó³ki od 2014 roku z powodu nag³ego sukcesu Apex.
 
-20 lutego 2019 organizacja ESL ogÅ‚osiÅ‚a rozpoczÄ™cie wspÃ³Å‚pracy z Apex Legends. </label>
+20 lutego 2019 organizacja ESL og³osi³a rozpoczêcie wspó³pracy z Apex Legends. </label>
