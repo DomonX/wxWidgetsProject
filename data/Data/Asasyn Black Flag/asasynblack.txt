@@ -1,0 +1,8 @@
+<img>data\Data\Asasyn Black Flag\asasynblacklogo.png</img>
+
+
+<label>Assassin’s Creed IV: Black Flag – przygodowa gra akcji stworzona przez Ubisoft Montreal, szósta odsłona głównej serii Assassin’s Creed. Jej premiera miała miejsce 29 października 2013 w Ameryce Północnej, 31 października 2013 w Australii, 1 listopada 2013 w Europie i 28 listopada 2013 w Japonii. Dostępna jest na platformy PC, PlayStation 3, Wii U, Xbox 360, PlayStation 4 i Xbox One. Akcja tytułu rozgrywa się na XVIII-wiecznych Karaibach, gdzie gracz wciela się w kapitana statku pirackiego „Kawka” – Edwarda Jamesa Kenwaya.
+
+Odbiór gry
+
+Gra spotkała się w większości z pozytywnymi reakcjami recenzentów, osiągając w wersji na konsolę PlayStation 3 średnią z ocen wynoszącą 88/100 punktów według agregatora Metacritic oraz 87,62% według serwisu GameRankings.</label>

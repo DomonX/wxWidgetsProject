@@ -1,0 +1,19 @@
+<img>data\Data\Apex\apexlogo.png</img>
+
+<label>Apex Legends – strzelanka pierwszoosobowa z trybem rozgrywki battle royale stworzona przez Respawn Entertainment i wydana przez Electronic Arts 4 lutego 2019 na komputery PC oraz konsole Xbox One i PlayStation 4.
+
+Rozgrywka
+Apex Legends to strzelanka z trybem rozgrywki battle royale, której akcja odbywa się trzydzieści lat po wydarzeniach z Titanfall 2.
+
+Apex różni się od innych gier typu battle royale tym, że wprowadza do gry legendarnych bohaterów o wyjątkowych zdolnościach. Każdy z nich może przyjąć rolę ofensywną, defensywną lub wsparcia. Gracze są podzieleni na trzyosobowe składy, z których każdy wybiera legendę. W jednym meczu może uczestniczyć do dwudziestu walczących ze sobą drużyn. Do wyboru jest jedenaście grywalnych postaci.
+
+Gracze zostają umiejscowieni na rozległej mapie. Wszyscy uczestnicy wybierają bohaterów (w drużynie nie może być dwóch takich samych postaci) i miejsce gdzie wylądują. Po wylądowaniu gracz zbiera leżącą na mapie broń, amunicję i pancerze. Na mapie znajduje się strefa bezpieczeństwa – jeśli którykolwiek gracz znajdzie się poza nią, automatycznie traci zdrowie. Strefa bezpieczeństwa cały czas się zmniejsza. Rozgrywka kończy się, gdy na polu bitwy pozostanie tylko jedna drużyna.
+
+Gra pozwala na komunikację głosową z członkami drużyny oraz wysyłanie komend dotyczących elementów na mapie takich jak lokalizacja broni, pozycje wrogów czy też miejsca spotkań. Apex jest grą darmową z wbudowanymi mikropłatnościami, umożliwiającymi zakup bohaterów, nagród bitewnych i nowych komunikatów głosowych.
+
+Odbiór
+Apex Legends otrzymał zdecydowanie pozytywny odbiór. 8 godzin po uruchomieniu gry, baza graczy przekroczyła milion. Dzień później było już 2,5 miliona. 3 dni później gra miała już 10 milionów graczy, z milionem aktywnych graczy.
+
+Apex Legends został ogłoszony 4 lutego 2019, EA w poniedziałek przed wydaniem gry, opublikowała, że kwartalne wyniki finansowe, które nie spełniły oczekiwań spowodowały, że wartość spółki spadła o 13% następnego dnia. Lecz ze wzrostem i popularnością gry, analitycy uznali Apex za coś co może konkurować i zdominować Fortnite. 8 lutego EA odnotowało największy wzrost wartości spółki od 2014 roku z powodu nagłego sukcesu Apex.
+
+20 lutego 2019 organizacja ESL ogłosiła rozpoczęcie współpracy z Apex Legends. </label>

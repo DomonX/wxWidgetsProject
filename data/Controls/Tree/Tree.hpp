@@ -75,7 +75,7 @@ public:
 
 
     Tree(wxWindow * parent, string componentID, string label): ControlComponent(parent, componentID) {
-        elementRef = new wxTreeCtrl(ownerWindow, elementID, wxDefaultPosition, wxSize(200,200), wxTR_DEFAULT_STYLE, wxDefaultValidator, componentID);
+        elementRef = new wxTreeCtrl(ownerWindow, elementID, wxDefaultPosition, wxSize(200,350), wxTR_DEFAULT_STYLE, wxDefaultValidator, componentID);
         elementRef->AddRoot(label);
         elementRef->Bind(wxEVT_COMMAND_TREE_ITEM_ACTIVATED, &sendItemClick, this);
     }

@@ -18,8 +18,16 @@ protected:
         Simulation->connect(this);
         Strategy = new Checkbox(this->ownerWindow, "Strategy", "Strategy");
         Strategy->connect(this);
-        Other = new Checkbox(this->ownerWindow, "Other", "Other");
-        Other->connect(this);
+        Sandbox = new Checkbox(this->ownerWindow, "Sandbox", "Sandbox");
+        Sandbox->connect(this);
+        BattleRoyal = new Checkbox(this->ownerWindow, "BattleRoyal", "BattleRoyal");
+        BattleRoyal->connect(this);
+        Horror = new Checkbox(this->ownerWindow, "Horror", "Horror");
+        Horror->connect(this);
+        Survival = new Checkbox(this->ownerWindow, "Survival", "Survival");
+        Survival->connect(this);
+        Arcade = new Checkbox(this->ownerWindow, "Arcade", "Arcade");
+        Arcade->connect(this);
         Submit = new Button(this->ownerWindow, "Submit", "Filtruj");
         Submit->connect(this);
     }
@@ -36,13 +44,17 @@ protected:
     }
 public:
     Checkbox * RPG;
+    Checkbox * Sandbox;
+    Checkbox * Arcade;
+    Checkbox * Survival;
+    Checkbox * Horror;
+    Checkbox * BattleRoyal;
     Checkbox * FPS;
     Checkbox * MMORPG;
     Checkbox * Race;
     Checkbox * Action;
     Checkbox * Simulation;
     Checkbox * Strategy;
-    Checkbox * Other;
     Button * Submit;
     gameFilter(wxWindow * parent, string componentID, int viewWidth) : VisualComponent(parent, componentID, viewWidth) {
         prepareChildren();

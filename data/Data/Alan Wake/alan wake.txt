@@ -1,0 +1,17 @@
+<img>data\Data\Alan Wake\alanlogo.png</img>
+
+<label>
+
+Alan Wake – gra komputerowa wydana przez Remedy Entertainment, twórców serii Max Payne. Alan Wake został nazwany „psychologicznym dreszczowcem akcji”. Wydawcą gry jest Microsoft Game Studios. Gra ukazała się na konsolę Xbox 360 14 maja 2010 roku w Europie i 18 maja 2010 w Ameryce Północnej.
+
+Początkowo miała ukazać się także na komputery osobiste, ale prace nad tą wersją zostały wstrzymane. Jednak w grudniu 2011 roku studio Remedy zapowiedziało, że jej premiera nastąpi w lutym 2012 roku.
+
+Premiera wersji na Microsoft Windows miała miejsce 16 lutego 2012 roku na platformie Steam. Zawiera ona dodatki DLC The Signal i The Writer. 17 lutego 2012 roku firma CD Projekt ogłosiła, że gra trafiała do ich planu wydawniczego i pojawi się w sklepach w pełnej polskiej wersji językowej (z dubbingiem), jednak premiera nie odbyła się. Ostatecznie gra została wydana przez firmę Cenega 11 maja 2012 roku w wersji z polskimi napisami.
+Postać Alana Wake'a została stworzona na podstawie Ilkki Villego, fińskiego aktora i pisarza, natomiast głosu użyczył mu Matthew Porretta.
+22 lutego 2012 roku na Xbox Live Arcade, a 22 maja 2012 roku na Steam i GOG.com miała miejsce premiera gry Alan Wake's American Nightmare, której akcja osadzona jest dwa lata po wydarzaniach z Alan Wake.
+
+
+
+Fabuła
+Alan Wake to pisarz bestsellerowych horrorów. Inspirację do swoich książek czerpał z koszmarów, jednak nastąpił w jego życiu czas, w którym nie był w stanie napisać nawet słowa. Po dwóch latach braku weny wyrusza wraz ze swoją żoną Alice do małego miasteczka Bright Falls w stanie Waszyngton, daleko od stresującego miejskiego zgiełku. Odpoczynek nie trwa jednak długo, gdyż Alice zostaje porwana. 
+Dodatkowo Alan nie pamięta wydarzeń na tydzień po jej zniknięciu. Poruszając się nocą po Bright Falls Alan walczy z ludźmi opętanymi przez mroczną siłę oraz znajduje strony książki, której nigdy nie napisał. Wkrótce potem zaczyna sobie zdawać sprawę, że wszystko co zostało w niej zapisane, zaczyna się spełniać, a Wake musi walcząc o własne życie, starać się zrozumieć całą otaczającą go sytuację oraz uratować Alice. </label>

@@ -1,0 +1,17 @@
+<img>data\Data\Batman Arkham Asylum\asylumlogo.png</img>
+
+<label>Batman: Arkham Asylum – komputerowa gra akcji z perspektywą trzeciej osoby wyprodukowana przez Rocksteady Studios oraz wydana przez Eidos Interactive. Dystrybucją w Polsce zajęła się firma Cenega. Światowa premiera odbyła się 26 sierpnia 2009 roku. Gra w Polsce ukazała się 28 sierpnia 2009 roku na PlayStation 3, Xbox 360 oraz Microsoft Windows. Planowana jest też wersja na Linuksa. 15 listopada 2011 roku wydano kontynuację gry zatytułowaną Batman: Arkham City.
+
+Redakcja magazynu PC Gamer UK w 2015 roku przyznała grze 50. miejsce na liście najlepszych gier na PC.
+
+
+Rozgrywka i fabuła
+Akcję ulokowano w zakładzie dla obłąkanych przestępców, czyli tytułowym Azylu Arkham. Sama gra łączy ze sobą wiele gatunków, są w niej elementy zręcznościowe, ale również elementy skradanki. Głównym przeciwnikiem Batmana w grze jest Joker. Jokerowi udaje się uwolnić z więzienia dla psychopatów i zbiec w mroczne korytarze Arkham. Wyrusza za nim Batman, jednak nie będzie to takie łatwe, bo po drodze musi stawić czoła pozostałym pacjentom zakładu, począwszy od zwykłych bandytów, kończąc na takich osobowościach jak Zsasz, Strach na Wróble, Bane czy Trujący Bluszcz. Człowiek nietoperz ma możliwość korzystania z różnorakich bat-gadżetów, które są bardzo przydatne w przemieszczaniu się po Arkham oraz szybkim rozliczeniu się ze złoczyńcami. Mroczny rycerz może skorzystać również ze specjalnej jaskini w podziemiach o nazwie Bat Cave, w której może dokonać wymiany niezbędnych gadżetów i przygotować się do dalszej penetracji mrocznych zakamarków zakładu pełnego niebezpieczeństw.
+
+Licencja
+Gra Batman: Arkham Asylum korzysta z pełnej licencji udostępnionej przez wydawcę komiksów o Batmanie – DC Comics.
+
+Powiązania
+Gra nie jest w jakikolwiek sposób powiązana z dotychczasowymi filmami kinowymi. Aktorzy znani z serialu animowanego w większości powrócili za mikrofon. Za scenariusz do gry odpowiada Paul Dini – jeden ze współautorów serialu telewizyjnego Batman.
+
+Samo Arkham jest fikcyjnym miastem znanym już wcześniej z opowiadań H.P. Lovecrafta.</label>

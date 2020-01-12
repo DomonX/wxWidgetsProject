@@ -69,11 +69,23 @@ public:
         if(filterElement->Simulation->getValue()) {
             keys.push_back("Simulation");
         }
-            if(filterElement->Strategy->getValue()) {
+          if(filterElement->Strategy->getValue()) {
             keys.push_back("Strategy");
         }
-        if(filterElement->Other->getValue()) {
-            keys.push_back("Other");
+           if(filterElement->Sandbox->getValue()) {
+            keys.push_back("Sandbox");
+        }
+           if(filterElement->Arcade->getValue()) {
+            keys.push_back("Arcade");
+        }
+           if(filterElement->Survival->getValue()) {
+            keys.push_back("Survival");
+        }
+           if(filterElement->Horror->getValue()) {
+            keys.push_back("Horror");
+        }
+           if(filterElement->BattleRoyal->getValue()) {
+            keys.push_back("BattleRoyal");
         }
         treeElement->treeElement->filter(keys);
     }
