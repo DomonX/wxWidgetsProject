@@ -1,11 +1,11 @@
 <img>data\Data\Batman Arkham City\citylogo.png</img>
 
 
-<label>Batman: Arkham City â€“ komputerowa gra akcji wyprodukowana przez Rocksteady Studios, wydana w listopadzie 2011 roku. Stanowi kontynuacjÄ™ Batman: Arkham Asylum i rozgrywa siÄ™ na ulicach Gotham City. Batman przemierza ciemne zakamarki mrocznych ulic oraz dachy wieÅ¼owcÃ³w w poszukiwaniu Jokera i jego poplecznikÃ³w wraz z KobietÄ…-Kot i Robinem. Do antagonistÃ³w, oprÃ³cz postaci znanych z pierwszej czÄ™Å›ci, doÅ‚Ä…czyli Harvey â€Dwie Twarzeâ€ Dent oraz tajemniczy Hugo Strange, ktÃ³ry zostaÅ‚ nowym naczelnikiem Azylu Arkham.
+<label>Batman: Arkham City – komputerowa gra akcji wyprodukowana przez Rocksteady Studios, wydana w listopadzie 2011 roku. Stanowi kontynuacjê Batman: Arkham Asylum i rozgrywa siê na ulicach Gotham City. Batman przemierza ciemne zakamarki mrocznych ulic oraz dachy wie¿owców w poszukiwaniu Jokera i jego popleczników wraz z Kobiet¹-Kot i Robinem. Do antagonistów, oprócz postaci znanych z pierwszej czêœci, do³¹czyli Harvey „Dwie Twarze” Dent oraz tajemniczy Hugo Strange, który zosta³ nowym naczelnikiem Azylu Arkham.
 
-FabuÅ‚a
-WÄ…tek fabularny Batman: Arkham City rozpoczyna siÄ™ rok po wydarzeniach przedstawionych w Batman: Arkham Asylum. Quincy Sharp, byÅ‚y zarzÄ…dca szpitala psychiatrycznego Arkham, po schwytaniu Jokera zyskuje uznanie spoÅ‚eczeÅ„stwa i, wykorzystujÄ…c chwilowÄ… popularnoÅ›Ä‡, zostaje nowym burmistrzem Gotham City.
+Fabu³a
+W¹tek fabularny Batman: Arkham City rozpoczyna siê rok po wydarzeniach przedstawionych w Batman: Arkham Asylum. Quincy Sharp, by³y zarz¹dca szpitala psychiatrycznego Arkham, po schwytaniu Jokera zyskuje uznanie spo³eczeñstwa i, wykorzystuj¹c chwilow¹ popularnoœæ, zostaje nowym burmistrzem Gotham City.
 
-Kiedy ani Azyl Arkham, ani wiÄ™zienie Blackgate nie sÄ… w stanie pomieÅ›ciÄ‡ przestÄ™pcÃ³w, Quincy Sharp kupuje znacznÄ… czÄ™Å›Ä‡ slumsÃ³w Gotham City, wynajmuje najemnikÃ³w wojskowych majÄ…cych strzec tych rejonÃ³w i przeksztaÅ‚ca to miejsce w tak zwane Arkham City. Przeniesieni tam przestÄ™pcy sÄ… umownie wolni â€“ do momentu, w ktÃ³rym nie sprÃ³bujÄ… uciec. Nowy burmistrz wybiera Hugo Strangeâ€™a na nadzorcÄ™ nowej kolonii karnej, jednak wszystko wskazuje na to, Å¼e szalony psychiatra ma wÅ‚asne plany zwiÄ…zane z tym miejscem.
+Kiedy ani Azyl Arkham, ani wiêzienie Blackgate nie s¹ w stanie pomieœciæ przestêpców, Quincy Sharp kupuje znaczn¹ czêœæ slumsów Gotham City, wynajmuje najemników wojskowych maj¹cych strzec tych rejonów i przekszta³ca to miejsce w tak zwane Arkham City. Przeniesieni tam przestêpcy s¹ umownie wolni – do momentu, w którym nie spróbuj¹ uciec. Nowy burmistrz wybiera Hugo Strange’a na nadzorcê nowej kolonii karnej, jednak wszystko wskazuje na to, ¿e szalony psychiatra ma w³asne plany zwi¹zane z tym miejscem.
 
-Batman, sceptycznie nastawiony do caÅ‚ego przedsiÄ™wziÄ™cia, monitoruje Arkham City w obawie, Å¼e sytuacja moÅ¼e wymknÄ…Ä‡ siÄ™ spod kontroli.</label>
+Batman, sceptycznie nastawiony do ca³ego przedsiêwziêcia, monitoruje Arkham City w obawie, ¿e sytuacja mo¿e wymkn¹æ siê spod kontroli.</label>

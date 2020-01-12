@@ -1,9 +1,9 @@
 <img>data\Data\Arma 3\armalogo.png</img>
 
-<label>Arma 3 lub Arma III â€“ strzelanka pierwszoosobowa bÄ™dÄ…ca kontynuacjÄ… wojskowego symulatora Arma 2, stworzonego i wydanego przez Bohemia Interactive Studio. Gra zostaÅ‚a wydana 12 wrzeÅ›nia 2013.
+<label>Arma 3 lub Arma III – strzelanka pierwszoosobowa bêd¹ca kontynuacj¹ wojskowego symulatora Arma 2, stworzonego i wydanego przez Bohemia Interactive Studio. Gra zosta³a wydana 12 wrzeœnia 2013.
 
-FabuÅ‚a
-Akcja Arma III osadzona zostaÅ‚a w niedalekiej przyszÅ‚oÅ›ci (ok. 2035 rok). Gracz wciela siÄ™ w kaprala Bena Kerry'ego. Po latach intensywnych dziaÅ‚aÅ„ wojennych na Bliskim Wschodzie, Europa staje siÄ™ ostatnim bastionem dla osÅ‚abionych siÅ‚ wojskowych NATO. DowÃ³dztwo paktu upatruje szansy na zmianÄ™ sytuacji w desperackiej misji. Niewielkie wyspy (Stratis i Altis) na Morzu ÅšrÃ³dziemnym (odpowiedniki wysp Limnos i Ajos Efstratios) skrywajÄ… militarny sekret, ktÃ³ry moÅ¼e mieÄ‡ kluczowe znaczenie dla losÃ³w toczÄ…cego siÄ™ konfliktu w Europie. Zdesperowane siÅ‚y sojuszu wyruszajÄ… za liniÄ™ wroga, by odkryÄ‡ ten sekret. Rozpoczyna siÄ™ operacja o kryptonimie â€Magnitudeâ€. Po tych wydarzeniach nastÄ™pujÄ… akcje z dodatku Apex, rozgrywajÄ…ce siÄ™ na Pacyfiku, w ktÃ³rym gracz wciela siÄ™ w Å¼oÅ‚nierza jednostki CTRG (Combat Technology Research Group) stacjonujÄ…cej na archipelagu wysp Tanoa.
+Fabu³a
+Akcja Arma III osadzona zosta³a w niedalekiej przysz³oœci (ok. 2035 rok). Gracz wciela siê w kaprala Bena Kerry'ego. Po latach intensywnych dzia³añ wojennych na Bliskim Wschodzie, Europa staje siê ostatnim bastionem dla os³abionych si³ wojskowych NATO. Dowództwo paktu upatruje szansy na zmianê sytuacji w desperackiej misji. Niewielkie wyspy (Stratis i Altis) na Morzu Œródziemnym (odpowiedniki wysp Limnos i Ajos Efstratios) skrywaj¹ militarny sekret, który mo¿e mieæ kluczowe znaczenie dla losów tocz¹cego siê konfliktu w Europie. Zdesperowane si³y sojuszu wyruszaj¹ za liniê wroga, by odkryæ ten sekret. Rozpoczyna siê operacja o kryptonimie „Magnitude”. Po tych wydarzeniach nastêpuj¹ akcje z dodatku Apex, rozgrywaj¹ce siê na Pacyfiku, w którym gracz wciela siê w ¿o³nierza jednostki CTRG (Combat Technology Research Group) stacjonuj¹cej na archipelagu wysp Tanoa.
 
-OdbiÃ³r gry
-Gra spotkaÅ‚a siÄ™ z mieszanymi reakcjami recenzentÃ³w, uzyskujÄ…c Å›redniÄ… wynoszÄ…cÄ… 74,87% wedÅ‚ug agregatora GameRankings oraz 74/100 wedÅ‚ug serwisu Metacritic.</label>
+Odbiór gry
+Gra spotka³a siê z mieszanymi reakcjami recenzentów, uzyskuj¹c œredni¹ wynosz¹c¹ 74,87% wed³ug agregatora GameRankings oraz 74/100 wed³ug serwisu Metacritic.</label>
