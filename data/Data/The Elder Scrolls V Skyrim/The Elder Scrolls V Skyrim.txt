@@ -1,4 +1,4 @@
-<img>data\Data\Skyrim\skyrimlogo.png</img>
+<img>data\Data\The Elder Scrolls V Skyrim\skyrimlogo.png</img>
 
 <label>
 Zrealizowana z du¿ym rozmachem gra action-RPG, bêd¹ca pi¹t¹ czêœci¹ popularnego cyklu The Elder Scrolls. Produkcja studia Bethesda Softworks pozwala graczom ponownie przenieœæ siê do fantastycznego œwiata Nirn.

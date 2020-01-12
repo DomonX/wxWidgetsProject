@@ -1,4 +1,4 @@
-<img>data\Data\Batman Arkham Origin\originlogo.png</img>
+<img>data\Data\Batman Arkham Origins\originlogo.png</img>
 
 <label>Batman: Arkham Origins – przygodowa gra akcji stworzona przez kanadyjskie studio Warner Bros. Games Montreal i wydana przez Warner Bros. Interactive Entertainment. Produkcja ukaza³a siê na konsole PlayStation 3, Wii U, Xbox 360 oraz komputery osobiste 25 paŸdziernika 2013. Jest ona kolejn¹ czêœci¹ serii po wydanej w 2011 roku grze Batman: Arkham City, a gracz ponownie wciela siê w postaæ „Mrocznego Rycerza”.
 

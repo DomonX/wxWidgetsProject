@@ -1,4 +1,4 @@
-<img>data\Data\Sumpreme commander\supremelogo.png</img>
+<img>data\Data\Supreme Commander\supremelogo.png</img>
 
 
 

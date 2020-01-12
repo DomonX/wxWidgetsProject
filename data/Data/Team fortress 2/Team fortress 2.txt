@@ -1,4 +1,4 @@
-<img>data\Data\Team fortfess 2\teamlogo.png</img>
+<img>data\Data\Team fortress 2\teamlogo.png</img>
 
 <label>
 Kontynuacja popularnej sieciowej strzelaniny FPP z elementami strategii, bêd¹cej rozwiniêciem freeware’owej modyfikacji legendarnego Quake’a z 1996 roku.
